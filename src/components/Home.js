@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {Box, Typography, makeStyles} from "@material-ui/core";
-
+import {Link} from "react-router-dom";
+import Login from "./Login";
 
 const useStyles = makeStyles(theme => ({
     container: {
@@ -35,20 +36,33 @@ const useStyles = makeStyles(theme => ({
     },
     otherBox: {
         maxWidth: "",
-        border: "orange 1px solid"
+        border: "orange 1px solid",
+        padding: theme.spacing(2)
+    },
+    link: {
+        textDecoration: "none",
+        color: "#FFFFFF"
     }
 }))
 
 
 const Home = () => {
-    const classes = useStyles()
+    const [showLogin, toggleShowLogin] = useState(false);
+    const classes = useStyles();
+
+    const loginOnClick = () => toggleShowLogin(!showLogin);
 
     return (
         <Box className={classes.container}>
+            {
+                showLogin && <Login/>
+            }
             <Box className={classes.titleBox}>
                 <Box className={classes.otherBox}>
                     <Box className={classes.title}>
-                        <Typography variant="h1" >My Routine</Typography>
+                       <Link onClick={loginOnClick} className={classes.link}>
+                            <Typography variant="h1" >My Routine</Typography>
+                       </Link>
                     </Box>
                 <Box className={classes.imageBox}>
                     <img className={classes.image}

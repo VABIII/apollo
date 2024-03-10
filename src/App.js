@@ -1,6 +1,6 @@
 import Home from "./components/Home";
-import Header from "./components/Header";
-import React, { useEffect, useState, useContext } from "react";
+import Login from "./components/Login";
+import React from "react";
 import { Route, Routes }from 'react-router-dom';
 import {Box, makeStyles} from "@material-ui/core";
 import { colors } from "./theme";
@@ -8,6 +8,7 @@ import { colors } from "./theme";
 const useStyles = makeStyles(theme => ({
     app: {
         backgroundColor: colors.get("background"),
+        // backgroundColor: theme.palette.primary,
         height: "100vh"
 
 
@@ -19,9 +20,9 @@ function App() {
 
   return (
     <Box className={classes.app}>
-        <Header/>
         <Routes>
-            <Route path='/' element={<Home/>}/>
+            <Route path='/' element={<Home />}/>
+            <Route path='/login' element={<Login />}/>
         </Routes>
     </Box>
   );

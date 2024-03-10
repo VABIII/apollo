@@ -7,19 +7,19 @@ const colors = new Map([
     ["mandarin", "#d85c27"],
     ["midnightSun", "#D10000"],
     ["background", "#303030"],
+    ["darkslategray", "#2f4f4f"],
+    ["white", "#FFFFFF"],
 ]);
 
 
 const theme = createTheme({
     palette: {
-        type: "dark",
         primary: {
-            500: colors.get("mandarin")
-        },
-        secondary: {
-            main: "#FFFFFF"
-        },
-
+            light: '#757ce8',
+            main: '#3f50b5',
+            dark: '#002884',
+            contrastText: '#fff',
+        }
     }
 })
 
