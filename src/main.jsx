@@ -16,7 +16,7 @@ import App from "./routes/App.jsx";
 
 createRoot(document.getElementById('root')).render(
 
-    <BrowserRouter basename="/chattanoogalivemusic" >
+    <BrowserRouter basename="/" >
         <Root />
     </BrowserRouter>
 )

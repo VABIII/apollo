@@ -21,7 +21,7 @@ export const HeaderBar = () => {
         <HeaderStyles>
             <Box>
                 <NavLink
-                    to={`/today`}
+                    to={`/`}
                     textDecoration='none'
                     className={({ isActive, isPending }) =>
                         isActive
@@ -67,7 +67,7 @@ export const HeaderBar = () => {
             </Box>
             <Box>
                 <NavLink
-                    to={`/`}
+                    to={`/events`}
                     textDecoration='none'
                     className={({ isActive, isPending }) =>
                         isActive
