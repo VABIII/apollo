@@ -5,6 +5,7 @@ import Events, {useEvents} from "../modules/Events";
 import {Link} from "react-router-dom";
 import { colors } from "../theme.js";
 import FooterBar from "../components/FooterBar.jsx";
+import { testData } from "../modules/TestData.js";
 
 const venues = {
 
@@ -42,6 +43,9 @@ const SubtitleStyles = styled(Typography)(({theme}) => ({
     color: colors.get("nightMoon"),
     fontWeight: 500,
     padding: theme.spacing(4),
+    [theme.breakpoints.down("sm")]: {
+        textAlign: "center",
+    }
 }))
 
 const EventsStyles = styled(Grid2)(({theme}) => ({
@@ -60,6 +64,9 @@ const EventStyles = styled(Grid2)(({theme}) => ({
     padding: theme.spacing(3),
     borderRadius: theme.shape.borderRadius,
     margin: theme.spacing(4),
+    [theme.breakpoints.down("sm")]: {
+        width: "100%",
+    }
 
 }));
 
@@ -113,7 +120,7 @@ const Home = () => {
             <EventsStyles container spacing={2} sx={{ p: 4 }}>
                 <EventsStyles container spacing={2} size={5}>
                     { events &&
-                        shows.map(({eventVenue, eventArtist, eventDate, eventLink, eventTime, eventImgSrc}, idx) => (
+                        testData.map(({eventVenue, eventArtist, eventDate, eventLink, eventTime, eventImgSrc}, idx) => (
                             <EventStyles key={idx} size={6}  >
                                 <ImgStyles component='img' src={eventImgSrc} alt='event image' />
                                 <TitleStyles variant='h4' >{eventArtist.replace(" — The Signal", "")}</TitleStyles>
