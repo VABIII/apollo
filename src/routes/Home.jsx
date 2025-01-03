@@ -1,91 +1,19 @@
 import React, {useEffect, useState} from 'react';
 import { HeaderBar } from "../components/HeaderBar.jsx";
+import FooterBar from "../components/FooterBar.jsx";
+import Today from "../components/Today.jsx";
 import {Typography, Box, styled, Button, Grid2, Container} from "@mui/material";
 import Events, {useEvents} from "../modules/Events";
 import {Link} from "react-router-dom";
+import moment from "moment";
 import { colors } from "../theme.js";
-import FooterBar from "../components/FooterBar.jsx";
 import { testData } from "../modules/TestData.js";
+import { HomeStyles, SubtitleStyles, LogoStyles, EventsStyles, EventStyles, LinkStyles, ImgStyles, TitleStyles, TextStyles } from "../components/styledComponents/index.jsx";
+import NoShows from "../components/NoShows.jsx";
 
 const venues = {
 
 }
-
-
-const HomeStyles = styled(Box)(({theme}) => ({
-    display: "flex",
-    flexDirection: "column",
-    flexGrow: 1,
-    alignItems: "center",
-    height: "100vh",
-    minHeight: 'calc(100vh - 170px)',
-    // backgroundColor: colors.get("nightMoon")
-}));
-
-const LogoStyles = styled(Box)(({theme}) => ({
-    display: "flex",
-    flexGrow: 1,
-    width: "100%",
-    height: "33vh",
-    justifyContent: "center",
-}));
-
-
-
-const TitleStyles = styled(Typography)(({theme}) => ({
-    color: colors.get("mandarin"),
-    fontSize: '1.5rem',
-    fontWeight: 500,
-    // padding: theme.spacing(2),
-}))
-
-const SubtitleStyles = styled(Typography)(({theme}) => ({
-    color: colors.get("nightMoon"),
-    fontWeight: 500,
-    padding: theme.spacing(4),
-    [theme.breakpoints.down("sm")]: {
-        textAlign: "center",
-    }
-}))
-
-const EventsStyles = styled(Grid2)(({theme}) => ({
-    display: "flex",
-    flexGrow: 1,
-    alignItems: "flex-start",
-    justifyContent: "space-around",
-    flexWrap: "wrap",
-    flexDirection: "row",
-    maxWidth: '100%',
-
-}));
-
-const EventStyles = styled(Grid2)(({theme}) => ({
-    width:"25%",
-    padding: theme.spacing(3),
-    borderRadius: theme.shape.borderRadius,
-    margin: theme.spacing(4),
-    [theme.breakpoints.down("sm")]: {
-        width: "100%",
-    }
-
-}));
-
-const TextStyles = styled(Typography)(({theme}) => ({
-    // color: colors.get("nightMoon"),
-    color: colors.get("darkGrey2"),
-}));
-
-const LinkStyles = styled(Link)(({theme}) => ({
-    textDecoration: 'none',
-    // color: colors.get("deepBlue"),
-    color: theme.palette.text.secondary,
-}))
-
-const ImgStyles = styled(Box)(({theme}) => ({
-    maxWidth: '100%',
-    borderRadius: 10,
-    marginBottom: theme.spacing(2),
-}))
 
 
 
@@ -100,12 +28,29 @@ const Home = () => {
         fetchTodaysEvents();
     }, []);
 
-    const todaysShows = events ? events.filter(({eventDate}) => {
-        return eventDate.slice(0, 10) === new Date().toLocaleDateString()
-    }) : [];
 
-    const shows = todaysShows.length > 0 ? todaysShows : events;
-    console.log(shows)
+    // const shows = todaysShows.length > 0 ? todaysShows : events;
+
+
+    let shows = testData.map(evt => {
+        evt.eventDate = new Date(evt.eventDate);
+        return evt;
+    });
+
+    const todaysShows = shows.filter(({eventDate}) => {
+        return eventDate === new Date();
+    });
+
+    console.log(todaysShows);
+
+
+
+    shows = shows.sort(((a,b) => a.eventDate - a.eventDate));
+    shows.forEach( show => show.eventDate = show.eventDate.toLocaleDateString() );
+
+
+    console.log("Shows: ", shows)
+
 
     return (
         <HomeStyles  >
@@ -117,22 +62,11 @@ const Home = () => {
                 />
                 <SubtitleStyles id='789' variant={'h2'}>Today's Shows Around Town</SubtitleStyles>
             </>
-            <EventsStyles container spacing={2} sx={{ p: 4 }}>
-                <EventsStyles container spacing={2} size={5}>
-                    { events &&
-                        testData.map(({eventVenue, eventArtist, eventDate, eventLink, eventTime, eventImgSrc}, idx) => (
-                            <EventStyles key={idx} size={6}  >
-                                <ImgStyles component='img' src={eventImgSrc} alt='event image' />
-                                <TitleStyles variant='h4' >{eventArtist.replace(" — The Signal", "")}</TitleStyles>
-                                <TextStyles variant='h6' >{eventVenue}</TextStyles>
-                                <TextStyles variant='h6' >{eventDate}</TextStyles>
-                                <TextStyles variant='h6' >{eventTime}</TextStyles>
-                                <LinkStyles to={eventLink} target="_blank" rel="noopener noreferrer" >Get Tickets</LinkStyles>
-                            </EventStyles>
-                        ))
-                    }
-                </EventsStyles>
-            </EventsStyles>
+            {todaysShows.length === 0 && <NoShows/>}
+            <Today
+                shows={shows}
+            />
+
         </HomeStyles >
     );
 };
