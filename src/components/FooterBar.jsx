@@ -15,8 +15,8 @@ const FooterStyles = styled(Box)(({theme}) => ({
     marginTop: theme.spacing(4),
     textAlign: 'center',
     backgroundColor: colors.get("nightMoon"),
-    // position: 'absolute', /*change to fixed so it stays in the same place even if scrolled*/
-    // position: 'relative', /*change to fixed so it stays in the same place even if scrolled*/
+    // position: 'absolute', /*change to fixed, so it stays in the same place even if scrolled*/
+    // position: 'relative', /*change to fixed, so it stays in the same place even if scrolled*/
     position: 'fixed',
     bottom: 0,
 // background-color: red; /*remove this for demonstration purposes only*/
@@ -45,13 +45,6 @@ const ImgStyles = styled(Box)(({theme}) => ({
     borderRadius: 10,
     marginBottom: theme.spacing(2),
     backgroundColor: colors.get("nightMoon"),
-    // position: 'absolute',
-    // // left: 0,
-    // // right: 0,
-    // // top: 0,
-    // bottom: 0,
-    // maxWidth: '100%',
-    // maxHeight: '100%',
     margin: 'auto'
 
 }));

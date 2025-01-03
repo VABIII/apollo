@@ -1,16 +1,9 @@
+import React from 'react';
 import {Box, Grid2, styled, Typography} from "@mui/material";
-import {colors} from "../../theme.js";
+import {colors} from "../theme.js";
 import {Link} from "react-router-dom";
+import {testData} from "../modules/TestData.js";
 
-const HomeStyles = styled(Box)(({theme}) => ({
-    display: "flex",
-    flexDirection: "column",
-    flexGrow: 1,
-    alignItems: "center",
-    height: "100vh",
-    minHeight: 'calc(100vh - 170px)',
-    // backgroundColor: colors.get("nightMoon")
-}));
 
 const LogoStyles = styled(Box)(({theme}) => ({
     display: "flex",
@@ -26,17 +19,7 @@ const TitleStyles = styled(Typography)(({theme}) => ({
     fontSize: '1.5rem',
     fontWeight: 500,
     // padding: theme.spacing(2),
-}));
-
-const SubtitleStyles = styled(Typography)(({theme}) => ({
-    color: colors.get("nightMoon"),
-    fontWeight: 500,
-    padding: theme.spacing(4),
-    [theme.breakpoints.down("sm")]: {
-        textAlign: "center",
-    }
-}));
-
+}))
 const EventsStyles = styled(Grid2)(({theme}) => ({
     display: "flex",
     flexGrow: 1,
@@ -68,76 +51,37 @@ const LinkStyles = styled(Link)(({theme}) => ({
     textDecoration: 'none',
     // color: colors.get("deepBlue"),
     color: theme.palette.text.secondary,
-}));
+}))
 
 const ImgStyles = styled(Box)(({theme}) => ({
     maxWidth: '100%',
     borderRadius: 10,
     marginBottom: theme.spacing(2),
-}));
-
-const NoShowsBanner = styled(Box)(({theme}) => ({
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    // alignItems: "center",
-    padding: theme.spacing(3),
-    borderRadius: theme.shape.borderRadius,
-    marginBottom: theme.spacing(4),
-    [theme.breakpoints.down("sm")]: {
-        width: "100%",
-    }
 }))
 
 
-export {
-    HomeStyles,
-    LogoStyles,
-    TitleStyles,
-    SubtitleStyles,
-    EventsStyles,
-    EventStyles,
-    TextStyles,
-    LinkStyles,
-    ImgStyles,
-    NoShowsBanner,
-}
 
+const Today = ({shows}) => {
+    return (
+        <EventsStyles container spacing={2} sx={{ p: 4 }}>
+            <EventsStyles container spacing={2} size={5}>
+                { shows.map(({eventVenue, eventArtist, eventDate, eventLink, eventTime, eventImgSrc}, idx) => (
+                        <EventStyles key={idx} size={6}  >
+                            <ImgStyles component='img' src={eventImgSrc} alt='event image' />
+                            <TitleStyles variant='h4' >{eventArtist.replace(" — The Signal", "")}</TitleStyles>
+                            <TextStyles variant='h6' >{eventVenue}</TextStyles>
+                            <TextStyles variant='h6' >{eventDate}</TextStyles>
+                            <TextStyles variant='h6' >{eventTime}</TextStyles>
+                            <LinkStyles to={eventLink} target="_blank" rel="noopener noreferrer" >Get Tickets</LinkStyles>
+                        </EventStyles>
+                    ))
+                }
+            </EventsStyles>
+        </EventsStyles>
+    );
+};
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+export default Today;
 
 
 
