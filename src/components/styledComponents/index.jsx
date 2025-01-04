@@ -6,18 +6,28 @@ const HomeStyles = styled(Box)(({theme}) => ({
     display: "flex",
     flexDirection: "column",
     flexGrow: 1,
-    alignItems: "center",
+    // alignItems: "center",
     height: "100vh",
     minHeight: 'calc(100vh - 170px)',
     // backgroundColor: colors.get("nightMoon")
+    [theme.breakpoints.down("sm")]: {
+        // width: "100%"
+        justifyContent: "flex-start",
+    }
 }));
 
 const LogoStyles = styled(Box)(({theme}) => ({
     display: "flex",
     flexGrow: 1,
-    width: "100%",
-    height: "33vh",
+    // maxWidth: "50%",
+    height: "40vh",
     justifyContent: "center",
+    borderRadius: 10,
+    alignSelf: "center",
+    [theme.breakpoints.down("sm")]: {
+        // width: "100%"
+        marginTop: theme.spacing(4),
+    }
 }));
 
 
@@ -33,7 +43,9 @@ const SubtitleStyles = styled(Typography)(({theme}) => ({
     fontWeight: 500,
     padding: theme.spacing(4),
     [theme.breakpoints.down("sm")]: {
-        textAlign: "center",
+        textAlign: "left",
+        paddingTop: theme.spacing(2),
+        paddingBottom: 0,
     }
 }));
 
@@ -44,7 +56,7 @@ const EventsStyles = styled(Grid2)(({theme}) => ({
     justifyContent: "space-around",
     flexWrap: "wrap",
     flexDirection: "row",
-    maxWidth: '100%',
+    maxWidth: '75%',
 
 }));
 
@@ -55,6 +67,7 @@ const EventStyles = styled(Grid2)(({theme}) => ({
     margin: theme.spacing(4),
     [theme.breakpoints.down("sm")]: {
         width: "100%",
+        marginTop: 0,
     }
 
 }));
@@ -62,6 +75,11 @@ const EventStyles = styled(Grid2)(({theme}) => ({
 const TextStyles = styled(Typography)(({theme}) => ({
     // color: colors.get("nightMoon"),
     color: colors.get("darkGrey2"),
+    fontSize: '2.25rem',
+    padding: theme.spacing(4),
+    [theme.breakpoints.down("sm")]: {
+        paddingBottom: 0,
+    }
 }));
 
 const LinkStyles = styled(Link)(({theme}) => ({
@@ -77,15 +95,15 @@ const ImgStyles = styled(Box)(({theme}) => ({
 }));
 
 const NoShowsBanner = styled(Box)(({theme}) => ({
+        width: "100%",
     display: "flex",
     flexDirection: "column",
-    justifyContent: "center",
-    // alignItems: "center",
-    padding: theme.spacing(3),
+    justifyContent: "flex-start",
+    // padding: theme.spacing(3),
     borderRadius: theme.shape.borderRadius,
     marginBottom: theme.spacing(4),
     [theme.breakpoints.down("sm")]: {
-        width: "100%",
+    alignItems: "left",
     }
 }))
 
