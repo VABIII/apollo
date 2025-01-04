@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box, styled} from "@mui/material";
+import {Box, Card, styled, Typography} from "@mui/material";
 import {
     EventsStyles,
     EventStyles,
@@ -9,6 +9,8 @@ import {
     TitleStyles
 } from "../components/styledComponents/index.jsx";
 import {testData} from "../modules/TestData.js";
+import {colors} from "../theme.js";
+import {Link} from "react-router-dom";
 
 
 const SignalContainerStyles = styled(Box)(({theme}) => ({
@@ -25,27 +27,63 @@ const SignalContainerStyles = styled(Box)(({theme}) => ({
     }
 }));
 
-const shows = testData.filter((evt) => evt.eventVenue === "The Signal");
-console.log(shows)
 
+const EventCard = styled(Card)(({theme}) => ({
+    // width: "100%",
+    display: "flex",
+    flexDirection: "column",
+    width:"33%",
+    padding: theme.spacing(3),
+    borderRadius: theme.shape.borderRadius,
+    margin: theme.spacing(4),
+    boxShadow: theme.shadows[5],
+    [theme.breakpoints.down("sm")]: {
+        width: "100%",
+        justifyContent: "flex-start",
+        marginLeft: theme.spacing(1),
+        marginRight: theme.spacing(1),
+    }
+}))
 
+const EventImgStyles = styled(Box)(({theme}) => ({
+    maxWidth: '100%',
+    borderRadius: 10,
+    marginBottom: theme.spacing(2),
+}));
 
+const EventTextStyles = styled(Typography)(({theme}) => ({
+    // color: colors.get("nightMoon"),
+    color: colors.get("darkGrey2"),
+    fontSize: '2.25rem',
+    // padding: theme.spacing(4),
+    [theme.breakpoints.down("sm")]: {
+        paddingBottom: 0,
+        fontSize: '1rem',
+    }
+}));
+
+const EventLinkStyles = styled(Link)(({theme}) => ({
+    textDecoration: 'none',
+    // color: colors.get("deepBlue"),
+    color: theme.palette.text.secondary,
+}));
 
 const Signal = () => {
+const shows = testData.filter((evt) => evt.eventVenue === "The Signal");
+
     return (
         <SignalContainerStyles>
-            Signal
             <EventsStyles container spacing={2} sx={{ p: 4 }}>
                 <EventsStyles container spacing={2} size={5}>
                     { shows.map(({eventVenue, eventArtist, eventDate, eventLink, eventTime, eventImgSrc}, idx) => (
-                        <EventStyles key={idx} size={6}  id={idx}>
-                            <ImgStyles component='img' src={eventImgSrc} alt='event image' />
+                        <EventCard key={idx} size={6}  id={idx}>
+                            <EventImgStyles component='img' src={eventImgSrc} alt='event image' />
                             <TitleStyles variant='h4' >{eventArtist.replace(" — The Signal", "")}</TitleStyles>
-                            <TextStyles variant='h6' >{eventVenue}</TextStyles>
-                            <TextStyles variant='h6' >{eventDate}</TextStyles>
-                            <TextStyles variant='h6' >{eventTime}</TextStyles>
-                            <LinkStyles to={eventLink} target="_blank" rel="noopener noreferrer" >Get Tickets</LinkStyles>
-                        </EventStyles>
+                            <EventTextStyles variant='h6' >{eventVenue}</EventTextStyles>
+                            <EventTextStyles variant='h6' >{eventDate}</EventTextStyles>
+                            <EventTextStyles variant='h6' >{eventTime}</EventTextStyles>
+                            <EventLinkStyles to={eventLink} target="_blank" rel="noopener noreferrer" >Get Tickets</EventLinkStyles>
+                        </EventCard>
                     ))
                     }
                 </EventsStyles>
