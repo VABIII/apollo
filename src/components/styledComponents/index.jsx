@@ -56,12 +56,12 @@ const EventsStyles = styled(Grid2)(({theme}) => ({
     justifyContent: "space-around",
     flexWrap: "wrap",
     flexDirection: "row",
-    maxWidth: '75%',
+    // maxWidth: '75%',
 
 }));
 
 const EventStyles = styled(Grid2)(({theme}) => ({
-    width:"25%",
+    // width:"25%",
     padding: theme.spacing(3),
     borderRadius: theme.shape.borderRadius,
     margin: theme.spacing(4),
@@ -99,14 +99,41 @@ const NoShowsBanner = styled(Box)(({theme}) => ({
     display: "flex",
     flexDirection: "column",
     justifyContent: "flex-start",
-    // padding: theme.spacing(3),
+    padding: theme.spacing(3),
     borderRadius: theme.shape.borderRadius,
     marginBottom: theme.spacing(4),
     [theme.breakpoints.down("sm")]: {
     alignItems: "left",
     }
-}))
+}));
 
+const NoShowTitleStyles = styled(Typography)(({theme}) => ({
+    color: colors.get("nightMoon"),
+    fontWeight: 500,
+    paddingLeft: theme.spacing(4),
+    paddingRight: theme.spacing(4),
+    // paddingBottom: theme.spacing(2),
+    paddingTop: theme.spacing(4),
+    // padding: theme.spacing(4),
+    [theme.breakpoints.down("sm")]: {
+        textAlign: "left",
+        paddingTop: theme.spacing(2),
+        paddingBottom: 0,
+    }
+}));
+
+const NoShowSubTitleStyles = styled(Typography)(({theme}) => ({
+    color: colors.get("darkGrey2"),
+    fontSize: '2.25rem',
+    paddingLeft: theme.spacing(4),
+    paddingRight: theme.spacing(4),
+    // paddingBottom: theme.spacing(2),
+    paddingTop: theme.spacing(4),
+    // padding: theme.spacing(4),
+    [theme.breakpoints.down("sm")]: {
+        paddingBottom: 0,
+    }
+}));
 
 export {
     HomeStyles,
@@ -119,8 +146,9 @@ export {
     LinkStyles,
     ImgStyles,
     NoShowsBanner,
+    NoShowTitleStyles,
+    NoShowSubTitleStyles,
 }
-
 
 
 
