@@ -1,6 +1,7 @@
 import React from 'react';
 import {Box, styled} from "@mui/material";
 import {colors} from "../theme.js";
+import {Link} from "react-router-dom";
 
 
 const FooterStyles = styled(Box)(({theme}) => ({
@@ -50,7 +51,15 @@ const ImgStyles = styled(Box)(({theme}) => ({
 }));
 
 
+
+
 const FooterBar = () => {
+
+    const onClick = (name) => {
+
+    }
+
+
     return (
         <div>
             <FooterStyles>
