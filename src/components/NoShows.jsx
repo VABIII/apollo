@@ -5,8 +5,9 @@ import {HomeStyles, TitleStyles, ImgStyles, LinkStyles, TextStyles, EventStyles,
 const NoShows = () => {
     return (
         <NoShowsBanner>
-            <TitleStyles>Unfortunately, we do not have any shows for you today. </TitleStyles>
-            <TextStyles>Check venue events for upcoming shows.</TextStyles>
+            <SubtitleStyles variant={"h3"}>Unfortunately, we do not have any shows for you today. </SubtitleStyles>
+            <TextStyles variant={"h3"}>Check out these upcoming events or the venue pages for full show lineups.</TextStyles>
+            {/*<TextStyles variant={"h3"}></TextStyles>*/}
 
         </NoShowsBanner>
     );

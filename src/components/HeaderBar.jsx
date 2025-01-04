@@ -13,6 +13,9 @@ const HeaderStyles = styled(Box)(({theme}) => ({
     height: '5vh',
     fontSize: '2rem',
     color: colors.get("nightMoon"),
+    [theme.breakpoints.down("sm")]: {
+        paddingTop: theme.spacing(4),
+    }
 }))
 
 

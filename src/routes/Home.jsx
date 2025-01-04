@@ -45,6 +45,7 @@ const Home = () => {
 
 
 
+
     shows = shows.sort(((a,b) => a.eventDate - a.eventDate));
     shows.forEach( show => show.eventDate = show.eventDate.toLocaleDateString() );
 
@@ -54,15 +55,19 @@ const Home = () => {
 
     return (
         <HomeStyles  >
-            <>
                 <LogoStyles
                     component="img"
                     src='/clm_logo_w_bg.png'
                     id='456'
                 />
-                <SubtitleStyles id='789' variant={'h2'}>Today's Shows Around Town</SubtitleStyles>
-            </>
-            {todaysShows.length === 0 && <NoShows/>}
+
+                {
+                    todaysShows.length > 0 ?
+                        <SubtitleStyles id='789' variant={'h3'}>Today's Shows Around Town</SubtitleStyles> :
+                        <NoShows/>
+                        // <SubtitleStyles id='789' variant={'h2'}>Unfortunately, we do not have any shows for you today.</SubtitleStyles>
+                }
+            {/*{todaysShows.length === 0 && <NoShows/>}*/}
             <Today
                 shows={shows}
             />

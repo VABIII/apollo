@@ -28,6 +28,9 @@ const EventsStyles = styled(Grid2)(({theme}) => ({
     flexWrap: "wrap",
     flexDirection: "row",
     maxWidth: '100%',
+    [theme.breakpoints.down("sm")]: {
+        justifyContent: "flex-start",
+    }
 
 }));
 
@@ -38,6 +41,7 @@ const EventStyles = styled(Grid2)(({theme}) => ({
     margin: theme.spacing(4),
     [theme.breakpoints.down("sm")]: {
         width: "100%",
+        justifyContent: "flex-start",
     }
 
 }));
@@ -66,7 +70,7 @@ const Today = ({shows}) => {
         <EventsStyles container spacing={2} sx={{ p: 4 }}>
             <EventsStyles container spacing={2} size={5}>
                 { shows.map(({eventVenue, eventArtist, eventDate, eventLink, eventTime, eventImgSrc}, idx) => (
-                        <EventStyles key={idx} size={6}  >
+                        <EventStyles key={idx} size={6}  id={idx}>
                             <ImgStyles component='img' src={eventImgSrc} alt='event image' />
                             <TitleStyles variant='h4' >{eventArtist.replace(" — The Signal", "")}</TitleStyles>
                             <TextStyles variant='h6' >{eventVenue}</TextStyles>
