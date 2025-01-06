@@ -65,7 +65,7 @@ export const HeaderBar = () => {
     return (
         <HeaderStyles>
             <LogoBoxStyles onClick={onClick}>
-                <Box sx={{width: '80%'}} component="img" src={'clm_logo_xxsm_no_bg.png'}  />
+                {/*<Box sx={{width: '80%'}} component="img" src={'clm_logo_xxsm_no_bg.png'}  />*/}
             </LogoBoxStyles>
             <LinkBoxStyles >
                 <LinkStyles>
