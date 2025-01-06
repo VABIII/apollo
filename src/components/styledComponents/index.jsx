@@ -1,4 +1,4 @@
-import {Box, Container, Grid2, styled, Typography} from "@mui/material";
+import {Box, Card, Container, Grid2, styled, Typography} from "@mui/material";
 import {colors} from "../../theme.js";
 import {Link} from "react-router-dom";
 
@@ -12,7 +12,7 @@ const HomeStyles = styled(Box)(({theme}) => ({
     maxWidth: '100%',
     // backgroundColor: colors.get("nightMoon")
     [theme.breakpoints.down("sm")]: {
-        // width: "100%"
+        width: "100%",
         justifyContent: "flex-start",
     },
 }));
@@ -95,16 +95,26 @@ const ImgStyles = styled(Box)(({theme}) => ({
 
 }));
 
+const NoShowsBoxStyles = styled(Box)(({theme}) => ({
+    // backgroundColor: theme.palette.custom.light,
+    padding: theme.spacing(4),
+    [theme.breakpoints.down("sm")]: {
+        padding: 0,
+    }
+}))
+
 const NoShowsBanner = styled(Box)(({theme}) => ({
-        width: "100%",
+    width: "100%",
     display: "flex",
     flexDirection: "column",
     justifyContent: "flex-start",
     padding: theme.spacing(3),
     borderRadius: theme.shape.borderRadius,
     marginBottom: theme.spacing(4),
+
     [theme.breakpoints.down("sm")]: {
     alignItems: "left",
+        width: "100%"
     }
 }));
 
@@ -113,7 +123,6 @@ const NoShowTitleStyles = styled(Typography)(({theme}) => ({
     fontWeight: 500,
     paddingLeft: theme.spacing(4),
     paddingRight: theme.spacing(4),
-    // paddingBottom: theme.spacing(2),
     paddingTop: theme.spacing(4),
     // padding: theme.spacing(4),
     [theme.breakpoints.down("sm")]: {
@@ -136,6 +145,148 @@ const NoShowSubTitleStyles = styled(Typography)(({theme}) => ({
     }
 }));
 
+const VenueContainerStyles = styled(Container)(({theme}) => ({
+    display: "flex",
+    flexDirection: "column",
+    flexGrow: 1,
+    alignItems: "center",
+    // height: "100vh",
+    minHeight: 'calc(100vh - 170px)',
+    // backgroundColor: colors.get("nightMoon")
+    [theme.breakpoints.down("sm")]: {
+        // width: "100%"
+        justifyContent: "flex-start",
+    }
+}));
+
+const VenueListStyles = styled(Grid2)(({theme}) => ({
+    display: "flex",
+    flexGrow: 1,
+    alignItems: "flex-start",
+    justifyContent: "space-around",
+    flexWrap: "wrap",
+    flexDirection: "row",
+    // maxWidth: '75%',
+    [theme.breakpoints.down("sm")]: {
+        // width: "100%",
+        justifyContent: "center",
+        alignItems: "center",
+
+    }
+
+}));
+
+const VenueStyles = styled(Grid2)(({theme}) => ({
+    // // width:"25%",
+    // height: "300px",
+    // padding: theme.spacing(3),
+    // borderRadius: 10,
+    // margin: theme.spacing(4),
+    // [theme.breakpoints.down("sm")]: {
+    //     width: "100%",
+    //     marginTop: 0,
+    // }
+
+    width:"33%",
+    padding: theme.spacing(3),
+    borderRadius: theme.shape.borderRadius,
+    margin: theme.spacing(4),
+    [theme.breakpoints.down("sm")]: {
+        width: "100%",
+        justifyContent: "flex-start",
+    }
+}));
+
+const VenueCard = styled(Card)(({theme}) => ({
+    // width: "100%",
+    display: "flex",
+    // width:"45%",
+    // padding: theme.spacing(3),
+    borderRadius: theme.shape.borderRadius,
+    margin: theme.spacing(4),
+    boxShadow: theme.shadows[5],
+    // boxShadow: "5px 10px #14365D",
+    [theme.breakpoints.down("sm")]: {
+        width: "100%",
+        justifyContent: "center",
+        margin: 0,
+        marginTop: theme.spacing(4),
+    }
+}))
+
+const VenueCardImgStyles = styled(Box)(({theme}) => ({
+    maxWidth: '33%',
+    // backgroundColor: '#14365D',
+    borderRadius: 10,
+    margin: theme.spacing(2),
+    [theme.breakpoints.down("sm")]: {
+        maxWidth: '40%',
+    }
+
+}));
+
+const VenueCardTextStyles = styled(Typography)(({theme}) => ({
+    // color: colors.get("nightMoon"),
+    color: colors.get("darkGrey2"),
+    fontSize: '1.75rem',
+    padding: theme.spacing(4),
+    [theme.breakpoints.down("sm")]: {
+        paddingBottom: theme.spacing(2),
+    }
+}));
+
+const VenuesTitleStyles = styled(Typography)(({theme}) => ({
+    color: colors.get("nightMoon"),
+    fontWeight: 500,
+    paddingLeft: theme.spacing(4),
+    paddingRight: theme.spacing(4),
+    // paddingBottom: theme.spacing(2),
+    paddingTop: theme.spacing(4),
+    // padding: theme.spacing(4),
+    [theme.breakpoints.down("sm")]: {
+        textAlign: "left",
+
+        paddingBottom: 0,
+    }
+}));
+
+const HomeCardTextStyles = styled(Typography)(({theme}) => ({
+    // color: colors.get("nightMoon"),
+    color: colors.get("darkGrey2"),
+    fontSize: '2.25rem',
+    // padding: theme.spacing(4),
+    [theme.breakpoints.down("sm")]: {
+        paddingBottom: 0,
+    }
+}));
+
+const HomeCardLinkStyles = styled(Link)(({theme}) => ({
+    textDecoration: 'none',
+    // color: colors.get("deepBlue"),
+    color: theme.palette.text.secondary,
+}));
+
+const HomeCardTitleStyles = styled(Typography)(({theme}) => ({
+    color: colors.get("mandarin"),
+    fontSize: '2.25rem',
+    fontWeight: 500,
+    // padding: theme.spacing(2),
+}));
+
+const HomeCardBoxStyles = styled(Box)(({theme}) => ({
+    display: "flex",
+    flexDirection: "column",
+    maxWidth: '60%',
+    margin: theme.spacing(2),
+    [theme.breakpoints.down("sm")]: {
+        paddingBottom: 0,
+        width: "100%",
+        justifyContent: "center",
+        alignItems: "center",
+    }
+}))
+
+
 export {
     HomeStyles,
     LogoStyles,
@@ -149,17 +300,19 @@ export {
     NoShowsBanner,
     NoShowTitleStyles,
     NoShowSubTitleStyles,
+    NoShowsBoxStyles,
+    VenueContainerStyles,
+    VenueListStyles,
+    VenueCard,
+    VenueStyles,
+    VenuesTitleStyles,
+    VenueCardTextStyles,
+    VenueCardImgStyles,
+    HomeCardTextStyles,
+    HomeCardLinkStyles,
+    HomeCardTitleStyles,
+    HomeCardBoxStyles,
 }
-
-// /* hide scrollbar for IE, Edge and Firefox */
-// -ms-overflow-style: none;
-// scrollbar-width: none;
-// }
-//
-// /* hide scrollbar for chrome, safari and opera */
-// .container::-webkit-scrollbar {
-//     display: none;
-
 
 
 
