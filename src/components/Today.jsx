@@ -55,6 +55,7 @@ const LinkStyles = styled(Link)(({theme}) => ({
     textDecoration: 'none',
     // color: colors.get("deepBlue"),
     color: theme.palette.text.secondary,
+    fontSize: '1.5rem',
 }))
 
 const ImgStyles = styled(Box)(({theme}) => ({
@@ -69,7 +70,7 @@ const EventCard = styled(Card)(({theme}) => ({
     flexDirection: "column",
     width:"33%",
     padding: theme.spacing(3),
-    borderRadius: theme.shape.borderRadius,
+    borderRadius: theme.spacing(2),
     margin: theme.spacing(4),
     boxShadow: theme.shadows[5],
     [theme.breakpoints.down("sm")]: {

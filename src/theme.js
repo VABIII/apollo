@@ -7,8 +7,8 @@ const theme = createTheme({
     palette: {
         custom: {
             light: '#D10000',
-            main: '#A9A9A9',
-            dark: '#ef6c00',
+            main: '#14365d',
+            dark: '#d85c27',
             contrastText: 'rgba(0, 0, 0, 0.87)',
         }
     }

@@ -33,7 +33,7 @@ const LogoStyles = styled(Box)(({theme}) => ({
 
 const TitleStyles = styled(Typography)(({theme}) => ({
     color: colors.get("mandarin"),
-    fontSize: '1.5rem',
+    fontSize: '2.5rem',
     fontWeight: 500,
     // padding: theme.spacing(2),
 }));
@@ -86,6 +86,8 @@ const LinkStyles = styled(Link)(({theme}) => ({
     textDecoration: 'none',
     // color: colors.get("deepBlue"),
     color: theme.palette.text.secondary,
+    fontSize: '1.5rem',
+    fontWeight: 500,
 }));
 
 const ImgStyles = styled(Box)(({theme}) => ({
@@ -202,7 +204,7 @@ const VenueCard = styled(Card)(({theme}) => ({
     display: "flex",
     // width:"45%",
     // padding: theme.spacing(3),
-    borderRadius: theme.shape.borderRadius,
+    borderRadius: theme.spacing(3),
     margin: theme.spacing(4),
     boxShadow: theme.shadows[5],
     // boxShadow: "5px 10px #14365D",
