@@ -13,7 +13,6 @@ const HeaderStyles = styled(Box)(({theme}) => ({
     height: '8vh',
     fontSize: '1.5rem',
     backgroundColor: colors.get("nightMoon"),
-    color: colors.get("nightMoon"),
     position: 'sticky',
     top: 0,
     [theme.breakpoints.down("sm")]: {
@@ -56,31 +55,7 @@ const LinkStyles = styled(Box)(({theme}) => ({
 
     }
 
-}))
-
-// const boxStyles = {
-//     display: 'flex',
-//     flexDirection: 'row',
-//     justifyContent: 'center',
-//     width: '30%',
-//     maxHeight: '7vh',
-//     [theme.breakpoints.down("sm")]: {
-//         // paddingTop: theme.spacing(4),
-//         width: '100%',
-//         marginLeft: '24px',
-//     }
-// }
-//
-// const linkBoxStyles = {
-//     display: 'flex',
-//     flexDirection: 'row',
-//     justifyContent: 'space-around',
-//     width: '40%',
-//     [theme.breakpoints.down("sm")]: {
-//         // paddingTop: theme.spacing(4),
-//     }
-// }
-
+}));
 
 export const HeaderBar = () => {
     const navigate = useNavigate();
@@ -90,7 +65,7 @@ export const HeaderBar = () => {
     return (
         <HeaderStyles>
             <LogoBoxStyles onClick={onClick}>
-                <Box sx={{width: '80%'}} component="img" src={'clm_logo_xxsm_no_bg.png'}  />
+                {/*<Box sx={{width: '80%'}} component="img" src={'clm_logo_xxsm_no_bg.png'}  />*/}
             </LogoBoxStyles>
             <LinkBoxStyles >
                 <LinkStyles>

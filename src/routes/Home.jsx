@@ -8,14 +8,30 @@ import {Link} from "react-router-dom";
 import moment from "moment";
 import { colors } from "../theme.js";
 import { testData } from "../modules/TestData.js";
-import { HomeStyles, SubtitleStyles, LogoStyles, EventsStyles, EventStyles, LinkStyles, ImgStyles, TitleStyles, TextStyles } from "../components/styledComponents/index.jsx";
+import {
+    HomeStyles,
+    SubtitleStyles,
+    LogoStyles,
+    EventsStyles,
+    EventStyles,
+    LinkStyles,
+    ImgStyles,
+    TitleStyles,
+    TextStyles,
+    NoShowsBoxStyles,
+    HomeCardBoxStyles
+} from "../components/styledComponents/index.jsx";
 import NoShows from "../components/NoShows.jsx";
 import SentimentVeryDissatisfiedIcon from '@mui/icons-material/SentimentVeryDissatisfied';
-
+import {VenueContainerStyles, VenuesTitleStyles, VenueListStyles, VenueCard, VenueCardImgStyles, VenueCardTextStyles, HomeCardTextStyles, HomeCardTitleStyles, HomeCardLinkStyles} from "../components/styledComponents/index.jsx";
+import useMediaQuery from '@mui/material/useMediaQuery';
+import { useTheme } from '@mui/material/styles';
 
 
 const Home = () => {
     const { fetchTodaysEvents, events, setEvents } = useEvents();
+    const theme = useTheme();
+    const matches = useMediaQuery(theme.breakpoints.down('sm'));
 
     const onClick = async () => {
         console.log(events)
@@ -43,11 +59,42 @@ const Home = () => {
 
 
 
-    shows = shows.sort(((a,b) => a.eventDate - a.eventDate));
+    shows = shows.sort(((a,b) => a.eventDate - b.eventDate));
     shows.forEach( show => show.eventDate = show.eventDate.toLocaleDateString() );
 
+    const cards = shows.slice(0,3).map(({eventVenue, eventArtist, eventDate, eventLink, eventTime, eventImgSrc}) => {
+        let source;
+        switch(eventVenue){
+            case "The Walker Theatre":
+                source = 'walker_logo_no_bg_md.png';
+                break;
+            case "Soldiers and Sailors Memorial Auditorium":
+                source = 'soldiers_logo_w_bg_md.png';
+                break;
+            case "The Signal":
+                source = 'signal_logo_w_bg_md_white.png';
+                break;
 
-    console.log("Shows: ", shows)
+
+        }
+
+
+        return (
+        <VenueCard>
+            {!matches && <VenueCardImgStyles component='img' src={source}/>}
+            <HomeCardBoxStyles>
+                <HomeCardTitleStyles variant='h4' >{eventArtist.replace(" — The Signal", "")}</HomeCardTitleStyles>
+                {/*<HomeCardTextStyles variant='h6' >{eventVenue}</HomeCardTextStyles>*/}
+                <HomeCardTextStyles variant='h6' >{eventDate}</HomeCardTextStyles>
+                <HomeCardTextStyles variant='h6' >{eventTime}</HomeCardTextStyles>
+                <LinkStyles to={eventLink} target="_blank" rel="noopener noreferrer" >Get Tickets</LinkStyles>
+            </HomeCardBoxStyles>
+        </VenueCard>
+        )
+    })
+
+
+
 
 
     return (
@@ -57,17 +104,24 @@ const Home = () => {
                     src='/clm_logo_w_bg.png'
                     id='456'
                 />
-                <Container>
-                    {
-                        todaysShows.length > 0 ?
-                            <SubtitleStyles id='789' variant={'h3'}>Today's Shows Around Town</SubtitleStyles> :
-                            <NoShows/>
+                <NoShowsBoxStyles>
+                    <Container >
+                        {
+                            todaysShows.length > 0 ?
+                                <SubtitleStyles id='789' variant={'h3'}>Today's Shows Around Town</SubtitleStyles> :
+                                <NoShows/>
                             // <SubtitleStyles id='789' variant={'h2'}>Unfortunately, we do not have any shows for you today.</SubtitleStyles>
-                    }
-                {/*{todaysShows.length === 0 && <NoShows/>}*/}
-                <Today
-                    shows={shows}
-                />
+                        }
+                        {/*{todaysShows.length === 0 && <NoShows/>}*/}
+
+                    </Container>
+                </NoShowsBoxStyles>
+            <Container>
+                {/*<Today*/}
+                {/*    shows={shows}*/}
+                {/*/>*/}
+                {cards}
+
             </Container>
         </HomeStyles >
     );

@@ -5,23 +5,26 @@ import { red } from '@mui/material/colors';
 const theme = createTheme({
     cssVariables: true,
     palette: {
-        primary: {
-            main: '#556cd6',
-        },
-        secondary: {
-            main: '#19857b',
-        },
-        error: {
-            main: red.A400,
-        },
-    },
-    /* hide scrollbar for IE, Edge and Firefox */
-    msOverflowStyle: 'none',
-    scrollbarWidth: 'none',
-    /* hide scrollbar for chrome, safari and opera */
-    webkitScrollbar: {
-        display: 'none'
-    },
+        custom: {
+            light: '#D10000',
+            main: '#A9A9A9',
+            dark: '#ef6c00',
+            contrastText: 'rgba(0, 0, 0, 0.87)',
+        }
+    }
+
+    // palette: {
+    //     // primary: {
+    //     //     main: '#556cd6',
+    //     // },
+    //     // secondary: {
+    //     //     main: '#19857b',
+    //     // },
+    //     // error: {
+    //     //     main: red.A400,
+    //     // },
+    // },
+
 
 
 });
