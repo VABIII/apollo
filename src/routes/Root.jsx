@@ -4,6 +4,7 @@ import theme, {colors} from '../theme.js';
 import App from './App.jsx';
 import Home from './Home.jsx';
 import {CssBaseline} from "@mui/material";
+import '../root.css'
 import EventsProvider from "../modules/Events";
 import Venue from "./Venue.jsx";
 

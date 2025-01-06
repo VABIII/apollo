@@ -19,6 +19,7 @@ const HeaderStyles = styled(Box)(({theme}) => ({
     [theme.breakpoints.down("sm")]: {
         // paddingTop: theme.spacing(4),
         height: '7vh',
+        maxWidth: '100%'
     }
 }))
 
@@ -30,9 +31,9 @@ const LogoBoxStyles = styled(Box)(({theme}) => ({
     maxHeight: '7vh',
     [theme.breakpoints.down("sm")]: {
         // paddingTop: theme.spacing(4),
-        width: '50%',
+        width: 'auto',
         // marginLeft: theme.spacing(2),
-        maxHeight: '6vh'
+        // maxHeight: '6vh'
     }
 }));
 
@@ -43,7 +44,7 @@ const LinkBoxStyles = styled(Box)(({theme}) => ({
     width: '40%',
     [theme.breakpoints.down("sm")]: {
         // paddingTop: theme.spacing(4),
-        width: '60%',
+        width: '50%',
         marginRight: theme.spacing(1),
 
     }
@@ -51,6 +52,7 @@ const LinkBoxStyles = styled(Box)(({theme}) => ({
 
 const LinkStyles = styled(Box)(({theme}) => ({
     [theme.breakpoints.down("sm")]: {
+        fontSize: '1rem',
 
     }
 
@@ -88,7 +90,7 @@ export const HeaderBar = () => {
     return (
         <HeaderStyles>
             <LogoBoxStyles onClick={onClick}>
-                <Box component="img" src={'clm_logo_xxsm_no_bg.png'}  />
+                <Box sx={{width: '80%'}} component="img" src={'clm_logo_xxsm_no_bg.png'}  />
             </LogoBoxStyles>
             <LinkBoxStyles >
                 <LinkStyles>

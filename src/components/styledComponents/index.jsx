@@ -9,6 +9,7 @@ const HomeStyles = styled(Box)(({theme}) => ({
     // alignItems: "center",
     height: "100vh",
     minHeight: 'calc(100vh - 170px)',
+    maxWidth: '100%',
     // backgroundColor: colors.get("nightMoon")
     [theme.breakpoints.down("sm")]: {
         // width: "100%"

@@ -70,6 +70,7 @@ const VenueCard = styled(Card)(({theme}) => ({
         width: "100%",
         justifyContent: "flex-start",
         margin: 0,
+        marginTop: theme.spacing(4),
     }
 }))
 

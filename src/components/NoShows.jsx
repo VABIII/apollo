@@ -12,7 +12,7 @@ const iconStyles =  {
 const NoShows = () => {
     return (
         <NoShowsBanner>
-            <NoShowTitleStyles variant={"h3"}>Unfortunately, we do not have any shows for you today. <SentimentVeryDissatisfiedIcon sx={iconStyles} /> </NoShowTitleStyles>
+            <NoShowTitleStyles variant={"h3"}>Sadly, we do not have any shows for you today. <SentimentVeryDissatisfiedIcon sx={iconStyles} /> </NoShowTitleStyles>
             <Box sx={{fontSize: '128px'}}>
 
             </Box>
