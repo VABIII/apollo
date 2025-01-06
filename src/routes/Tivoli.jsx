@@ -7,18 +7,18 @@ import {
     TextStyles,
     TitleStyles
 } from "../components/styledComponents/index.jsx";
-import {Box, Card, styled, Typography} from "@mui/material";
+import {Box, Card, Container, Grid2, styled, Typography} from "@mui/material";
 import {testData} from "../modules/TestData.js";
 import {colors} from "../theme.js";
 import {Link} from "react-router-dom";
 
-const SignalContainerStyles = styled(Box)(({theme}) => ({
+const SignalContainerStyles = styled(Container)(({theme}) => ({
     display: "flex",
     flexDirection: "column",
     flexGrow: 1,
     alignItems: "center",
-    height: "100vh",
-    minHeight: 'calc(100vh - 170px)',
+    // height: "100vh",
+    // minHeight: 'calc(100vh - 170px)',
     // backgroundColor: colors.get("nightMoon")
     [theme.breakpoints.down("sm")]: {
         // width: "100%"
@@ -31,7 +31,7 @@ const EventCard = styled(Card)(({theme}) => ({
     // width: "100%",
     display: "flex",
     flexDirection: "column",
-    width:"33%",
+    // width:"33%",
     padding: theme.spacing(3),
     borderRadius: theme.shape.borderRadius,
     margin: theme.spacing(4),
@@ -65,8 +65,36 @@ const EventLinkStyles = styled(Link)(({theme}) => ({
     textDecoration: 'none',
     // color: colors.get("deepBlue"),
     color: theme.palette.text.secondary,
+    fontSize: '2rem',
+    fontWeight: 'bold',
+    [theme.breakpoints.down("sm")]: {
+        fontSize: '1.25rem',
+        fontWeight: 'bold',
+    }
 }));
 
+const EventDetailsStyles = styled(Grid2)(({theme}) => ({
+
+    [theme.breakpoints.down("sm")]: {
+        // justifyContent: 'center'
+    }
+
+}));
+
+const VenueLogoContainerStyles = styled(Container)(({theme}) => ({
+    maxWidth: '100%',
+}));
+
+const VenueLogoStyles = styled(Box)(({theme}) => ({
+    maxWidth: "100%",
+    marginTop: theme.spacing(4),
+    borderRadius: theme.spacing(4),
+}))
+
+const VenueTitleStyles = styled(Typography)(({theme}) => ({
+    color: theme.palette.custom.dark,
+    fontWeight: 'bold',
+}));
 
 const Tivoli = () => {
 const shows = testData.filter((evt) => evt.eventVenue === "The Signal");
@@ -74,20 +102,36 @@ const shows = testData.filter((evt) => evt.eventVenue === "The Signal");
 
     return (
         <SignalContainerStyles>
+            <VenueLogoContainerStyles>
+                <VenueLogoStyles component='img' src='/tivoli_logo_w_bg_md.png'/>
+                {/*<VenueTitleStyles variant='h1'>*/}
+                {/*    The Signal*/}
+                {/*</VenueTitleStyles>*/}
+            </VenueLogoContainerStyles>
             <EventsStyles container spacing={2} sx={{ p: 4 }}>
-                <EventsStyles container spacing={2} size={5}>
-                    { shows.map(({eventVenue, eventArtist, eventDate, eventLink, eventTime, eventImgSrc}, idx) => (
-                        <EventCard key={idx} size={6}  id={idx}>
-                            <EventImgStyles component='img' src={eventImgSrc} alt='event image' />
-                            <TitleStyles variant='h4' >{eventArtist.replace(" — The Signal", "")}</TitleStyles>
-                            <EventTextStyles variant='h6' >{eventVenue}</EventTextStyles>
-                            <EventTextStyles variant='h6' >{eventDate}</EventTextStyles>
-                            <EventTextStyles variant='h6' >{eventTime}</EventTextStyles>
-                            <EventLinkStyles to={eventLink} target="_blank" rel="noopener noreferrer" >Get Tickets</EventLinkStyles>
-                        </EventCard>
-                    ))
-                    }
-                </EventsStyles>
+                { shows.map(({eventVenue, eventArtist, eventDate, eventLink, eventTime, eventImgSrc}, idx) => (
+                    <EventCard key={idx} size={6}  id={idx}>
+                        <EventImgStyles component='img' src={eventImgSrc} alt='event image' />
+                        <TitleStyles variant='h4' >{eventArtist.replace(" — The Signal", "")}</TitleStyles>
+                        <EventDetailsStyles container spacing={2} >
+                            <Grid2 size={12}>
+                                <EventLinkStyles to={eventLink} target="_blank" rel="noopener noreferrer" >Get Tickets</EventLinkStyles>
+                            </Grid2>
+                            <Grid2 size={12}>
+                                <EventTextStyles variant='h6' >{eventVenue}</EventTextStyles>
+                            </Grid2>
+                            <Grid2 size={8}>
+                                <EventTextStyles variant='h6' >{eventDate}</EventTextStyles>
+                            </Grid2>
+                            <Grid2 size={4}>
+                                <EventTextStyles variant='h6' >{eventTime}</EventTextStyles>
+                            </Grid2>
+                            {/*<EventTextStyles variant='h6' >{eventTime}</EventTextStyles>*/}
+                            {/*<EventLinkStyles to={eventLink} target="_blank" rel="noopener noreferrer" >Get Tickets</EventLinkStyles>*/}
+                        </EventDetailsStyles>
+                    </EventCard>
+                ))
+                }
             </EventsStyles>
         </SignalContainerStyles>
     );
