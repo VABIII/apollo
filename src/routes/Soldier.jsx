@@ -81,20 +81,57 @@ const EventDetailsStyles = styled(Grid2)(({theme}) => ({
 
 }));
 
-const VenueLogoContainerStyles = styled(Container)(({theme}) => ({
+const VenueLogoContainerStyles = styled(Grid2)(({theme}) => ({
+    display: "flex",
+    flexGrow: 1,
+    alignItems: "flex-start",
+    justifyContent: "space-around",
+    flexWrap: "wrap",
+    flexDirection: "row",
+    // maxWidth: '75%',
+}))
+
+const VenueLogoCardStyles = styled(Card)(({theme}) => ({
     maxWidth: '100%',
+    marginTop: theme.spacing(4),
+    boxShadow: theme.shadows[5],
 }));
 
 const VenueLogoStyles = styled(Box)(({theme}) => ({
     maxWidth: "100%",
-    marginTop: theme.spacing(4),
     borderRadius: theme.spacing(4),
+    margin: theme.spacing(2),
+    [theme.breakpoints.down("sm")]: {
+        margin: 0,
+        marginBottom: theme.spacing(1),
+        borderRadius: theme.spacing(1),
+    }
+    // backgroundImage: "url('/walker_theatre_bg_img.jpg')",
+    // backgroundRepeat: "no-repeat",
+    // backgroundSize: "cover",
+    // backgroundPosition: "center",
+    // padding: theme.spacing(12),
 }))
 
 const VenueTitleStyles = styled(Typography)(({theme}) => ({
     color: theme.palette.custom.dark,
     fontWeight: 'bold',
 }));
+
+const VenueContentStyles = styled(Box)(({theme}) => ({
+    display: "flex",
+    justifyContent: "center",
+    // padding: theme.spacing(3),
+
+}));
+
+const VenueDetailsStyles = styled(Box)(({theme}) => ({
+    display: "flex",
+    // justifyContent: "",
+    alignItems: "center",
+    margin: theme.spacing(6)
+
+}))
 
 
 
@@ -103,12 +140,28 @@ const Soldier = () => {
 
     return (
         <SignalContainerStyles>
-            <VenueLogoContainerStyles>
-                <VenueLogoStyles component='img' src='/soldiers_logo_w_bg_md.png'/>
-                {/*<VenueTitleStyles variant='h1'>*/}
-                {/*    The Signal*/}
-                {/*</VenueTitleStyles>*/}
-            </VenueLogoContainerStyles>
+            <EventsStyles container spacing={2} sx={{ p: 4 }}>
+                <EventCard size={6}  >
+                    <VenueLogoStyles component='img' src='/memorial_bg_img.jpg' alt='event image' />
+                    <TitleStyles variant='h4' >Soldiers and Sailors Memorial Auditorium</TitleStyles>
+                    <EventDetailsStyles container spacing={2} >
+                        <Grid2 size={12}>
+                            <EventLinkStyles to={"www.tivoli.com"} target="_blank" rel="noopener noreferrer" >Visit Memorial Auditorium</EventLinkStyles>
+                        </Grid2>
+                        <Grid2 size={4}>
+                            <EventTextStyles variant='h6' >Address 1</EventTextStyles>
+                        </Grid2>
+                        <Grid2 size={4}>
+                            <EventTextStyles variant='h6' >Address 2</EventTextStyles>
+                        </Grid2>
+                        <Grid2 size={12}>
+                            <EventTextStyles variant='h6' >Phone Number?</EventTextStyles>
+                        </Grid2>
+                        {/*<EventTextStyles variant='h6' >{eventTime}</EventTextStyles>*/}
+                        {/*<EventLinkStyles to={eventLink} target="_blank" rel="noopener noreferrer" >Get Tickets</EventLinkStyles>*/}
+                    </EventDetailsStyles>
+                </EventCard>
+            </EventsStyles>
             <EventsStyles container spacing={2} sx={{ p: 4 }}>
                 { shows.map(({eventVenue, eventArtist, eventDate, eventLink, eventTime, eventImgSrc}, idx) => (
                     <EventCard key={idx} size={6}  id={idx}>
@@ -118,14 +171,14 @@ const Soldier = () => {
                             <Grid2 size={12}>
                                 <EventLinkStyles to={eventLink} target="_blank" rel="noopener noreferrer" >Get Tickets</EventLinkStyles>
                             </Grid2>
-                            <Grid2 size={12}>
-                                <EventTextStyles variant='h6' >{eventVenue}</EventTextStyles>
-                            </Grid2>
-                            <Grid2 size={8}>
+                            <Grid2 size={4}>
                                 <EventTextStyles variant='h6' >{eventDate}</EventTextStyles>
                             </Grid2>
                             <Grid2 size={4}>
                                 <EventTextStyles variant='h6' >{eventTime}</EventTextStyles>
+                            </Grid2>
+                            <Grid2 size={12}>
+                                <EventTextStyles variant='h6' >{eventVenue}</EventTextStyles>
                             </Grid2>
                             {/*<EventTextStyles variant='h6' >{eventTime}</EventTextStyles>*/}
                             {/*<EventLinkStyles to={eventLink} target="_blank" rel="noopener noreferrer" >Get Tickets</EventLinkStyles>*/}
@@ -139,3 +192,18 @@ const Soldier = () => {
 };
 
 export default Soldier;
+
+
+// <EventsStyles container spacing={2} sx={{ p: 4 }}>
+//     <VenueLogoCardStyles size={6}>
+//         <VenueContentStyles>
+//             <VenueLogoStyles component='img' src='/soldiers_logo_w_bg_md.png'/>
+//
+//             <VenueDetailsStyles>
+//                 <VenueTitleStyles variant='h3'>
+//                     Soldiers and Sailors Memorial Auditorium
+//                 </VenueTitleStyles>
+//             </VenueDetailsStyles>
+//         </VenueContentStyles>
+//     </VenueLogoCardStyles>
+// </EventsStyles >
