@@ -10,10 +10,7 @@ import { colors } from "../theme.js";
 import { testData } from "../modules/TestData.js";
 import { HomeStyles, SubtitleStyles, LogoStyles, EventsStyles, EventStyles, LinkStyles, ImgStyles, TitleStyles, TextStyles } from "../components/styledComponents/index.jsx";
 import NoShows from "../components/NoShows.jsx";
-
-const venues = {
-
-}
+import SentimentVeryDissatisfiedIcon from '@mui/icons-material/SentimentVeryDissatisfied';
 
 
 
@@ -54,24 +51,24 @@ const Home = () => {
 
 
     return (
-        <HomeStyles  >
+        <HomeStyles >
                 <LogoStyles
                     component="img"
                     src='/clm_logo_w_bg.png'
                     id='456'
                 />
-
-                {
-                    todaysShows.length > 0 ?
-                        <SubtitleStyles id='789' variant={'h3'}>Today's Shows Around Town</SubtitleStyles> :
-                        <NoShows/>
-                        // <SubtitleStyles id='789' variant={'h2'}>Unfortunately, we do not have any shows for you today.</SubtitleStyles>
-                }
-            {/*{todaysShows.length === 0 && <NoShows/>}*/}
-            <Today
-                shows={shows}
-            />
-
+                <Container>
+                    {
+                        todaysShows.length > 0 ?
+                            <SubtitleStyles id='789' variant={'h3'}>Today's Shows Around Town</SubtitleStyles> :
+                            <NoShows/>
+                            // <SubtitleStyles id='789' variant={'h2'}>Unfortunately, we do not have any shows for you today.</SubtitleStyles>
+                    }
+                {/*{todaysShows.length === 0 && <NoShows/>}*/}
+                <Today
+                    shows={shows}
+                />
+            </Container>
         </HomeStyles >
     );
 };

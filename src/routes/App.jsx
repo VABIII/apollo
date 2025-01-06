@@ -26,7 +26,7 @@ const App = () => {
                 <Route index path="/venues/tivoli" element={ <Tivoli /> } />
                 <Route path="venues" element={ <Venue /> } />
             </Routes>
-            <FooterBar/>
+            {/*<FooterBar/>*/}
         </ThemeProvider>
     );
 };

@@ -1,4 +1,4 @@
-import {Box, Grid2, styled, Typography} from "@mui/material";
+import {Box, Container, Grid2, styled, Typography} from "@mui/material";
 import {colors} from "../../theme.js";
 import {Link} from "react-router-dom";
 
@@ -13,20 +13,19 @@ const HomeStyles = styled(Box)(({theme}) => ({
     [theme.breakpoints.down("sm")]: {
         // width: "100%"
         justifyContent: "flex-start",
-    }
+    },
 }));
 
 const LogoStyles = styled(Box)(({theme}) => ({
     display: "flex",
     flexGrow: 1,
-    // maxWidth: "50%",
-    height: "40vh",
+    maxWidth: "100%",
+    // height: "110vh",
     justifyContent: "center",
-    borderRadius: 10,
+    // borderRadius: 10,
     alignSelf: "center",
     [theme.breakpoints.down("sm")]: {
-        // width: "100%"
-        marginTop: theme.spacing(4),
+        width: "100%",
     }
 }));
 
@@ -92,6 +91,7 @@ const ImgStyles = styled(Box)(({theme}) => ({
     maxWidth: '100%',
     borderRadius: 10,
     marginBottom: theme.spacing(2),
+
 }));
 
 const NoShowsBanner = styled(Box)(({theme}) => ({
@@ -150,7 +150,14 @@ export {
     NoShowSubTitleStyles,
 }
 
-
+// /* hide scrollbar for IE, Edge and Firefox */
+// -ms-overflow-style: none;
+// scrollbar-width: none;
+// }
+//
+// /* hide scrollbar for chrome, safari and opera */
+// .container::-webkit-scrollbar {
+//     display: none;
 
 
 

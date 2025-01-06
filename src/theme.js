@@ -15,6 +15,15 @@ const theme = createTheme({
             main: red.A400,
         },
     },
+    /* hide scrollbar for IE, Edge and Firefox */
+    msOverflowStyle: 'none',
+    scrollbarWidth: 'none',
+    /* hide scrollbar for chrome, safari and opera */
+    webkitScrollbar: {
+        display: 'none'
+    },
+
+
 });
 
 export const colors = new Map([

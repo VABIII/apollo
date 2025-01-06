@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box, Grid2, styled, Typography} from "@mui/material";
+import {Box, Card, Grid2, styled, Typography} from "@mui/material";
 import {colors} from "../theme.js";
 import {Link} from "react-router-dom";
 import {testData} from "../modules/TestData.js";
@@ -63,6 +63,23 @@ const ImgStyles = styled(Box)(({theme}) => ({
     marginBottom: theme.spacing(2),
 }))
 
+const EventCard = styled(Card)(({theme}) => ({
+    // width: "100%",
+    display: "flex",
+    flexDirection: "column",
+    width:"33%",
+    padding: theme.spacing(3),
+    borderRadius: theme.shape.borderRadius,
+    margin: theme.spacing(4),
+    boxShadow: theme.shadows[5],
+    [theme.breakpoints.down("sm")]: {
+        width: "100%",
+        justifyContent: "flex-start",
+        marginLeft: theme.spacing(1),
+        marginRight: theme.spacing(1),
+    }
+}))
+
 
 
 const Today = ({shows}) => {
@@ -70,14 +87,14 @@ const Today = ({shows}) => {
         <EventsStyles container spacing={2} sx={{ p: 4 }}>
             <EventsStyles container spacing={2} size={5}>
                 { shows.map(({eventVenue, eventArtist, eventDate, eventLink, eventTime, eventImgSrc}, idx) => (
-                        <EventStyles key={idx} size={6}  id={idx}>
+                        <EventCard key={idx} size={6}  id={idx}>
                             <ImgStyles component='img' src={eventImgSrc} alt='event image' />
                             <TitleStyles variant='h4' >{eventArtist.replace(" — The Signal", "")}</TitleStyles>
                             <TextStyles variant='h6' >{eventVenue}</TextStyles>
                             <TextStyles variant='h6' >{eventDate}</TextStyles>
                             <TextStyles variant='h6' >{eventTime}</TextStyles>
                             <LinkStyles to={eventLink} target="_blank" rel="noopener noreferrer" >Get Tickets</LinkStyles>
-                        </EventStyles>
+                        </EventCard>
                     ))
                 }
             </EventsStyles>
