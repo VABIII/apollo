@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import { HeaderBar } from "../components/HeaderBar.jsx";
 import FooterBar from "../components/FooterBar.jsx";
 import Today from "../components/Today.jsx";
-import {Typography, Box, styled, Button, Grid2, Container} from "@mui/material";
+import {Typography, Box, styled, Button, Grid2, Container, Card} from "@mui/material";
 import Events, {useEvents} from "../modules/Events";
 import {Link} from "react-router-dom";
 import moment from "moment";
@@ -27,6 +27,23 @@ import {VenueContainerStyles, VenuesTitleStyles, VenueListStyles, VenueCard, Ven
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 
+
+const EventCard = styled(Card)(({theme}) => ({
+    // width: "100%",
+    display: "flex",
+    flexDirection: "row",
+    // width:"33%",
+    padding: theme.spacing(3),
+    borderRadius: theme.shape.borderRadius,
+    margin: theme.spacing(4),
+    boxShadow: theme.shadows[5],
+    [theme.breakpoints.down("sm")]: {
+        width: "100%",
+        // justifyContent: "flex-start",
+        marginLeft: theme.spacing(1),
+        marginRight: theme.spacing(1),
+    }
+}))
 
 const Home = () => {
     const { fetchTodaysEvents, events, setEvents } = useEvents();
@@ -56,9 +73,6 @@ const Home = () => {
 
     console.log(todaysShows);
 
-
-
-
     shows = shows.sort(((a,b) => a.eventDate - b.eventDate));
     shows.forEach( show => show.eventDate = show.eventDate.toLocaleDateString() );
 
@@ -80,7 +94,7 @@ const Home = () => {
 
 
         return (
-        <VenueCard>
+        <EventCard>
             {!matches && <VenueCardImgStyles component='img' src={source}/>}
             <HomeCardBoxStyles>
                 <HomeCardTitleStyles variant='h4' >{eventArtist.replace(" — The Signal", "")}</HomeCardTitleStyles>
@@ -89,7 +103,7 @@ const Home = () => {
                 <HomeCardTextStyles variant='h6' >{eventTime}</HomeCardTextStyles>
                 <LinkStyles to={eventLink} target="_blank" rel="noopener noreferrer" >Get Tickets</LinkStyles>
             </HomeCardBoxStyles>
-        </VenueCard>
+        </EventCard>
         )
     })
 

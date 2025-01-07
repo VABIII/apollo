@@ -259,6 +259,7 @@ const HomeCardTextStyles = styled(Typography)(({theme}) => ({
     // padding: theme.spacing(4),
     [theme.breakpoints.down("sm")]: {
         paddingBottom: 0,
+        fontSize: '1.75rem',
     }
 }));
 
@@ -280,11 +281,13 @@ const HomeCardBoxStyles = styled(Box)(({theme}) => ({
     flexDirection: "column",
     maxWidth: '60%',
     margin: theme.spacing(2),
+    paddingLeft: theme.spacing(4),
     [theme.breakpoints.down("sm")]: {
         paddingBottom: 0,
         width: "100%",
-        justifyContent: "center",
-        alignItems: "center",
+        justifyContent: "flex-start",
+        // alignItems: "center",
+        margin: 0,
     }
 }))
 
