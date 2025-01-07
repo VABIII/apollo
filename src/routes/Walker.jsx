@@ -11,6 +11,7 @@ import {Box, Card, Container, Grid2, styled, Typography} from "@mui/material";
 import {testData} from "../modules/TestData.js";
 import {colors} from "../theme.js";
 import {Link} from "react-router-dom";
+import image from "../../public/walker_logo_no_bg.png"
 
 
 
@@ -95,8 +96,8 @@ const VenueLogoStyles = styled(Box)(({theme}) => ({
         margin: 0,
         marginBottom: theme.spacing(1),
         borderRadius: theme.spacing(1),
-    }
-    // backgroundImage: "url('/walker_theatre_bg_img.jpg')",
+    },
+    backgroundImage: "url('/walker_theatre_bg_img.jpg')",
     // backgroundRepeat: "no-repeat",
     // backgroundSize: "cover",
     // backgroundPosition: "center",
@@ -116,7 +117,7 @@ const Walker = () => {
         <SignalContainerStyles>
             <EventsStyles container spacing={2} sx={{ p: 4 }}>
                 <EventCard size={6}  >
-                    <VenueLogoStyles component='img' src='/walker_theatre_bg_img.jpg' alt='event image' />
+                    <VenueLogoStyles component='img' src={window.location.origin +  '/walker_theatre_bg_img.jpg'} alt='event image' />
                     <TitleStyles variant='h4' >The Walker Theatre</TitleStyles>
                     <EventDetailsStyles container spacing={2} >
                         <Grid2 size={12}>

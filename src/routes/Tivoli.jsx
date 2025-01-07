@@ -114,7 +114,7 @@ const shows = testData.filter((evt) => evt.eventVenue === "The Signal");
         <SignalContainerStyles>
             <EventsStyles container spacing={2} sx={{ p: 4 }}>
                 <EventCard size={6}  >
-                    <VenueLogoStyles component='img' src='/tivoli_theatre_bg_img.jpg' alt='event image' />
+                    <VenueLogoStyles component='img' src={window.location.origin + '/tivoli_theatre_bg_img.jpg'} alt='event image' />
                     <TitleStyles variant='h4' >The Tivoli Theatre</TitleStyles>
                     <EventDetailsStyles container spacing={2} >
                         <Grid2 size={12}>
