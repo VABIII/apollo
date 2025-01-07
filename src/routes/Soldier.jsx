@@ -142,7 +142,7 @@ const Soldier = () => {
         <SignalContainerStyles>
             <EventsStyles container spacing={2} sx={{ p: 4 }}>
                 <EventCard size={6}  >
-                    <VenueLogoStyles component='img' src='/memorial_bg_img.jpg' alt='event image' />
+                    <VenueLogoStyles component='img' src={window.location.origin + '/memorial_bg_img.jpg'} alt='event image' />
                     <TitleStyles variant='h4' >Soldiers and Sailors Memorial Auditorium</TitleStyles>
                     <EventDetailsStyles container spacing={2} >
                         <Grid2 size={12}>
