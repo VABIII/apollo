@@ -82,29 +82,51 @@ const EventDetailsStyles = styled(Grid2)(({theme}) => ({
 
 }));
 
-const VenueLogoContainerStyles = styled(Container)(({theme}) => ({
-    maxWidth: '100%',
-}));
 
 const VenueLogoStyles = styled(Box)(({theme}) => ({
     maxWidth: "100%",
-    borderRadius: theme.spacing(4),
+    borderRadius: theme.spacing(2),
     margin: theme.spacing(2),
     [theme.breakpoints.down("sm")]: {
         margin: 0,
         marginBottom: theme.spacing(1),
         borderRadius: theme.spacing(1),
-    }
+    },
     // backgroundImage: "url('/walker_theatre_bg_img.jpg')",
     // backgroundRepeat: "no-repeat",
     // backgroundSize: "cover",
     // backgroundPosition: "center",
     // padding: theme.spacing(12),
-}))
+}));
+
+const VenueTitleContainerStyles = styled(Container)(({theme}) => ({
+    maxWidth: '100%',
+    paddingTop: theme.spacing(3),
+    marginTop: theme.spacing(4),
+    [theme.breakpoints.down("sm")]: {
+        margin: 0,
+        padding: 0,
+        paddingTop: theme.spacing(3),
+        // marginBottom: theme.spacing(1),
+        // borderRadius: theme.spacing(1),
+    },
+}));
 
 const VenueTitleStyles = styled(Typography)(({theme}) => ({
     color: theme.palette.custom.dark,
     fontWeight: 'bold',
+    marginLeft: theme.spacing(4)
+}));
+
+const VenueAddressStyles = styled(Typography)(({theme}) => ({
+    // color: colors.get("nightMoon"),
+    color: colors.get("darkGrey2"),
+    fontSize: '1.5rem',
+    // padding: theme.spacing(4),
+    [theme.breakpoints.down("sm")]: {
+        paddingBottom: 0,
+        fontSize: '1rem',
+    }
 }));
 
 
@@ -113,29 +135,28 @@ const shows = testData.filter((evt) => evt.eventVenue === "The Signal");
 
     return (
         <SignalContainerStyles>
+            <VenueTitleContainerStyles>
+                <VenueTitleStyles variant='h2' >The Signal</VenueTitleStyles>
+            </VenueTitleContainerStyles>
             <EventsStyles container spacing={2} sx={{ p: 4 }}>
                 <EventCard size={6}  >
-                    <VenueLogoStyles component='img' src={window.location.origin + '/signal_bg_img.gif'} alt='event image' />
-                    <TitleStyles variant='h4' >The Signal</TitleStyles>
+                    <VenueLogoStyles component='img' src={window.location.origin +  '/signal_bg_img.gif'} alt='event image' />
+
                     <EventDetailsStyles container spacing={2} >
                         <Grid2 size={12}>
-                            <EventLinkStyles to={"www.tivoli.com"} target="_blank" rel="noopener noreferrer" >Visit The Signal</EventLinkStyles>
+                            <EventLinkStyles to={"https://www.thesignaltn.com/"} target="_blank" rel="noopener noreferrer" >Visit The Signal</EventLinkStyles> {/* TODO: Update link urls */}
                         </Grid2>
                         <Grid2 size={4}>
-                            <EventTextStyles variant='h6' >Address 1</EventTextStyles>
-                        </Grid2>
-                        <Grid2 size={4}>
-                            <EventTextStyles variant='h6' >Address 2</EventTextStyles>
+                            <VenueAddressStyles variant='h6' >(423) 498-4700</VenueAddressStyles>
                         </Grid2>
                         <Grid2 size={12}>
-                            <EventTextStyles variant='h6' >Phone Number?</EventTextStyles>
+                            <VenueAddressStyles variant='h6' >21 Choo Choo Ave</VenueAddressStyles>
+                            <VenueAddressStyles variant='h6' >Chattanooga, TN 37402</VenueAddressStyles>
                         </Grid2>
                         {/*<EventTextStyles variant='h6' >{eventTime}</EventTextStyles>*/}
                         {/*<EventLinkStyles to={eventLink} target="_blank" rel="noopener noreferrer" >Get Tickets</EventLinkStyles>*/}
                     </EventDetailsStyles>
                 </EventCard>
-            </EventsStyles>
-            <EventsStyles container spacing={2} sx={{ p: 4 }}>
                     { shows.map(({eventVenue, eventArtist, eventDate, eventLink, eventTime, eventImgSrc}, idx) => (
                         <EventCard key={idx} size={6}  id={idx}>
                             <EventImgStyles component='img' src={eventImgSrc} alt='event image' />
