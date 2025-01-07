@@ -81,57 +81,52 @@ const EventDetailsStyles = styled(Grid2)(({theme}) => ({
 
 }));
 
-const VenueLogoContainerStyles = styled(Grid2)(({theme}) => ({
-    display: "flex",
-    flexGrow: 1,
-    alignItems: "flex-start",
-    justifyContent: "space-around",
-    flexWrap: "wrap",
-    flexDirection: "row",
-    // maxWidth: '75%',
-}))
-
-const VenueLogoCardStyles = styled(Card)(({theme}) => ({
-    maxWidth: '100%',
-    marginTop: theme.spacing(4),
-    boxShadow: theme.shadows[5],
-}));
 
 const VenueLogoStyles = styled(Box)(({theme}) => ({
     maxWidth: "100%",
-    borderRadius: theme.spacing(4),
+    borderRadius: theme.spacing(2),
     margin: theme.spacing(2),
     [theme.breakpoints.down("sm")]: {
         margin: 0,
         marginBottom: theme.spacing(1),
         borderRadius: theme.spacing(1),
-    }
+    },
     // backgroundImage: "url('/walker_theatre_bg_img.jpg')",
     // backgroundRepeat: "no-repeat",
     // backgroundSize: "cover",
     // backgroundPosition: "center",
     // padding: theme.spacing(12),
-}))
+}));
+
+const VenueTitleContainerStyles = styled(Container)(({theme}) => ({
+    maxWidth: '100%',
+    paddingTop: theme.spacing(3),
+    marginTop: theme.spacing(4),
+    [theme.breakpoints.down("sm")]: {
+        margin: 0,
+        padding: 0,
+        paddingTop: theme.spacing(3),
+        // marginBottom: theme.spacing(1),
+        // borderRadius: theme.spacing(1),
+    },
+}));
 
 const VenueTitleStyles = styled(Typography)(({theme}) => ({
     color: theme.palette.custom.dark,
     fontWeight: 'bold',
+    marginLeft: theme.spacing(5)
 }));
 
-const VenueContentStyles = styled(Box)(({theme}) => ({
-    display: "flex",
-    justifyContent: "center",
-    // padding: theme.spacing(3),
-
+const VenueAddressStyles = styled(Typography)(({theme}) => ({
+    // color: colors.get("nightMoon"),
+    color: colors.get("darkGrey2"),
+    fontSize: '1.5rem',
+    // padding: theme.spacing(4),
+    [theme.breakpoints.down("sm")]: {
+        paddingBottom: 0,
+        fontSize: '1rem',
+    }
 }));
-
-const VenueDetailsStyles = styled(Box)(({theme}) => ({
-    display: "flex",
-    // justifyContent: "",
-    alignItems: "center",
-    margin: theme.spacing(6)
-
-}))
 
 
 
@@ -140,29 +135,28 @@ const Soldier = () => {
 
     return (
         <SignalContainerStyles>
+            <VenueTitleContainerStyles>
+                <VenueTitleStyles variant='h2' >Soldiers and Sailors Memorial Auditorium</VenueTitleStyles>
+            </VenueTitleContainerStyles>
             <EventsStyles container spacing={2} sx={{ p: 4 }}>
                 <EventCard size={6}  >
-                    <VenueLogoStyles component='img' src={window.location.origin + '/memorial_bg_img.jpg'} alt='event image' />
-                    <TitleStyles variant='h4' >Soldiers and Sailors Memorial Auditorium</TitleStyles>
+                    <VenueLogoStyles component='img' src={window.location.origin +  '/memorial_bg_img.jpg'} alt='event image' />
+
                     <EventDetailsStyles container spacing={2} >
                         <Grid2 size={12}>
-                            <EventLinkStyles to={"www.tivoli.com"} target="_blank" rel="noopener noreferrer" >Visit Memorial Auditorium</EventLinkStyles>
+                            <EventLinkStyles to={"https://tivolichattanooga.com/memorial_auditorium"} target="_blank" rel="noopener noreferrer" >Visit Memorial Auditorium</EventLinkStyles>
                         </Grid2>
                         <Grid2 size={4}>
-                            <EventTextStyles variant='h6' >Address 1</EventTextStyles>
-                        </Grid2>
-                        <Grid2 size={4}>
-                            <EventTextStyles variant='h6' >Address 2</EventTextStyles>
+                            <VenueAddressStyles variant='h6' >(423) 757-5580</VenueAddressStyles>
                         </Grid2>
                         <Grid2 size={12}>
-                            <EventTextStyles variant='h6' >Phone Number?</EventTextStyles>
+                            <VenueAddressStyles variant='h6' >399 McCallie Ave</VenueAddressStyles>
+                            <VenueAddressStyles variant='h6' >Chattanooga, TN 37402</VenueAddressStyles>
                         </Grid2>
                         {/*<EventTextStyles variant='h6' >{eventTime}</EventTextStyles>*/}
                         {/*<EventLinkStyles to={eventLink} target="_blank" rel="noopener noreferrer" >Get Tickets</EventLinkStyles>*/}
                     </EventDetailsStyles>
                 </EventCard>
-            </EventsStyles>
-            <EventsStyles container spacing={2} sx={{ p: 4 }}>
                 { shows.map(({eventVenue, eventArtist, eventDate, eventLink, eventTime, eventImgSrc}, idx) => (
                     <EventCard key={idx} size={6}  id={idx}>
                         <EventImgStyles component='img' src={eventImgSrc} alt='event image' />
