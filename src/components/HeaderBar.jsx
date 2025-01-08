@@ -16,11 +16,10 @@ const HeaderStyles = styled(Box)(({theme}) => ({
     position: 'sticky',
     top: 0,
     [theme.breakpoints.down("sm")]: {
-        // paddingTop: theme.spacing(4),
         height: '7vh',
         maxWidth: '100%'
-    }
-}))
+    },
+}));
 
 const LogoBoxStyles = styled(Box)(({theme}) => ({
     display: 'flex',
@@ -29,11 +28,8 @@ const LogoBoxStyles = styled(Box)(({theme}) => ({
     width: '30%',
     maxHeight: '7vh',
     [theme.breakpoints.down("sm")]: {
-        // paddingTop: theme.spacing(4),
         width: 'auto',
-        // marginLeft: theme.spacing(2),
-        // maxHeight: '6vh'
-    }
+    },
 }));
 
 const LinkBoxStyles = styled(Box)(({theme}) => ({
@@ -42,19 +38,15 @@ const LinkBoxStyles = styled(Box)(({theme}) => ({
     justifyContent: 'space-around',
     width: '40%',
     [theme.breakpoints.down("sm")]: {
-        // paddingTop: theme.spacing(4),
         width: '50%',
         marginRight: theme.spacing(1),
-
     }
 }));
 
 const LinkStyles = styled(Box)(({theme}) => ({
     [theme.breakpoints.down("sm")]: {
         fontSize: '1rem',
-
-    }
-
+    },
 }));
 
 export const HeaderBar = () => {
@@ -65,7 +57,6 @@ export const HeaderBar = () => {
     return (
         <HeaderStyles>
             <LogoBoxStyles onClick={onClick}>
-                {/*<Box sx={{width: '80%'}} component="img" src={'clm_logo_xxsm_no_bg.png'}  />*/}
             </LogoBoxStyles>
             <LinkBoxStyles >
                 <LinkStyles>
@@ -83,7 +74,6 @@ export const HeaderBar = () => {
                             return {
                                 fontWeight: isActive ? "bold" : "",
                                 color: isPending ? "red" : "white",
-                                // color: isPending ? "red" : colors.get("nightMoon"),
                                 viewTransitionName: isTransitioning ? "slide" : "",
                                 textDecoration: "none",
                             };
@@ -107,7 +97,6 @@ export const HeaderBar = () => {
                             return {
                                 fontWeight: isActive ? "bold" : "",
                                 color: isPending ? "red" : "white",
-                                // color: isPending ? "red" : colors.get("nightMoon"),
                                 viewTransitionName: isTransitioning ? "slide" : "",
                                 textDecoration: "none",
                             };
@@ -131,7 +120,6 @@ export const HeaderBar = () => {
                             return {
                                 fontWeight: isActive ? "bold" : "",
                                 color: isPending ? "red" : "white",
-                                // color: isPending ? "red" : colors.get("nightMoon"),
                                 viewTransitionName: isTransitioning ? "slide" : "",
                                 textDecoration: "none",
                             };
