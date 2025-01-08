@@ -11,21 +11,18 @@ const theme = createTheme({
             dark: '#d85c27',
             contrastText: 'rgba(0, 0, 0, 0.87)',
         }
-    }
-
-    // palette: {
-    //     // primary: {
-    //     //     main: '#556cd6',
-    //     // },
-    //     // secondary: {
-    //     //     main: '#19857b',
-    //     // },
-    //     // error: {
-    //     //     main: red.A400,
-    //     // },
-    // },
-
-
+    },
+    components: {
+        MuiLink: {
+            styleOverrides: {
+                root: {
+                    textDecoration: "none",
+                    ":hover": {
+                    },
+                },
+            },
+        },
+    },
 
 });
 

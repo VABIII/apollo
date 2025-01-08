@@ -1,147 +1,36 @@
 import React from 'react';
-import {Box, Card, Container, Grid2, styled, Typography} from "@mui/material";
+import { Grid2, } from "@mui/material";
 import {
     EventsStyles,
-    EventStyles,
-    ImgStyles,
-    LinkStyles,
-    TextStyles,
     TitleStyles
 } from "../components/styledComponents/index.jsx";
+import {
+    VenueContainerStyles,
+    EventCard,
+    EventImgStyles,
+    EventTextStyles,
+    EventLinkStyles,
+    EventDetailsStyles,
+    VenueLogoStyles,
+    VenueTitleContainerStyles,
+    VenueTitleStyles,
+    VenueAddressStyles,
+    AddressLinkStyles,
+} from '../components/venueComponents'
 import {testData} from "../modules/TestData.js";
-import {colors} from "../theme.js";
-import {Link} from "react-router-dom";
-
-
-const SignalContainerStyles = styled(Container)(({theme}) => ({
-    display: "flex",
-    flexDirection: "column",
-    flexGrow: 1,
-    alignItems: "center",
-    // height: "100vh",
-    // minHeight: 'calc(100vh - 170px)',
-    // backgroundColor: colors.get("nightMoon")
-    [theme.breakpoints.down("sm")]: {
-        // width: "100%"
-        justifyContent: "flex-start",
-    }
-}));
-
-
-const EventCard = styled(Card)(({theme}) => ({
-    // width: "100%",
-    display: "flex",
-    flexDirection: "column",
-    // width:"33%",
-    padding: theme.spacing(3),
-    borderRadius: theme.shape.borderRadius,
-    margin: theme.spacing(4),
-    boxShadow: theme.shadows[5],
-    [theme.breakpoints.down("sm")]: {
-        width: "100%",
-        justifyContent: "flex-start",
-        marginLeft: theme.spacing(1),
-        marginRight: theme.spacing(1),
-    }
-}))
-
-const EventImgStyles = styled(Box)(({theme}) => ({
-    maxWidth: '100%',
-    borderRadius: 10,
-    marginBottom: theme.spacing(2),
-}));
-
-const EventTextStyles = styled(Typography)(({theme}) => ({
-    // color: colors.get("nightMoon"),
-    color: colors.get("darkGrey2"),
-    fontSize: '2.25rem',
-    // padding: theme.spacing(4),
-    [theme.breakpoints.down("sm")]: {
-        paddingBottom: 0,
-        fontSize: '1rem',
-    }
-}));
-
-const EventLinkStyles = styled(Link)(({theme}) => ({
-    textDecoration: 'none',
-    // color: colors.get("deepBlue"),
-    color: theme.palette.text.secondary,
-    fontSize: '2rem',
-    fontWeight: 'bold',
-    [theme.breakpoints.down("sm")]: {
-        fontSize: '1.25rem',
-        fontWeight: 'bold',
-    }
-}));
-
-const EventDetailsStyles = styled(Grid2)(({theme}) => ({
-
-    [theme.breakpoints.down("sm")]: {
-        // justifyContent: 'center'
-    }
-
-}));
-
-
-const VenueLogoStyles = styled(Box)(({theme}) => ({
-    maxWidth: "100%",
-    borderRadius: theme.spacing(2),
-    margin: theme.spacing(2),
-    [theme.breakpoints.down("sm")]: {
-        margin: 0,
-        marginBottom: theme.spacing(1),
-        borderRadius: theme.spacing(1),
-    },
-    // backgroundImage: "url('/walker_theatre_bg_img.jpg')",
-    // backgroundRepeat: "no-repeat",
-    // backgroundSize: "cover",
-    // backgroundPosition: "center",
-    // padding: theme.spacing(12),
-}));
-
-const VenueTitleContainerStyles = styled(Container)(({theme}) => ({
-    maxWidth: '100%',
-    paddingTop: theme.spacing(3),
-    marginTop: theme.spacing(4),
-    [theme.breakpoints.down("sm")]: {
-        margin: 0,
-        padding: 0,
-        paddingTop: theme.spacing(3),
-        // marginBottom: theme.spacing(1),
-        // borderRadius: theme.spacing(1),
-    },
-}));
-
-const VenueTitleStyles = styled(Typography)(({theme}) => ({
-    color: theme.palette.custom.dark,
-    fontWeight: 'bold',
-    marginLeft: theme.spacing(4)
-}));
-
-const VenueAddressStyles = styled(Typography)(({theme}) => ({
-    // color: colors.get("nightMoon"),
-    color: colors.get("darkGrey2"),
-    fontSize: '1.5rem',
-    // padding: theme.spacing(4),
-    [theme.breakpoints.down("sm")]: {
-        paddingBottom: 0,
-        fontSize: '1rem',
-    }
-}));
 
 
 const Signal = () => {
 const shows = testData.filter((evt) => evt.eventVenue === "The Signal");
 
     return (
-        <SignalContainerStyles>
+        <VenueContainerStyles>
             <VenueTitleContainerStyles>
                 <VenueTitleStyles variant='h2' >The Signal</VenueTitleStyles>
             </VenueTitleContainerStyles>
             <EventsStyles container spacing={2} sx={{ p: 4 }}>
-                <EventCard size={6}  >
+                <EventCard size={6} hoverShadow={10}>
                     <VenueLogoStyles component='img' src={window.location.origin +  '/signal_bg_img.gif'} alt='event image' />
-
                     <EventDetailsStyles container spacing={2} >
                         <Grid2 size={12}>
                             <EventLinkStyles to={"https://www.thesignaltn.com/"} target="_blank" rel="noopener noreferrer" >Visit The Signal</EventLinkStyles> {/* TODO: Update link urls */}
@@ -150,15 +39,15 @@ const shows = testData.filter((evt) => evt.eventVenue === "The Signal");
                             <VenueAddressStyles variant='h6' >(423) 498-4700</VenueAddressStyles>
                         </Grid2>
                         <Grid2 size={12}>
-                            <VenueAddressStyles variant='h6' >21 Choo Choo Ave</VenueAddressStyles>
-                            <VenueAddressStyles variant='h6' >Chattanooga, TN 37402</VenueAddressStyles>
+                            <AddressLinkStyles target="_blank" rel="noopener noreferrer" to='https://www.google.com/maps?sca_esv=519e96c50f78252e&sxsrf=ADLYWIJVKAFjg6pKeHPjyHkNSjpsHGAiKw:1736278875558&gs_lp=Egxnd3Mtd2l6LXNlcnAiC3RoZSBzaWduYWwgKgIIADIOEC4YgAQYxwEYjgUYrwEyDRAuGIAEGLEDGEMYigUyBRAAGIAEMhAQABiABBixAxhDGIMBGIoFMhAQABiABBixAxhDGIMBGIoFMhAQLhiABBixAxhDGIMBGIoFMgoQLhiABBhDGIoFMgoQABiABBhDGIoFMgUQABiABDIFEAAYgAQyHRAuGIAEGMcBGI4FGK8BGJcFGNwEGN4EGOAE2AEBSJoMUPABWPABcAF4AZABAJgBb6ABb6oBAzAuMbgBAcgBAPgBAZgCA6AC3wrCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICGRAuGIAEGLADGEMYxwEYyAMYigUYrwHYAQHCAhMQLhiABBiwAxhDGMgDGIoF2AEBmAMAiAYBkAYRugYGCAEQARgIkgcHMS4xLjctMaAHhQ8&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KUU4FbkqXGCIMerlej_bWcyz&daddr=21+Choo+Choo+Ave,+Chattanooga,+TN+37402'>
+                                <VenueAddressStyles variant='h6' >21 Choo Choo Ave</VenueAddressStyles>
+                                <VenueAddressStyles variant='h6' >Chattanooga, TN 37402</VenueAddressStyles>
+                            </AddressLinkStyles>
                         </Grid2>
-                        {/*<EventTextStyles variant='h6' >{eventTime}</EventTextStyles>*/}
-                        {/*<EventLinkStyles to={eventLink} target="_blank" rel="noopener noreferrer" >Get Tickets</EventLinkStyles>*/}
                     </EventDetailsStyles>
                 </EventCard>
                     { shows.map(({eventVenue, eventArtist, eventDate, eventLink, eventTime, eventImgSrc}, idx) => (
-                        <EventCard key={idx} size={6}  id={idx}>
+                        <EventCard key={idx} size={6}  id={idx} hoverShadow={10}>
                             <EventImgStyles component='img' src={eventImgSrc} alt='event image' />
                             <TitleStyles variant='h4' >{eventArtist.replace(" — The Signal", "")}</TitleStyles>
                             <EventDetailsStyles container spacing={2} >
@@ -174,14 +63,12 @@ const shows = testData.filter((evt) => evt.eventVenue === "The Signal");
                                 <Grid2 size={12}>
                                     <EventTextStyles variant='h6' >{eventVenue}</EventTextStyles>
                                 </Grid2>
-                                {/*<EventTextStyles variant='h6' >{eventTime}</EventTextStyles>*/}
-                                {/*<EventLinkStyles to={eventLink} target="_blank" rel="noopener noreferrer" >Get Tickets</EventLinkStyles>*/}
                             </EventDetailsStyles>
                         </EventCard>
                     ))
                     }
             </EventsStyles>
-        </SignalContainerStyles>
+        </VenueContainerStyles>
     );
 };
 
