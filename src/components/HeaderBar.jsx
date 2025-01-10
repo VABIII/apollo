@@ -1,4 +1,5 @@
 import React from 'react';
+import {useTranslation} from 'react-i18next';
 import {Box, styled} from '@mui/material';
 import {NavLink, useNavigate} from 'react-router-dom';
 import {colors} from "../theme.js";
@@ -51,6 +52,7 @@ const LinkStyles = styled(Box)(({theme}) => ({
 
 export const HeaderBar = () => {
     const navigate = useNavigate();
+    const { t } = useTranslation("HeaderBar");
 
     const onClick = () => navigate('/')
 
@@ -79,7 +81,7 @@ export const HeaderBar = () => {
                             };
                         }}
                     >
-                        Shows
+                        {t("ShowsLink")}
                     </NavLink>
                 </LinkStyles>
                 <LinkStyles>
@@ -102,12 +104,12 @@ export const HeaderBar = () => {
                             };
                         }}
                     >
-                        Venues
+                        {t("VenueLink")}
                     </NavLink>
                 </LinkStyles>
                 <LinkStyles>
                     <NavLink
-                        to={`/events`}
+                        to={`/about`}
                         textDecoration='none'
                         className={({ isActive, isPending }) =>
                             isActive
@@ -125,7 +127,7 @@ export const HeaderBar = () => {
                             };
                         }}
                     >
-                        About
+                        {t("AboutLink")}
                     </NavLink>
                 </LinkStyles>
             </LinkBoxStyles>

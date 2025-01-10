@@ -1,4 +1,5 @@
 import React from 'react';
+import {useTranslation} from 'react-i18next';
 import {Box, Card, Grid2, styled, Typography} from "@mui/material";
 import {colors} from "../theme.js";
 import {Link} from "react-router-dom";
@@ -58,6 +59,8 @@ const EventCard = styled(Card)(({theme}) => ({
 
 
 const Today = ({shows}) => {
+    const {t} = useTranslation("Home");
+
     return (
         <EventsStyles container spacing={2} sx={{ p: 4 }}>
             <EventsStyles container spacing={2} size={5}>
@@ -68,7 +71,7 @@ const Today = ({shows}) => {
                             <TextStyles variant='h6' >{eventVenue}</TextStyles>
                             <TextStyles variant='h6' >{eventDate}</TextStyles>
                             <TextStyles variant='h6' >{eventTime}</TextStyles>
-                            <LinkStyles to={eventLink} target="_blank" rel="noopener noreferrer" >Get Tickets</LinkStyles>
+                            <LinkStyles to={eventLink} target="_blank" rel="noopener noreferrer" >{t("HomeECTicketLink")}</LinkStyles>
                         </EventCard>
                     ))
                 }

@@ -1,0 +1,38 @@
+{
+  "HeaderBar": {
+    "ShowsLink": "Shows",
+    "VenueLink": "Venues",
+    "AboutLink": "About"
+  },
+  "About": {
+    "AboutTitle": "Hey You Guys!!!!!!!"
+  },
+  "Home": {
+    "HomeTitle:": "Today's Shows Around Town",
+    "HomeECTicketLink": "Get Tickets"
+  },
+  "NoShows": {
+    "NoShowsTitle": "Sadly, we do not have any shows for you today.",
+    "NoShowsSubtitles": "Check out these upcoming events or the venue pages for full show lineups."
+  },
+  "Venues": {
+    "VenuesPageTitle": "Live Venues of Chattanooga",
+    "WalkerCardTitle": "The Walker Theatre",
+    "SignalCardTitle": "The Signal",
+    "SoldierCardTitle": "Soldiers and Sailors Memorial Auditorium",
+    "TivoliCardTitle": "The Tivoli Theatre"
+  },
+  "Walker": {
+    "Venue": "",
+    "HomeECTicketLink": "Get Tickets"
+  }
+
+}
+
+
+
+
+
+
+
+

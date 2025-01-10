@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Root from './routes/Root.jsx';
 import ErrorPage from './routes/ErrorPage.jsx';
+import './modules/i18n/index.jsx';
 
 
 createRoot(document.getElementById('root')).render(

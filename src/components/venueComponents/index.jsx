@@ -1,6 +1,6 @@
+import React from "react";
 import {Box, Card, Container, Grid2, styled, Typography, Link} from "@mui/material";
 import {colors} from "../../theme.js";
-// import {Link} from "react-router-dom";
 
 const options = {
     shouldForwardProp: (prop) => prop !== 'hoverShadow',
@@ -33,6 +33,21 @@ const EventCard = styled(Card, options)(({theme, hoverShadow = 1}) => ({
     ':hover': {
         boxShadow: theme.shadows[hoverShadow],
     },
+}));
+
+const EventsStyles = styled(Grid2)(({theme}) => ({
+    display: "flex",
+    flexGrow: 1,
+    alignItems: "flex-start",
+    justifyContent: "space-around",
+    flexWrap: "wrap",
+    flexDirection: "row",
+}));
+
+const TitleStyles = styled(Typography)(({theme}) => ({
+    color: colors.get("mandarin"),
+    fontSize: '2.5rem',
+    fontWeight: 500,
 }));
 
 const EventImgStyles = styled(Box)(({theme}) => ({
@@ -106,15 +121,62 @@ const VenueAddressStyles = styled(Typography)(({theme}) => ({
 }));
 
 const AddressLinkStyles = styled(Link)(({theme}) => ({
-    // textDecoration: 'none',
+    textDecoration: 'none',
     ":hover": {
-        // transition:  'translate(-4px ,8px) scale(1)',
-        transform: 'scale(4)',
-        textDecoration: 'underLine',
+        fontColor: theme.palette.custom.main,
     }
 
-    }));
+}));
 
+
+const VenueContainer = ({name, address1, address2, phoneNumber, venueLinkTitle, venueUrl, dirUrl, imgUrl, shows}) => {
+    return (
+        <VenueContainerStyles>
+            <VenueTitleContainerStyles>
+                <VenueTitleStyles variant='h2' >{name}</VenueTitleStyles>
+            </VenueTitleContainerStyles>
+            <EventsStyles container spacing={2} sx={{ p: 4 }}>
+                <EventCard size={6} hoverShadow={10} >
+                    <VenueLogoStyles component='img' src={window.location.origin +  imgUrl} alt='event image' />
+                    <EventDetailsStyles container spacing={2} >
+                        <Grid2 size={12}>
+                            <EventLinkStyles href={venueUrl} target="_blank" rel="noopener noreferrer" >{venueLinkTitle}</EventLinkStyles>
+                        </Grid2>
+                        <Grid2 size={4}>
+                            <VenueAddressStyles variant='h6' >{phoneNumber}</VenueAddressStyles>
+                        </Grid2>
+                        <Grid2 size={12}>
+                            <AddressLinkStyles target="_blank" rel="noopener noreferrer" href={dirUrl}>
+                                <VenueAddressStyles variant='h6' >{address1}</VenueAddressStyles>
+                                <VenueAddressStyles variant='h6' >{address2}</VenueAddressStyles>
+                            </AddressLinkStyles>
+                        </Grid2>
+                    </EventDetailsStyles>
+                </EventCard>
+                { shows.map(({eventVenue, eventArtist, eventDate, eventLink, eventTime, eventImgSrc}, idx) => (
+                    <EventCard key={idx} size={6}  id={idx} hoverShadow={10}>
+                        <EventImgStyles component='img' src={eventImgSrc} alt='event image' />
+                        <TitleStyles variant='h4' >{eventArtist.replace(" — The Signal", "")}</TitleStyles>
+                        <EventDetailsStyles container spacing={2} >
+                            <Grid2 size={12}>
+                                <EventLinkStyles href={eventLink} target="_blank" rel="noopener noreferrer" >Get Tickets</EventLinkStyles>
+                            </Grid2>
+                            <Grid2 size={6}>
+                                <EventTextStyles variant='h6' >{`${eventDate}`}</EventTextStyles>
+                            </Grid2>
+                            <Grid2 size={4}>
+                                <EventTextStyles variant='h6' >{eventTime}</EventTextStyles>
+                            </Grid2>
+                            <Grid2 size={12}>
+                                <EventTextStyles variant='h6' >{eventVenue}</EventTextStyles>
+                            </Grid2>
+                        </EventDetailsStyles>
+                    </EventCard>
+                ))}
+            </EventsStyles>
+        </VenueContainerStyles>
+    );
+};
 
 
 export {
@@ -129,6 +191,7 @@ export {
     VenueTitleStyles,
     VenueAddressStyles,
     AddressLinkStyles,
+    VenueContainer,
 }
 
 

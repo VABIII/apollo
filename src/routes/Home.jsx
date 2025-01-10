@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from 'react';
+import { useTranslation } from 'react-i18next';
 import { HeaderBar } from "../components/HeaderBar.jsx";
 import FooterBar from "../components/FooterBar.jsx";
 import Today from "../components/Today.jsx";
 import {Typography, Box, styled, Button, Grid2, Container, Card, Link} from "@mui/material";
 import Events, {useEvents} from "../modules/Events";
-// import {Link} from "react-router-dom";
 import moment from "moment";
 import { colors } from "../theme.js";
 import { testData } from "../modules/TestData.js";
@@ -47,12 +47,13 @@ const EventCard = styled(Card,options)(({theme, hoverShadow= 1}) => ({
     ':hover': {
         boxShadow: theme.shadows[hoverShadow],
     },
-}))
+}));
 
 const Home = () => {
     const { fetchTodaysEvents, events, setEvents } = useEvents();
     const theme = useTheme();
     const matches = useMediaQuery(theme.breakpoints.down('sm'));
+    const { t } = useTranslation("Home");
 
     const onClick = async () => {
         console.log(events)
@@ -75,6 +76,7 @@ const Home = () => {
     shows.forEach( show => show.eventDate = show.eventDate.toLocaleDateString() );
 
     const cards = shows.slice(0,3).map(({eventVenue, eventArtist, eventDate, eventLink, eventTime, eventImgSrc}) => {
+        console.log(eventLink)
         let source;
         switch(eventVenue){
             case "The Walker Theatre":
@@ -95,7 +97,7 @@ const Home = () => {
                 <HomeCardTitleStyles variant='h4' >{eventArtist.replace(" — The Signal", "")}</HomeCardTitleStyles>
                 <HomeCardTextStyles variant='h6' >{eventDate}</HomeCardTextStyles>
                 <HomeCardTextStyles variant='h6' >{eventTime}</HomeCardTextStyles>
-                <LinkStyles href={eventLink} target="_blank" rel="noopener noreferrer" >Get Tickets</LinkStyles>
+                <LinkStyles href={eventLink} target="_blank" rel="noopener noreferrer" >{t("HomeECTicketLink")}</LinkStyles>
             </HomeCardBoxStyles>
         </EventCard>
         )
@@ -113,7 +115,7 @@ const Home = () => {
                     <Container >
                         {
                             todaysShows.length > 0 ?
-                                <SubtitleStyles id='789' variant={'h3'}>Today's Shows Around Town</SubtitleStyles> :
+                                <SubtitleStyles id='789' variant={'h3'}>{t('HomeTitle')}</SubtitleStyles> :
                                 <NoShows/>
                         }
                     </Container>

@@ -1,6 +1,5 @@
-import {Box, Card, Container, Grid2, styled, Typography} from "@mui/material";
+import {Box, Card, Container, Grid2, styled, Typography, Link} from "@mui/material";
 import {colors} from "../../theme.js";
-import {Link} from "react-router-dom";
 
 
 const options = {
