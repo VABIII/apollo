@@ -6,7 +6,6 @@ import constate from "constate";
 const CreateContext = () =>{
     const [loading, setLoading] = useState(false);
     const [events, setEvents] = useState([]);
-    console.log(events)
 
 
     return {

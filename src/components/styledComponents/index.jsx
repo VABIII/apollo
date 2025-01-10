@@ -28,6 +28,18 @@ const LogoStyles = styled(Box)(({theme}) => ({
     },
 }));
 
+const TodayTitleStyles = styled(Typography)(({theme}) => ({
+    color: colors.get("nightMoon"),
+    fontWeight: 500,
+    textAlign: "center",
+    paddingTop: theme.spacing(4),
+    [theme.breakpoints.down("sm")]: {
+        textAlign: "left",
+        paddingTop: theme.spacing(2),
+        paddingBottom: 0,
+    },
+}));
+
 
 const TitleStyles = styled(Typography)(({theme}) => ({
     color: colors.get("mandarin"),
@@ -207,7 +219,7 @@ const VenuesTitleStyles = styled(Typography)(({theme}) => ({
 
 const HomeCardTextStyles = styled(Typography)(({theme}) => ({
     color: colors.get("darkGrey2"),
-    fontSize: '2.25rem',
+    fontSize: '2rem',
     [theme.breakpoints.down("sm")]: {
         paddingBottom: 0,
         fontSize: '1.75rem',
@@ -221,7 +233,7 @@ const HomeCardLinkStyles = styled(Link)(({theme}) => ({
 
 const HomeCardTitleStyles = styled(Typography)(({theme}) => ({
     color: colors.get("mandarin"),
-    fontSize: '2.25rem',
+    fontSize: '2.5rem',
     fontWeight: 500,
 }));
 
@@ -263,6 +275,7 @@ export {
     HomeCardLinkStyles,
     HomeCardTitleStyles,
     HomeCardBoxStyles,
+    TodayTitleStyles,
 };
 
 

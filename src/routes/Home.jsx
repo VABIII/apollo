@@ -19,7 +19,9 @@ import {
     TitleStyles,
     TextStyles,
     NoShowsBoxStyles,
-    HomeCardBoxStyles
+    HomeCardBoxStyles,
+    NoShowTitleStyles,
+    TodayTitleStyles,
 } from "../components/styledComponents/index.jsx";
 import NoShows from "../components/NoShows.jsx";
 import SentimentVeryDissatisfiedIcon from '@mui/icons-material/SentimentVeryDissatisfied';
@@ -60,23 +62,26 @@ const Home = () => {
     }
 
     useEffect( () => {
-        fetchTodaysEvents();
+        // fetchTodaysEvents();
     }, []);
 
     let shows = testData.map(evt => {
         evt.eventDate = new Date(evt.eventDate);
         return evt;
     });
+    console.log(shows)
 
-    const todaysShows = shows.filter(({eventDate}) => {
-        return eventDate === new Date();
+    const todaysShows = shows.filter((evt) => {
+        const today = new Date();
+        const forDay = today.toLocaleString('default',{day: 'numeric', month: 'numeric', year: 'numeric'});
+        if (evt.eventDate.toLocaleString('default',{day: 'numeric', month: 'numeric', year: 'numeric'}) === forDay) return true;
     });
 
     shows = shows.sort(((a,b) => a.eventDate - b.eventDate));
     shows.forEach( show => show.eventDate = show.eventDate.toLocaleDateString() );
+    // shows.filter(evt => evt.eventDate === new Date().toLocaleDateString());
 
-    const cards = shows.slice(0,3).map(({eventVenue, eventArtist, eventDate, eventLink, eventTime, eventImgSrc}) => {
-        console.log(eventLink)
+    const cards = shows.slice(0,3).map(({eventVenue, eventArtist, eventDate, eventLink, eventTime, eventImgSrc}, idx) => {
         let source;
         switch(eventVenue){
             case "The Walker Theatre":
@@ -91,12 +96,12 @@ const Home = () => {
         };
 
         return (
-        <EventCard hoverShadow={10}>
+        <EventCard hoverShadow={10} key={idx}>
             {!matches && <VenueCardImgStyles component='img' src={source}/>}
             <HomeCardBoxStyles>
                 <HomeCardTitleStyles variant='h4' >{eventArtist.replace(" — The Signal", "")}</HomeCardTitleStyles>
-                <HomeCardTextStyles variant='h6' >{eventDate}</HomeCardTextStyles>
                 <HomeCardTextStyles variant='h6' >{eventTime}</HomeCardTextStyles>
+                <HomeCardTextStyles variant='h6' >{eventDate}</HomeCardTextStyles>
                 <LinkStyles href={eventLink} target="_blank" rel="noopener noreferrer" >{t("HomeECTicketLink")}</LinkStyles>
             </HomeCardBoxStyles>
         </EventCard>
@@ -112,10 +117,10 @@ const Home = () => {
                     id='456'
                 />
                 <NoShowsBoxStyles>
-                    <Container >
+                    <Container  >
                         {
                             todaysShows.length > 0 ?
-                                <SubtitleStyles id='789' variant={'h3'}>{t('HomeTitle')}</SubtitleStyles> :
+                                <TodayTitleStyles id='789' variant={'h2'}>{t('HomeTitle')}</TodayTitleStyles> :
                                 <NoShows/>
                         }
                     </Container>
@@ -124,7 +129,7 @@ const Home = () => {
                 {
                     todaysShows.length > 0 ?
                         <Today
-                            shows={shows}
+                            shows={todaysShows}
                         /> : cards
                 }
             </Container>
