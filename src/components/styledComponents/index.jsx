@@ -10,7 +10,7 @@ const HomeStyles = styled(Box)(({theme}) => ({
     display: "flex",
     flexDirection: "column",
     flexGrow: 1,
-    maxWidth: '100%',
+    minWidth: '100vw',
     [theme.breakpoints.down("sm")]: {
         width: "100%",
         justifyContent: "flex-start",
@@ -20,7 +20,9 @@ const HomeStyles = styled(Box)(({theme}) => ({
 const LogoStyles = styled(Box)(({theme}) => ({
     display: "flex",
     flexGrow: 1,
-    maxWidth: "100%",
+    // maxWidth: "100%",
+    minWidth: '100vw',
+    maxHeight: "100vh",
     justifyContent: "center",
     alignSelf: "center",
     [theme.breakpoints.down("sm")]: {

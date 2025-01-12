@@ -2,7 +2,7 @@ export const testData = [
         {
             "eventVenue": "The Signal",
             "eventArtist": "Halestorm’s Lzzy and Joe: The Living Room Sessions — The Signal",
-            "eventDate": "1/16/2025",
+            "eventDate": "1/12/2025",
             "eventLink": "https://www.thesignaltn.com/tickets/halestorm",
             "eventTime": "8:00PM",
             "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1729296171558-Z0H8DIBAXSMHGLZ5BVNC/Halestorm+-+Ticketing+%281%29.jpg"
@@ -494,14 +494,6 @@ export const testData = [
             "eventLink": "https://tivolichattanooga.com/venue-event/cf2a7114-b2c9-44ba-aa58-b978fa31fd66",
             "eventTime": " ",
             "eventImgSrc": "https://s1.ticketm.net/dam/a/d28/dda30bd1-046e-4c18-b70a-69c13a90cd28_SOURCE"
-        },
-        {
-            "eventVenue": "The Walker Theatre",
-            "eventArtist": "Pam Tillis",
-            "eventDate": "1/11/2025",
-            "eventLink": "https://tivolichattanooga.com/venue-event/3a83d022-b4a4-4b71-a593-6453cfbc3ab7",
-            "eventTime": "7:30 PM",
-            "eventImgSrc": "https://s1.ticketm.net/dam/a/532/06ea17fa-9528-4ccf-8827-962bcb2f2532_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         },
         {
             "eventVenue": "Soldiers and Sailors Memorial Auditorium",

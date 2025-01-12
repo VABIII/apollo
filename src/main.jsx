@@ -7,6 +7,7 @@ import {
 import Root from './routes/Root.jsx';
 import ErrorPage from './routes/ErrorPage.jsx';
 import './modules/i18n/index.jsx';
+import './main.css'
 
 
 createRoot(document.getElementById('root')).render(

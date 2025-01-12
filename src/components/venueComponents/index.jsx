@@ -79,9 +79,21 @@ const EventLinkStyles = styled(Link)(({theme}) => ({
 }));
 
 const EventDetailsStyles = styled(Grid2)(({theme}) => ({
+    display: 'block',
+    width: '37%',
     [theme.breakpoints.down("sm")]: {
+        width: '100%',
     },
 }));
+
+const EventDateStyles = styled(Box)(({theme}) => ({
+    display: "flex",
+    width: 'auto',
+    justifyContent: 'space-between',
+    [theme.breakpoints.down("sm")]: {
+        flexDirection: 'column',
+    },
+}))
 
 const VenueLogoStyles = styled(Box)(({theme}) => ({
     maxWidth: "100%",
@@ -142,7 +154,7 @@ const VenueContainer = ({name, address1, address2, phoneNumber, venueLinkTitle, 
                         <Grid2 size={12}>
                             <EventLinkStyles href={venueUrl} target="_blank" rel="noopener noreferrer" >{venueLinkTitle}</EventLinkStyles>
                         </Grid2>
-                        <Grid2 size={4}>
+                        <Grid2 size={6}>
                             <VenueAddressStyles variant='h6' >{phoneNumber}</VenueAddressStyles>
                         </Grid2>
                         <Grid2 size={12}>
@@ -158,18 +170,18 @@ const VenueContainer = ({name, address1, address2, phoneNumber, venueLinkTitle, 
                         <EventImgStyles component='img' src={eventImgSrc} alt='event image' />
                         <TitleStyles variant='h4' >{eventArtist.replace(" — The Signal", "")}</TitleStyles>
                         <EventDetailsStyles container spacing={2} >
-                            <Grid2 size={12}>
+                            <Box size={12}>
                                 <EventLinkStyles href={eventLink} target="_blank" rel="noopener noreferrer" >Get Tickets</EventLinkStyles>
-                            </Grid2>
-                            <Grid2 size={6}>
+                            </Box>
+                            <EventDateStyles size={6} >
                                 <EventTextStyles variant='h6' >{`${eventDate}`}</EventTextStyles>
-                            </Grid2>
-                            <Grid2 size={4}>
                                 <EventTextStyles variant='h6' >{eventTime}</EventTextStyles>
-                            </Grid2>
-                            <Grid2 size={12}>
+                            </EventDateStyles>
+                            <Box size={4}>
+                            </Box>
+                            <Box size={12}>
                                 <EventTextStyles variant='h6' >{eventVenue}</EventTextStyles>
-                            </Grid2>
+                            </Box>
                         </EventDetailsStyles>
                     </EventCard>
                 ))}
@@ -191,6 +203,7 @@ export {
     VenueTitleStyles,
     VenueAddressStyles,
     AddressLinkStyles,
+    EventDateStyles,
     VenueContainer,
 }
 

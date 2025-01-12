@@ -17,7 +17,7 @@ const HeaderStyles = styled(Box)(({theme}) => ({
     position: 'sticky',
     top: 0,
     [theme.breakpoints.down("sm")]: {
-        height: '7vh',
+        height: '4vh',
         maxWidth: '100%'
     },
 }));
@@ -27,7 +27,7 @@ const LogoBoxStyles = styled(Box)(({theme}) => ({
     flexDirection: 'row',
     justifyContent: 'center',
     width: '30%',
-    maxHeight: '7vh',
+    // maxHeight: '7vh',
     [theme.breakpoints.down("sm")]: {
         width: 'auto',
     },
@@ -39,12 +39,13 @@ const LinkBoxStyles = styled(Box)(({theme}) => ({
     justifyContent: 'space-around',
     width: '40%',
     [theme.breakpoints.down("sm")]: {
-        width: '50%',
-        marginRight: theme.spacing(1),
+        width: 'auto',
+        // marginRight: theme.spacing(1),
     }
 }));
 
 const LinkStyles = styled(Box)(({theme}) => ({
+    margin: '0px 8px 0px 8px',
     [theme.breakpoints.down("sm")]: {
         fontSize: '1rem',
     },

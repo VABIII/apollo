@@ -114,7 +114,6 @@ const Home = () => {
                 <LogoStyles
                     component="img"
                     src='/clm_logo_w_bg.png'
-                    id='456'
                 />
                 <NoShowsBoxStyles>
                     <Container  >
