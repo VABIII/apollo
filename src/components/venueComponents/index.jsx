@@ -80,15 +80,16 @@ const EventLinkStyles = styled(Link)(({theme}) => ({
 
 const EventDetailsStyles = styled(Grid2)(({theme}) => ({
     display: 'block',
-    width: '37%',
+    marginTop: theme.spacing(1),
     [theme.breakpoints.down("sm")]: {
         width: '100%',
+        marginTop: 0,
     },
 }));
 
 const EventDateStyles = styled(Box)(({theme}) => ({
     display: "flex",
-    width: 'auto',
+    width: '37%',
     justifyContent: 'space-between',
     [theme.breakpoints.down("sm")]: {
         flexDirection: 'column',
@@ -179,7 +180,7 @@ const VenueContainer = ({name, address1, address2, phoneNumber, venueLinkTitle, 
                             </EventDateStyles>
                             <Box size={4}>
                             </Box>
-                            <Box size={12}>
+                            <Box size={12} sx={{width: '100%'}}>
                                 <EventTextStyles variant='h6' >{eventVenue}</EventTextStyles>
                             </Box>
                         </EventDetailsStyles>
