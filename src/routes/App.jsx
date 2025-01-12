@@ -1,11 +1,11 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-
 import Home from './Home.jsx';
 import Signal from './Signal.jsx';
 import Walker from './Walker.jsx';
 import Tivoli from "./Tivoli.jsx";
 import Soldier from './Soldier.jsx';
+import About from './About.jsx';
 import theme from "../theme.js";
 import {CssBaseline} from "@mui/material";
 import {ThemeProvider} from "@mui/material/styles";
@@ -20,6 +20,7 @@ const App = () => {
             <HeaderBar/>
             <Routes>
                 <Route index path="/" element={ <Home /> } />
+                <Route index path='/about' element={ <About /> } />
                 <Route index path="/venues/signal" element={ <Signal /> } />
                 <Route index path="/venues/soldier" element={ <Soldier /> } />
                 <Route index path="/venues/walker" element={ <Walker /> } />

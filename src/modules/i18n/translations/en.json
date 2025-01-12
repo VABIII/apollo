@@ -5,7 +5,18 @@
     "AboutLink": "About"
   },
   "About": {
-    "AboutTitle": "Hey You Guys!!!!!!!"
+    "ClmContact": "[info@chattanoogalivemusic.com](mailto:info@chattanoogalivemusic.com).",
+    "AboutTitle": "Discover Live Music in Chattanooga Like Never Before",
+    "AboutBodyContent": [
+      "Growing up in Birmingham, AL, I relied on the Black & White paper to discover live music with my friends. It was our go-to guide to explore the vibrant music scene. When I moved to Chattanooga, I found an equally exciting live music culture—but no centralized place to find all the shows happening in town.",
+      "That’s where the idea for Chattanooga Live Music was born.",
+      "As a software developer with a passion for music, I created Chattanooga Live Music to make it easy for Chattanoogans and visitors alike to discover live shows at the city’s best venues. From intimate local spots to lively venues, this platform aims to connect you to the heart of Chattanooga's music scene.",
+      "I’m working to spotlight new venues, showcase unique experiences, and keep you informed about the best live music events in town."
+    ],
+    "GetInvolvedTitle": "Get Involved",
+    "GetInvolvedBody": "If you’re a venue owner or promoter and want to feature your events, I’d love to hear from you. Contact me at ",
+    "ConnectTitle": "Connect With Us",
+    "ConnectBody": "Stay updated on the latest shows and events! Follow us on Substack."
   },
   "Home": {
     "HomeTitle": "Today's Shows Around Town",
@@ -26,7 +37,6 @@
     "Venue": "",
     "HomeECTicketLink": "Get Tickets"
   }
-
 }
 
 
