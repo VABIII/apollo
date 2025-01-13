@@ -2,7 +2,7 @@ export const testData = [
         {
             "eventVenue": "The Signal",
             "eventArtist": "Halestorm’s Lzzy and Joe: The Living Room Sessions — The Signal",
-            "eventDate": "1/12/2025",
+            "eventDate": "1/16/2025",
             "eventLink": "https://www.thesignaltn.com/tickets/halestorm",
             "eventTime": "8:00PM",
             "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1729296171558-Z0H8DIBAXSMHGLZ5BVNC/Halestorm+-+Ticketing+%281%29.jpg"
