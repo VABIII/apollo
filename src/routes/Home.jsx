@@ -24,6 +24,7 @@ import {
     TodayTitleStyles,
 } from "../components/styledComponents/index.jsx";
 import NoShows from "../components/NoShows.jsx";
+import VisitVenues from "../components/VisitVenues.jsx";
 import SentimentVeryDissatisfiedIcon from '@mui/icons-material/SentimentVeryDissatisfied';
 import {VenueContainerStyles, VenuesTitleStyles, VenueListStyles, VenueCard, VenueCardImgStyles, VenueCardTextStyles, HomeCardTextStyles, HomeCardTitleStyles, HomeCardLinkStyles} from "../components/styledComponents/index.jsx";
 import useMediaQuery from '@mui/material/useMediaQuery';

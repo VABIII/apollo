@@ -27,7 +27,6 @@ const LogoBoxStyles = styled(Box)(({theme}) => ({
     flexDirection: 'row',
     justifyContent: 'center',
     width: '30%',
-    // maxHeight: '7vh',
     [theme.breakpoints.down("sm")]: {
         width: 'auto',
     },
@@ -40,7 +39,6 @@ const LinkBoxStyles = styled(Box)(({theme}) => ({
     width: '40%',
     [theme.breakpoints.down("sm")]: {
         width: 'auto',
-        // marginRight: theme.spacing(1),
     }
 }));
 

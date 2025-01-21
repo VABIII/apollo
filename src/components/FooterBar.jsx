@@ -1,54 +1,60 @@
 import React from 'react';
-import {Box, styled} from "@mui/material";
+import {Box, styled, Link, Typography} from "@mui/material";
 import {colors} from "../theme.js";
-import {Link} from "react-router-dom";
 
 
 const FooterStyles = styled(Box)(({theme}) => ({
     display: "flex",
     flexGrow: 1,
     flexDirection: 'row',
-    justifyContent: 'space-around',
+    justifyContent: 'center',
     alignItems: "center",
     height: '12vh',
     fontSize: '2rem',
     color: colors.get("nightMoon"),
     marginTop: theme.spacing(4),
     textAlign: 'center',
-    backgroundColor: colors.get("nightMoon"),
-    // position: 'absolute', /*change to fixed, so it stays in the same place even if scrolled*/
-    // position: 'relative', /*change to fixed, so it stays in the same place even if scrolled*/
-    position: 'fixed',
+    // backgroundColor: colors.get("nightMoon"),
+    // position: 'fixed',
     bottom: 0,
-// background-color: red; /*remove this for demonstration purposes only*/
-//     bottom: 0,
-    left: '50%',
+    // left: '50%',
 // -webkit-transform: translate(-50%, 0);
-    transform: 'translate(-50%, 0)',
-    width: '100%',
+//     transform: 'translate(-50%, 0)',
+    // width: '100%',
 }));
 
 const LogoContainerStyles = styled(Box)(({theme}) => ({
-    display: "flex",
-    flexGrow: 1,
-    alignItems: "center",
-    justifyContent: "space-around",
-    flexWrap: "wrap",
-    flexDirection: "row",
-    maxWidth: '100%',
-    maxHeight: '20vh',
+    // display: "flex",
+    // flexGrow: 1,
+    // alignItems: "center",
+    // justifyContent: "space-around",
+    // flexWrap: "wrap",
+    // flexDirection: "row",
+    // maxWidth: '100%',
+    // maxHeight: '20vh',
 }));
 
 
-const ImgStyles = styled(Box)(({theme}) => ({
-    maxWidth: '15%',
-    maxHeight: '10vh',
-    borderRadius: 10,
-    marginBottom: theme.spacing(2),
-    backgroundColor: colors.get("nightMoon"),
-    margin: 'auto'
+const LinkStyles = styled(Link)(({theme}) => ({
+    padding: theme.spacing(2),
+    color: colors.get("nightMoon"),
+    fontSize: '1.5rem',
+    [theme.breakpoints.down("sm")]: {
+        fontSize: '1rem',
+        padding: theme.spacing(1),
+    }
+}));
+
+const TMStyles = styled(Typography)(({theme}) => ({
+    fontSize:'1rem',
+    color:'gray',
+    [theme.breakpoints.down("sm")]: {
+        fontSize: '.75rem',
+    }
 
 }));
+
+
 
 
 
@@ -64,10 +70,11 @@ const FooterBar = () => {
         <div>
             <FooterStyles>
                 <LogoContainerStyles >
-                    <ImgStyles component='img' src={'soldiers_logo_w_bg_md.png'} />
-                    <ImgStyles component='img' src={'signal_logo_w_bg_md_white.png'} />
-                    <ImgStyles component='img' src={'tivoli_logo_w_bg_md.png'} />
-                    <ImgStyles component='img' src={'walker_logo_no_bg_md.png'} />
+                    <Box>
+                        <LinkStyles href=''>Terms of Use</LinkStyles>
+                        <LinkStyles href=''>Privacy Policy</LinkStyles>
+                    </Box>
+                    <TMStyles > © 2025 Chattanooga Live Music. All rights reserved.</TMStyles>
                 </LogoContainerStyles>
             </FooterStyles>
 
