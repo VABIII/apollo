@@ -1,30 +1,6 @@
 export const testData = [
         {
             "eventVenue": "The Signal",
-            "eventArtist": "Halestorm’s Lzzy and Joe: The Living Room Sessions — The Signal",
-            "eventDate": "1/16/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/halestorm",
-            "eventTime": "8:00PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1729296171558-Z0H8DIBAXSMHGLZ5BVNC/Halestorm+-+Ticketing+%281%29.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Tom Green - 2025 Home to the Country Comedy Tour — The Signal",
-            "eventDate": "1/24/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/tom-green",
-            "eventTime": "7:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1728322334300-1JMCIKRCTRUZF4JSF5YH/TomGreen-Ticketing.jpeg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Atmosphere – Imagine The Fun Tour feat. special guests Sage Francis & Mr. Dibbs — The Signal",
-            "eventDate": "1/25/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/atmosphere",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1730065942353-RYCVVQ41L1GFM5F2TQZR/Atmosphere+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
             "eventArtist": "Niko Moon: These Are the Nights Tour — The Signal",
             "eventDate": "2/1/2025",
             "eventLink": "https://www.thesignaltn.com/tickets/nikomoon",
@@ -494,38 +470,6 @@ export const testData = [
             "eventLink": "https://tivolichattanooga.com/venue-event/cf2a7114-b2c9-44ba-aa58-b978fa31fd66",
             "eventTime": " ",
             "eventImgSrc": "https://s1.ticketm.net/dam/a/d28/dda30bd1-046e-4c18-b70a-69c13a90cd28_SOURCE"
-        },
-        {
-            "eventVenue": "Soldiers and Sailors Memorial Auditorium",
-            "eventArtist": "Steve Martin & Martin Short: The Dukes of Funnytown!",
-            "eventDate": "1/23/2025",
-            "eventLink": "https://tivolichattanooga.com/venue-event/d40758d2-9313-4f16-9902-081ceed098a0",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://s1.ticketm.net/dam/a/d6a/5b5c3a93-ddd2-43a8-995c-6a11abd98d6a_SOURCE"
-        },
-        {
-            "eventVenue": "Soldiers and Sailors Memorial Auditorium",
-            "eventArtist": "Broadway at the Memorial Auditorium: Pretty Woman",
-            "eventDate": "1/24/2025",
-            "eventLink": "https://tivolichattanooga.com/venue-event/23de4d6e-4913-42fa-b948-33d4d5daaa6a",
-            "eventTime": " ",
-            "eventImgSrc": "https://nyc3.digitaloceanspaces.com/commons-saas/uploads/venue_event/banner_override/23de4d6e-4913-42fa-b948-33d4d5daaa6a/large_1723050030-Pretty-Woman-13.jpg"
-        },
-        {
-            "eventVenue": "Soldiers and Sailors Memorial Auditorium",
-            "eventArtist": "Broadway at the Memorial Auditorium: Pretty Woman",
-            "eventDate": "1/25/2025",
-            "eventLink": "https://tivolichattanooga.com/venue-event/23de4d6e-4913-42fa-b948-33d4d5daaa6a",
-            "eventTime": " ",
-            "eventImgSrc": "https://nyc3.digitaloceanspaces.com/commons-saas/uploads/venue_event/banner_override/23de4d6e-4913-42fa-b948-33d4d5daaa6a/large_1723050030-Pretty-Woman-13.jpg"
-        },
-        {
-            "eventVenue": "Soldiers and Sailors Memorial Auditorium",
-            "eventArtist": "Broadway at the Memorial Auditorium: Pretty Woman",
-            "eventDate": "1/26/2025",
-            "eventLink": "https://tivolichattanooga.com/venue-event/23de4d6e-4913-42fa-b948-33d4d5daaa6a",
-            "eventTime": " ",
-            "eventImgSrc": "https://nyc3.digitaloceanspaces.com/commons-saas/uploads/venue_event/banner_override/23de4d6e-4913-42fa-b948-33d4d5daaa6a/large_1723050030-Pretty-Woman-13.jpg"
         },
         {
             "eventVenue": "Soldiers and Sailors Memorial Auditorium",
