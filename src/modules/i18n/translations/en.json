@@ -31,7 +31,8 @@
     "WalkerCardTitle": "The Walker Theatre",
     "SignalCardTitle": "The Signal",
     "SoldierCardTitle": "Soldiers and Sailors Memorial Auditorium",
-    "TivoliCardTitle": "The Tivoli Theatre"
+    "TivoliCardTitle": "The Tivoli Theatre",
+    "CavernsCardTitle": "The Caverns"
   },
   "Walker": {
     "Venue": "",

@@ -34,6 +34,10 @@ const Venue = () => {
                     <VenueCardImgStyles component='img' src={'signal_logo_w_bg_md_white.png'} />
                     <VenueCardTextStyles component='p'>{t('SignalCardTitle')}</VenueCardTextStyles>
                 </VenueCard>
+                <VenueCard hoverShadow={10} onClick={() => onClick("caverns")}>
+                    <VenueCardImgStyles component='img' src={'caverns_logo_w_bg.png'} />
+                    <VenueCardTextStyles component='p'>{t('CavernsCardTitle')}</VenueCardTextStyles>
+                </VenueCard>
                 <VenueCard hoverShadow={10} onClick={() => onClick("tivoli")}>
                     <VenueCardImgStyles component='img' src={'tivoli_logo_w_bg_md.png'} />
                     <VenueCardTextStyles component='p'>{t('TivoliCardTitle')}</VenueCardTextStyles>

@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './Home.jsx';
@@ -12,6 +13,7 @@ import {ThemeProvider} from "@mui/material/styles";
 import Venue from "./Venue.jsx";
 import {HeaderBar} from "../components/HeaderBar.jsx";
 import FooterBar from "../components/FooterBar.jsx";
+import Caverns from "./Caverns.jsx";
 
 const App = () => {
     return (
@@ -25,6 +27,7 @@ const App = () => {
                 <Route index path="/venues/soldier" element={ <Soldier /> } />
                 <Route index path="/venues/walker" element={ <Walker /> } />
                 <Route index path="/venues/tivoli" element={ <Tivoli /> } />
+                <Route index path="/venues/caverns" element={ <Caverns /> } />
                 <Route path="venues" element={ <Venue /> } />
             </Routes>
             <FooterBar/>
