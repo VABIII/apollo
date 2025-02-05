@@ -94,6 +94,8 @@ const Home = () => {
             case "The Signal":
                 source = 'signal_logo_w_bg_md_white.png';
                 break;
+            case "The Caverns":
+                source = 'caverns_logo_w_bg.png';
         };
 
         return (
