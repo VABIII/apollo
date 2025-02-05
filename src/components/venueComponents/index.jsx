@@ -24,6 +24,7 @@ const EventCard = styled(Card, options)(({theme, hoverShadow = 1}) => ({
     borderRadius: theme.shape.borderRadius,
     margin: theme.spacing(4),
     boxShadow: theme.shadows[3],
+    width: '100%',
     [theme.breakpoints.down("sm")]: {
         width: "100%",
         justifyContent: "flex-start",

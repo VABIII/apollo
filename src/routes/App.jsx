@@ -14,6 +14,8 @@ import Venue from "./Venue.jsx";
 import {HeaderBar} from "../components/HeaderBar.jsx";
 import FooterBar from "../components/FooterBar.jsx";
 import Caverns from "./Caverns.jsx";
+import BarkingLegs from "./BarkingLegs.jsx";
+import Barrelhouse from "./Barrelhouse.jsx";
 
 const App = () => {
     return (
@@ -24,6 +26,8 @@ const App = () => {
                 <Route index path="/" element={ <Home /> } />
                 <Route index path='/about' element={ <About /> } />
                 <Route index path="/venues/signal" element={ <Signal /> } />
+                <Route index path="/venues/barkinglegs" element={ <BarkingLegs /> } />
+                <Route index path="/venues/barrelhouse" element={ <Barrelhouse /> } />
                 <Route index path="/venues/soldier" element={ <Soldier /> } />
                 <Route index path="/venues/walker" element={ <Walker /> } />
                 <Route index path="/venues/tivoli" element={ <Tivoli /> } />

@@ -38,6 +38,14 @@ const Venue = () => {
                     <VenueCardImgStyles component='img' src={'caverns_logo_w_bg.png'} />
                     <VenueCardTextStyles component='p'>{t('CavernsCardTitle')}</VenueCardTextStyles>
                 </VenueCard>
+                <VenueCard hoverShadow={10} onClick={() => onClick("barkinglegs")}>
+                    <VenueCardImgStyles component='img' src={'barking_legs_logo_w_bg.png'} />
+                    <VenueCardTextStyles component='p'>{t('BarkingLegsCardTitle')}</VenueCardTextStyles>
+                </VenueCard>
+                <VenueCard hoverShadow={10} onClick={() => onClick("barrelhouse")}>
+                    <VenueCardImgStyles component='img' src={'barrelhouse_logo_w_bg.png'} />
+                    <VenueCardTextStyles component='p'>{t('BarrelhouseCardTitle')}</VenueCardTextStyles>
+                </VenueCard>
                 <VenueCard hoverShadow={10} onClick={() => onClick("tivoli")}>
                     <VenueCardImgStyles component='img' src={'tivoli_logo_w_bg_md.png'} />
                     <VenueCardTextStyles component='p'>{t('TivoliCardTitle')}</VenueCardTextStyles>
