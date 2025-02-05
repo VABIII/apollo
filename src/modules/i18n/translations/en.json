@@ -32,7 +32,9 @@
     "SignalCardTitle": "The Signal",
     "SoldierCardTitle": "Soldiers and Sailors Memorial Auditorium",
     "TivoliCardTitle": "The Tivoli Theatre",
-    "CavernsCardTitle": "The Caverns"
+    "CavernsCardTitle": "The Caverns",
+    "BarrelhouseCardTitle": "Barrelhouse Ballroom",
+    "BarkingLegsCardTitle": "Barking Legs Theater"
   },
   "Walker": {
     "Venue": "",

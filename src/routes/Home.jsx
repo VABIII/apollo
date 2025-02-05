@@ -96,6 +96,13 @@ const Home = () => {
                 break;
             case "The Caverns":
                 source = 'caverns_logo_w_bg.png';
+                break;
+            case "The Barking Legs Theater":
+                source = 'barking_legs_logo_w_bg.png';
+                break;
+            case "The Barrel House Ball Room":
+                source = 'barrelhouse_logo_w_bg.png';
+                break;
         };
 
         return (
