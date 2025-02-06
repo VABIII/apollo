@@ -1,9 +1,9 @@
 import React from 'react';
-import {testData} from "../modules/TestData.js";
+import { testData, eventData } from "../modules/TestData.js";
 import {VenueContainer} from "../components/venueComponents/index.jsx";
 
 const Barrelhouse = () => {
-    const shows = testData.filter((evt) => evt.EventVenue === "The Barrel House Ball Room")
+    const shows = eventData.filter((evt) => evt.EventVenue === "The Barrel House Ball Room")
         .map(evt => {
             return {
                 eventVenue: 'Barrelhouse Ballroom',
