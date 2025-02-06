@@ -786,7 +786,7 @@ export const testData = [
         {
             "eventVenue": "The Caverns",
             "eventArtist": "DAILEY & VINCENT",
-            "eventDate": "27",
+            "eventDate": "4/27/2025",
             "eventTime": "5:00pm",
             "eventLink": "https://www.thecaverns.com/event/dailey-and-vincent-in-the-caverns-2",
             "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/f2ead26af71d4c0797599bb9e76460d7/1/GCuCv727RiYFXYTGfhakB6/Dailey%20%26%20Vincent%20press%20photo.jpg"
@@ -794,7 +794,7 @@ export const testData = [
         {
             "eventVenue": "The Caverns",
             "eventArtist": "DANIEL DONATO'S COSMIC COUNTRY",
-            "eventDate": "12",
+            "eventDate": "4/12/2025",
             "eventTime": "6:00pm",
             "eventLink": "https://www.thecaverns.com/event/daniel-donato-s-cosmic-country-s-camp-cosmic-at-the-caverns-2",
             "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/c807d6560ad84b3db68c45ae85091380/1/GCuCv727RiYFXYTGfhakB6/Square2savethedate.jpg"
@@ -802,7 +802,7 @@ export const testData = [
         {
             "eventVenue": "The Caverns",
             "eventArtist": "DANIEL DONATO'S COSMIC COUNTRY",
-            "eventDate": "11",
+            "eventDate": "4/11/2025",
             "eventTime": "6:00pm",
             "eventLink": "https://www.thecaverns.com/event/daniel-donato-s-cosmic-country-s-camp-cosmic-at-the-caverns",
             "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/c807d6560ad84b3db68c45ae85091380/1/GCuCv727RiYFXYTGfhakB6/Square2savethedate.jpg"
@@ -810,7 +810,7 @@ export const testData = [
         {
             "eventVenue": "The Caverns",
             "eventArtist": "ARRIVAL FROM SWEDEN - THE MUSIC OF ABBA",
-            "eventDate": "06",
+            "eventDate": "4/06/2025",
             "eventTime": "5:00pm",
             "eventLink": "https://www.thecaverns.com/event/arrival-from-sweden-the-music-of-abba-in-the-caverns",
             "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/d5e4034aab2f41f7bce8dec63dc294bb/1/GCuCv727RiYFXYTGfhakB6/AFS%201x1%20TIXR.jpg"
@@ -818,7 +818,7 @@ export const testData = [
         {
             "eventVenue": "The Caverns",
             "eventArtist": "49 WINCHESTER",
-            "eventDate": "05",
+            "eventDate": "4/05/2025",
             "eventTime": "8:00pm",
             "eventLink": "https://www.thecaverns.com/event/49-winchester-in-the-caverns-with-town-mountain",
             "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/c17e00858a764573b2bc255e8ccc667b/1/GCuCv727RiYFXYTGfhakB6/4_49_CAVERNS_Square_2%20-%20720px.jpg"
@@ -826,7 +826,7 @@ export const testData = [
         {
             "eventVenue": "The Caverns",
             "eventArtist": "AN EVENING WITH VIOLENT FEMMES",
-            "eventDate": "26",
+            "eventDate": "3/26/2025",
             "eventTime": "8:00pm",
             "eventLink": "https://www.thecaverns.com/event/violent-femmes-in-the-caverns",
             "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/c6300297b89a41a5bc9541173bae3a03/1/GCuCv727RiYFXYTGfhakB6/VF%201x1%20TIXR.jpg"
@@ -834,7 +834,7 @@ export const testData = [
         {
             "eventVenue": "The Caverns",
             "eventArtist": "ANI DIFRANCO",
-            "eventDate": "16",
+            "eventDate": "3/16/2025",
             "eventTime": "6:00pm",
             "eventLink": "https://www.thecaverns.com/event/ani-difranco-in-the-caverns-with-special-guests-tba",
             "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/ec74972369e944398e59d6ab5ca0a210/1/GCuCv727RiYFXYTGfhakB6/ADF%201x1%20TIXR.jpg"
@@ -842,7 +842,7 @@ export const testData = [
         {
             "eventVenue": "The Caverns",
             "eventArtist": "BIG HEAD TODD & THE MONSTERS",
-            "eventDate": "15",
+            "eventDate": "3/15/2025",
             "eventTime": "8:00pm",
             "eventLink": "https://www.thecaverns.com/event/big-head-todd-and-the-monsters-in-the-caverns",
             "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/faaa0ce8d4ef442ba537e9d96e993ad5/1/GCuCv727RiYFXYTGfhakB6/BHTM-40thAnniversary-Mar15-Square%201200px.jpg"
@@ -850,7 +850,7 @@ export const testData = [
         {
             "eventVenue": "The Caverns",
             "eventArtist": "BRIGHT EYES",
-            "eventDate": "14",
+            "eventDate": "3/14/2025",
             "eventTime": "8:00pm",
             "eventLink": "https://www.thecaverns.com/event/bright-eyes-in-the-caverns",
             "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/a325eace99d34f6ca50c04b4ea1e2f63/1/GCuCv727RiYFXYTGfhakB6/BE_booth_3_FINAL_Nik_Freitas%201200px.jpg"
@@ -858,7 +858,7 @@ export const testData = [
         {
             "eventVenue": "The Caverns",
             "eventArtist": "THE FOUR HORSEMEN",
-            "eventDate": "09",
+            "eventDate": "3/09/2025",
             "eventTime": "6:00pm",
             "eventLink": "https://www.thecaverns.com/event/the-four-horsemen-a-celebration-of-metallica-in-the-caverns",
             "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/de265bb0d51741e789a462fcd06ec44b/1/GCuCv727RiYFXYTGfhakB6/TFH%201x1%20TIXR.jpg"
@@ -866,7 +866,7 @@ export const testData = [
         {
             "eventVenue": "The Caverns",
             "eventArtist": "MATRODA",
-            "eventDate": "08",
+            "eventDate": "3/08/2025",
             "eventTime": "7:00pm",
             "eventLink": "https://www.thecaverns.com/event/matroda-in-the-caverns",
             "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/ae6b5b8ef6a14096969e65b5bee269c1/1/GCuCv727RiYFXYTGfhakB6/MATRODA%20CAVE%20SQUARE%20750.jpg"
@@ -874,7 +874,7 @@ export const testData = [
         {
             "eventVenue": "The Caverns",
             "eventArtist": "OLE 60",
-            "eventDate": "07",
+            "eventDate": "3/07/2025",
             "eventTime": "8:00pm",
             "eventLink": "https://www.thecaverns.com/event/ole-60-in-the-caverns-with-fox-n-vead-and-rob-langdon",
             "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/a0d198496ca34e40bb14ba80936abd18/1/GCuCv727RiYFXYTGfhakB6/Ole%2060%201X1%20TIXR.jpg"
@@ -882,7 +882,7 @@ export const testData = [
         {
             "eventVenue": "The Caverns",
             "eventArtist": "LITTLE FEAT",
-            "eventDate": "22",
+            "eventDate": "02/22/2025",
             "eventTime": "8:00pm",
             "eventLink": "https://www.thecaverns.com/event/little-feat-in-the-caverns",
             "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/ab9b489850dc45beac7fce34997429da/1/GCuCv727RiYFXYTGfhakB6/Little%20Feat%20The%20Caverns%20Poster%201200px.jpg"
@@ -890,7 +890,7 @@ export const testData = [
         {
             "eventVenue": "The Caverns",
             "eventArtist": "THE WOOD BROTHERS",
-            "eventDate": "16",
+            "eventDate": "02/16/2025",
             "eventTime": "7:00pm",
             "eventLink": "https://www.thecaverns.com/event/the-wood-brothers-in-the-caverns",
             "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/bb7e02ed7c0f49888ece8b72aa286c14/1/GCuCv727RiYFXYTGfhakB6/TheWoodBrothers-photo-02-credit-Shervin-Lainez%20600pxSQ.png"
@@ -898,7 +898,7 @@ export const testData = [
         {
             "eventVenue": "The Caverns",
             "eventArtist": "PEEKABOO",
-            "eventDate": "15",
+            "eventDate": "02/15/2025",
             "eventTime": "7:00pm",
             "eventLink": "https://www.thecaverns.com/event/peekaboo-in-the-caverns-2",
             "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/d9e0ad4295e142d1aa813e7716cb2cb6/1/GCuCv727RiYFXYTGfhakB6/LCL_PEEK%202025%20b%20%25281%2529_1080x1080-500px.jpg"
@@ -906,7 +906,7 @@ export const testData = [
         {
             "eventVenue": "The Caverns",
             "eventArtist": "HIGHLY SUSPECT",
-            "eventDate": "08",
+            "eventDate": "02/08/2025",
             "eventTime": "7:15pm",
             "eventLink": "https://www.thecaverns.com/event/highly-suspect-in-the-caverns",
             "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/a98064a8a02f46b180cf172a6bdf6e3a/1/GCuCv727RiYFXYTGfhakB6/HS%201x1%20TIXR.jpg"
@@ -1343,20 +1343,15 @@ export const testData = [
             "eventLink": "https://www.barkinglegs.org/ourevents/jennifer-knapp-w-special-guest-flamy-grant",
             "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/1733522473922-RMSBUOS5XA77N99SYN8E/2.7.25+Jennifer_Flamy_Poster.jpg"
         },
-        {
-            "eventVenue": "The Barking Legs Theater",
-            "eventArtist": "Wednesday Jazz: Alan Wyatt Quartet",
-            "eventDate": "2/4/2025",
-            "eventTime": "7:30 PM",
-            "eventLink": "https://www.barkinglegs.org/ourevents/wednesday-jazz-nt4ht-5y3wc",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/1737386984561-HN4YQMIL0I5IF1GOB583/General+Logo.jpg"
-        },
-        {
-            "eventVenue": "The Barking Legs Theater",
-            "eventArtist": "Monday Nite Big Band",
-            "eventDate": "2/2/2025",
-            "eventTime": "7:30 PM",
-            "eventLink": "https://www.barkinglegs.org/ourevents/monday-night-big-band-3wlpf-fs3bm-yerbj-zwyfj-saaya-6epyw-ngf9m-hsb5l",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/1712248709347-QR60GUNNIAPPD6K5QOSS/433174264_2455418227993303_179918143584589537_n.jpg"
-        }
     ];
+
+export const eventData = testData
+    .map(evt => { evt.eventDate = new Date(evt.eventDate); return evt; })
+    .sort(((a,b) => a.eventDate - b.eventDate))
+        .map(evt => {
+            evt.eventDate = evt.eventDate.toLocaleDateString()
+            return evt;
+        });
+
+
+

@@ -1,11 +1,11 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import { VenueContainer, } from '../components/venueComponents'
-import {testData} from "../modules/TestData.js";
+import {testData, eventData} from "../modules/TestData.js";
 
 
 const Caverns = () => {
-    const shows = testData.filter((evt) => evt.eventVenue === "The Caverns");
+    const shows = eventData.filter((evt) => evt.eventVenue === "The Caverns");
 
     return (
         <VenueContainer
