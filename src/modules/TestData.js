@@ -1,340 +1,300 @@
 export const testData = [
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "The Emo Night Tour - 18+ (Copy) — The Signal",
-            "eventDate": "2/7/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/the-emo-night-tour020725",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/d90367da-10d5-449a-b478-792129d40bac/The+Emo+Night+Tour+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Father John Misty — The Signal",
-            "eventDate": "2/12/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/fjm",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1728688558976-NAF58CJBAZPQYLOMBAHG/Father+John+Misty+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "ZACH TOP: COLD BEER & COUNTRY MUSIC TOUR — The Signal",
-            "eventDate": "2/26/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/zach-top-36trj",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1726187235403-YOM0QEKRBVPYYN2MBOVM/Zach+Top+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "ZACH TOP: COLD BEER & COUNTRY MUSIC TOUR — The Signal",
-            "eventDate": "2/27/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/zach-top",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1726187235403-YOM0QEKRBVPYYN2MBOVM/Zach+Top+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Umphrey’s McGee – Cruising Altitude 2025 Tour — The Signal",
-            "eventDate": "2/28/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/umphreysmcgee",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1726866868782-ML2W5US2ZMJFRD60BZGS/Umphrey%E2%80%99s+McGee+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "ALEXANDRA KAY : CUPID'S A COWGIRL TOUR WITH SPECIAL GUEST LOGAN CROSBY — The Signal",
-            "eventDate": "3/1/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/alexandra-kay",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1731455248083-7YC3YE47TXKFMLQRDMTX/Alexandra+Kay+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Hinder: Back To Life Tour 2025 — The Signal",
-            "eventDate": "3/8/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/hinder",
-            "eventTime": "7:30 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1731999950834-0E1XX24KJ6W3XOPJNIDD/Hinder+-+Ticketing+%281%29.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "THEY MIGHT BE GIANTS - THE BIG SHOW TOUR — The Signal",
-            "eventDate": "3/21/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/tmbg",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1729295920439-5FO1OY93IHF0CXYJFLXE/THEY+MIGHT+BE+GIANTS+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "COLORS Worldwide Presents: R&B ONLY LIVE — The Signal",
-            "eventDate": "3/22/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/rb-only-32225",
-            "eventTime": "9:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1731944617686-H0JASKYSY4G23G4HBOL3/R%26B+Only+LIVE+-+Ticketing+%281%29.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Trae Crowder — The Signal",
-            "eventDate": "4/12/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/trae-crowder",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1653a251-7e77-4402-8daf-c7f53b8e9ed5/Trae+Crowder+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "STRFKR — The Signal",
-            "eventDate": "4/13/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/strfkr24",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1716580093840-POB91YJFFDQDZNXIPQ4S/STRFKR+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Moon Taxi — The Signal",
-            "eventDate": "5/31/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/moontaxi",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1722637148405-UX2C0G86YIPE03OC95BB/Moon+Taxi+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Morgan Wade: The Obsessed Tour — The Signal",
-            "eventDate": "11/16/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/morganwade",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/2385d6fb-9275-4f8e-b827-d200dc935250/Morgan+Wade+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Houndmouth w/ Taylor McCall — The Signal",
-            "eventDate": "11/15/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/houndmouth",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1722981144383-Z5KG31AN9SV99BY8X0WZ/Houndmouth+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Trap Karaoke — The Signal",
-            "eventDate": "11/9/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/trapkaraoke-110924",
-            "eventTime": "7:30 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1724701735514-AABNGHQF8RKCU3YHTRIV/Trap+Karaoke+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Blues Traveler – 30 Years Of Four Tour — The Signal",
-            "eventDate": "11/3/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/blues-traveler",
-            "eventTime": "7:30 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/d8457f12-a6cf-4dc9-91c9-a900058eb2d6/Blues+Traveler-Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Pigeons Playing Ping Pong w/ Kendall Street Company — The Signal",
-            "eventDate": "11/2/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/pigeonsplayingpingpong",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1728062815186-MHKT11PTPIDQ5USQI8TL/PPPP-Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Gavin Adcock - Actin’ Up Again Tour — The Signal",
-            "eventDate": "11/1/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/gavin-adcock",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1715385940493-JE63VX4GGEB362QQ0P25/Gavin+Adcock+-+Ticketing+%282%29.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Cold War Kids – 20 Years Tour — The Signal",
-            "eventDate": "10/28/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/cold-war-kids",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1713296919509-J1CNHLETWJVIQUS72T5H/Cold+War+Kids+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Jesse McCartney - All’s Well Tour Part 2 — The Signal",
-            "eventDate": "10/26/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/jesse-mccartney",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1720461804818-GFWWO1XZTNSBTYQWVY63/Jesse+McCartney+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Dylan Gossett - The Back 40 Tour w/ James Tucker — The Signal",
-            "eventDate": "10/25/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/dylan-gossett",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1713562209506-FYIKHHHVP99TGTG0HNV3/Dylan+Gossett+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "NATE SMITH: THROUGH THE SMOKE TOUR — The Signal",
-            "eventDate": "10/24/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/nate-smith",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1713186241670-WE3VCWGXR1LRTWWVR474/Nate+Smith+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Asking Alexandria: All My Friends North American Tour 2024 — The Signal",
-            "eventDate": "10/18/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/asking-alexandria",
-            "eventTime": "6:30 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1716568590166-M7ARTHZZ596Q9BFKSHA0/Asking+Alexandria+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "THE TAYLOR PARTY: THE TS DANCE PARTY - 18+ — The Signal",
-            "eventDate": "10/11/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/taylorparty101124",
-            "eventTime": "9:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1728064847848-LXWNFT4Y9UD78STKXB8P/TaylorParty-Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Rumours ATL: A Fleetwood Mac Tribute — The Signal",
-            "eventDate": "10/5/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/rumoursatl100524",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1721666496834-YQNBIHJOFUMO2X7BRPL6/Rumours+ATL+-+Ticketing+%281%29.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Gimme Gimme Disco - 18+ — The Signal",
-            "eventDate": "10/4/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/ggd100424",
-            "eventTime": "9:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1722980909500-6PN7Z082ETV381IG355D/Gimme+Gimme+Disco+-+Ticketing+%283%29.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "SEVENDUST SEASONS 21ST ANNIVERSARY TOUR — The Signal",
-            "eventDate": "9/26/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/sevendust",
-            "eventTime": "6:30 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1716233921035-Q19N9ED7TWIYK6W87WWB/Sevendust+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Pink Pony Club - Chappell Roan Night — The Signal",
-            "eventDate": "9/21/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/pinkponyclub",
-            "eventTime": "9:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/514a06ea-d0c6-4a0e-978a-da188de1532f/Pink+Pony+Club+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Silversun Pickups w/ Speedy Ortiz — The Signal",
-            "eventDate": "9/18/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/silversunpickups",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1721409715925-7GRIFQE0BUGGIXMM2BV5/Silversun+Pickups+-+Ticketing+%281%29.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "The Emo Night Tour - 18+ — The Signal",
-            "eventDate": "9/14/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/the-emo-night-tour091424",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/d90367da-10d5-449a-b478-792129d40bac/The+Emo+Night+Tour+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Tyler Hubbard w/ Alana Springsteen — The Signal",
-            "eventDate": "9/12/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/tyler-hubbard",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1713562504076-IR4SBQQE2NGO5O980GTT/Tyler+Hubbard+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "The 502s – Great American Road Trip with Special Guest hey, nothing — The Signal",
-            "eventDate": "9/11/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/the502s",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1717696365511-DL8L72NWBCZNKQ83KS62/The+502s+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Band Of Horses w/ Michigander — The Signal",
-            "eventDate": "8/25/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/band-of-horses",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1716232610114-T8BWIF6OZ0IX01L1O9OJ/Band+of+Horses+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "No Scrubs: 90s Dance Party — The Signal",
-            "eventDate": "8/10/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/no-scrubs",
-            "eventTime": "9:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1716234361475-G8P37I5URTYZQIL4IUO5/No+Scrubs+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Cinderella's Tom Keifer With Special Guests L.A. Guns — The Signal",
-            "eventDate": "8/8/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/tom-keifer",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1710777098744-6CDNYVOX8ZDC6YSTE739/Tom+Keifer+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "BEARTOOTH: Summer 2024 TouR — The Signal",
-            "eventDate": "8/1/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/beartooth",
-            "eventTime": "6:30 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1714764974378-PWBEBJGJA4T4N603O6Z8/Beartooth+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Eli Young Band - 10 Years: 10,000 Towns Tour — The Signal",
-            "eventDate": "7/31/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/eli-young-band",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1710181257306-RD0AFEJJC8NT6E39YQ2V/Eli+Young+Band+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Electric Feels: Indie Rock + Indie Dance Party — The Signal",
-            "eventDate": "6/28/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/electric-feels",
-            "eventTime": "9:30 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1715386270105-A3VLDYHB70SL553HZJ7T/Electric+Feels+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "\"84\" A Tribute to Van Halen & Excitable-A Def Leppard Tribute — The Signal",
-            "eventDate": "6/14/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/84-excitable",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1711141608071-0IGIUWR0DXJ373L7AW11/_84_+A+Tribute+to+Van+Halen+%26+Excitable-A+Def+Leppard+Tribute+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "The Emo Night Tour - 18+ — The Signal",
-            "eventDate": "6/1/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/the-emo-night-tour060124",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/d90367da-10d5-449a-b478-792129d40bac/The+Emo+Night+Tour+-+Ticketing.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Flatland Cavalry w/ Kaitlin Butts — The Signal",
-            "eventDate": "5/31/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/flatland-cavalry",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1710967585978-LRC4PRFV5UK2HD8XII7J/Flatland+Cavalry+-+Ticketing+%281%29.jpg"
-        },
-        {
-            "eventVenue": "The Signal",
-            "eventArtist": "Isaiah Rashad: Cilvia Demo 10 Year Anniversary Tour w/ Ray Vaughn and Samara Cyn — The Signal",
-            "eventDate": "5/25/2025",
-            "eventLink": "https://www.thesignaltn.com/tickets/isaiah-rashad",
-            "eventTime": "8:00 PM",
-            "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/b551c263-36a4-46d6-b536-7cc67ddac6b2/IsaiahRashad-TW.jpg"
-        },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "JASON BOLAND & THE STRAGGLERS - THE LAST KINGS OF BABYLON TOUR — The Signal",
+        "eventDate": "10/24/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/jason-boland-and-the-stragglers",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1755556935686-FO1EYVAI5JSHQ2TORCMF/Jason+Boland+%26+The+Stragglers+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "United We Dance: Halloween Rave - 18+ — The Signal",
+        "eventDate": "10/24/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/united-we-dance",
+        "eventTime": "9:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1758578640899-B4ARB4BPB8AG57GGX9AO/United+We+Dance+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Priscilla Block - Things You Didn't See Tour — The Signal",
+        "eventDate": "10/31/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/priscillablock",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1755796048163-FUIWQQYV7KAPPOKEN7PO/Priscilla+Block+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Thomas Dolby — The Signal",
+        "eventDate": "11/5/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/thomas-dolby",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1757173814166-7UFPW0IKSF0SCO2MCVCX/Thomas+Dolby+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Chiodos - All's Well That Ends Well 20 Year Anniversary — The Signal",
+        "eventDate": "11/8/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/chiodos",
+        "eventTime": "7:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1757370876155-SWY8MRXK9JY0N3GTL5PE/Chiodos+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "THEY MIGHT BE GIANTS - THE BIG SHOW TOUR — The Signal",
+        "eventDate": "11/13/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/tmbg",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1729295920439-5FO1OY93IHF0CXYJFLXE/THEY+MIGHT+BE+GIANTS+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Yelawolf 45 Tour With J Michael Phillips & JT Loux — The Signal",
+        "eventDate": "11/14/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/yelawolf",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1753134089868-9E7X0P7KBG34R2303WS3/Yelawolf+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Memphis May Fire: THE SHAPESHIFTER TOUR LEG 2 — The Signal",
+        "eventDate": "11/18/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/memphis-may-fire",
+        "eventTime": "7:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1754947505243-VPPOE5DNX6387RYVEU3S/Memphis+May+Fire+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Lecrae - Reconstruction World Tour — The Signal",
+        "eventDate": "11/20/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/lecrae",
+        "eventTime": "7:30 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1753721130717-3B4EKZG1SZGZU8XWU93L/Lecrae+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Trap Karaoke - 21+ — The Signal",
+        "eventDate": "11/22/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/trapkaraoke-112225",
+        "eventTime": "7:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1724701735514-AABNGHQF8RKCU3YHTRIV/Trap+Karaoke+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "The Emo Night Tour - 18+ — The Signal",
+        "eventDate": "11/29/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/the-emo-night-tour-11-29-25",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1753733502521-G502U0MOTK1OCSHZ8J1T/11-29-25+The+Emo+Night+Tour+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Electric Avenue 'The 80s MTV Experience' — The Signal",
+        "eventDate": "12/6/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/electricavenue",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1758054182923-MKH0BQNQECBKZSXP4D5U/Electric+Avenue+-+Ticketing+%281%29.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Futurebirds — The Signal",
+        "eventDate": "12/6/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/futurebirds-120625",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1758657052242-FD3I44I5A1VXG507LY0A/Futurebirds+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Whitechapel - Rituals of Hate Tour — The Signal",
+        "eventDate": "12/10/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/whitechapel-121025",
+        "eventTime": "6:55 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1748281119678-QT440LNOHOTVMV1W1J8X/Whitechapel+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Kip Moore: Solitary Tracks Fall Tour — The Signal",
+        "eventDate": "12/20/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/kip-moore",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1751572055227-HN0UA7CYPCMT37WYYM6V/Kip+Moore+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Tell Me Lies - The Fleetwood Mac Experience w/ The Essentials — The Signal",
+        "eventDate": "12/27/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/tell-me-lies",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1756843679482-BCLXDR45B8WJQSMQAZYR/Tell+Me+Lies+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Reverend Horton Heat — The Signal",
+        "eventDate": "2/13/2026",
+        "eventLink": "https://www.thesignaltn.com/tickets/reverend-horton-heat",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1758578060913-DFT52P2H6D1KTAGBA602/Reverend+Horton+Heat+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Congress The Band w/ The Haymakers Band — The Signal",
+        "eventDate": "10/9/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/congress-the-band",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1756317499712-SG6P1ZDAENJ1SK98E9Y6/Congress+the+Band+-+Ticketing.JPG"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "THE TAYLOR PARTY: TAYLOR SWIFT NIGHT - 18+ — The Signal",
+        "eventDate": "10/4/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/the-taylor-party-10-4-25",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1753996920622-KCRGDB1LWFLRSWUJNBIE/2025-10-04+Chattanooga+16x9.png"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Lily Rose w/ Scoot Teasley — The Signal",
+        "eventDate": "10/2/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/lily-rose",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1751923449701-HDIB14TG1FS0NWHUM0ML/LilyRose-Signal-Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Zoso - The Ultimate Led Zeppelin Experience w/ Mëdusa — The Signal",
+        "eventDate": "9/27/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/zoso",
+        "eventTime": "7:15 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1755534912494-DKBP30W3HHJCLMZ48UOF/Zoso+-+Ticketing.png"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "The Wide Open Bluegrass® Late Night Jam — The Signal",
+        "eventDate": "9/20/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/ibma-latenightjam",
+        "eventTime": " ",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/4e36999b-66f9-4719-b496-ef37d95f25d3/WOB25_LateNightJam-blue-2000x1333-02+2.png"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "The Brook & The Bluff Fall 2025 Tour — The Signal",
+        "eventDate": "9/19/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/thebrookandthebluff",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1749155916799-TATDS8Z7KMJQO32W4E0S/The+Brook+%26+The+Bluff+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Billy Strings — The Signal",
+        "eventDate": "9/17/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/billystrings",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1748286191977-BZ17GYARLSH3QM45RWR0/BillyStrings-TW.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Billy Strings & Bryan Sutton with Royal Masat - SOLD OUT — The Signal",
+        "eventDate": "9/16/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/billystrings-bryansutton",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1743985419914-A4TMCT6PN12FCPAFS2XQ/BS25-BBR-Ticketing.png"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Yachtley Crew — The Signal",
+        "eventDate": "9/15/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/yachtley-crew",
+        "eventTime": "8:30 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1750604166213-0EXRJOJ6KTM3Z2CTEGZO/Yachtley+Crew+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "2000's Night - 18+ — The Signal",
+        "eventDate": "9/13/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/2000s-night-9-13-25",
+        "eventTime": "9:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1753990144896-G2A2HD60GULO8X91SAU7/2000%27s+Night+-+Ticketing.png"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Pecos & the Rooftops — The Signal",
+        "eventDate": "9/12/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/pecos-and-the-rooftops",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1745604135033-VFHSC5WEXRHTNQYPMM6Z/Pecos+and+the+Rooftops+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Deafheaven w/ Harm's Way and I Promised the World — The Signal",
+        "eventDate": "9/11/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/deafheaven",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1752527303810-A8UR19HAXP186059JZ43/Deafheaven+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Corey Smith w/ Dee White — The Signal",
+        "eventDate": "9/5/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/coreysmith",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1747691424021-OQYMPNR9EHPRKRGWS66P/Corey+Smith+-+Ticketing+%282%29.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "THAT MEXICAN OT — The Signal",
+        "eventDate": "9/3/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/that-mexican-ot",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1750194622261-54FGDERB0J21Y2Q2H01D/That+Mexican+OT+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Bop To The Top - 18+ — The Signal",
+        "eventDate": "8/30/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/bop-to-the-top-083025",
+        "eventTime": "9:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1747174199070-S9HGI3P7D9OZZHR0DD3E/Bop+To+The+Top+-+Ticketing.png"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Citizen Soldier: The HeartSupport Tour — The Signal",
+        "eventDate": "8/25/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/citizen-soldier",
+        "eventTime": "7:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1745617194792-SLVE1F5IYBOS8UJSYVJL/Citizen+Soldier+-+Ticketing.png"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Rumours ATL: A Fleetwood Mac Tribute — The Signal",
+        "eventDate": "8/22/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/rumoursatl-082225",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1751061415999-21X5BOEKSGJ56H2T1XGE/Rumours+ATL+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Brian Kelley - Sunshine State of Mind w/ Huntt Garrett, Tyler Pigg, and Katlin Owen — The Signal",
+        "eventDate": "8/21/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/brian-kelley",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1745773707632-GWQC1D0492BPVS8JKFJA/Brian+Kelley+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "HAUS of Flow — The Signal",
+        "eventDate": "8/15/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/haus-of-flow",
+        "eventTime": "7:30 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1753804810117-ZVFXAC81BTO56YRDEO1E/Haus+Of+Flow+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Drake White w/ The Ransom Brothers — The Signal",
+        "eventDate": "7/25/2025",
+        "eventLink": "https://www.thesignaltn.com/tickets/drakewhite",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1746296280169-Y4U6MDCB32I1FE246UC8/Drake+White+-+Ticketing.jpg"
+    },
         {
             "eventVenue": "Soldiers and Sailors Memorial Auditorium",
             "eventArtist": "Chattanooga Symphony presents All-Accessible: The Orchestra Moves",
