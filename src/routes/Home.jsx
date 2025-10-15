@@ -35,7 +35,7 @@ const options = {
     shouldForwardProp: (prop) => prop !== 'hoverShadow',
 };
 
-const EventCard = styled(Card,options)(({theme, hoverShadow= 1}) => ({
+const EventCard = styled(Card, options)(({theme, hoverShadow= 1}) => ({
     display: "flex",
     flexDirection: "row",
     padding: theme.spacing(3),
