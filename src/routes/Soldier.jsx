@@ -1,10 +1,10 @@
 import React from 'react';
-import { testData } from "../modules/TestData.js";
+import { eventData } from "../modules/TestData.js";
 import { VenueContainer } from '../components/venueComponents';
 
 
 const Soldier = () => {
-    const shows = testData.filter((evt) => evt.eventVenue === "Soldiers and Sailors Memorial Auditorium");
+    const shows = eventData.filter((evt) => evt.eventVenue === "Soldiers and Sailors Memorial Auditorium");
 
     return (
         <VenueContainer

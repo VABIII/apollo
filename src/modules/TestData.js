@@ -1405,7 +1405,7 @@ export const testData = [
         "eventDate": "October 16, 2025",
         "eventLink": "https://app.promotix.com/events/details/The-Party-of-A-Showgirl--ATS12-Celebration-tickets?referrer=dashboard",
         "eventTime": "08:00 PM",
-        "eventImgSrc": "https://d.adroll.com/cm/b/out?adroll_fpc=a3ccb2ad334910e87bc86929cd736fd9-1760630640865&flg=1&pv=13148120401.837368&arrfrr=https%3A%2F%2Fapp.promotix.com%2Fevents%2Fdetails%2FThe-Party-of-A-Showgirl--ATS12-Celebration-tickets%3Freferrer%3Ddashboard&advertisable=RNOVTQBG75C7XJWGEX7RGC"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/42906/The-Party-of-A-Showgirl--ATS12-Celebration-tickets-1.png?t=1760650843013"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1413,7 +1413,7 @@ export const testData = [
         "eventDate": "October 17, 2025",
         "eventLink": "https://app.promotix.com/events/details/Southall-tickets?referrer=tickets",
         "eventTime": "08:00 PM",
-        "eventImgSrc": "https://d.adroll.com/cm/b/out?adroll_fpc=f795a91388ed938768bc99e91a4075df-1760630643626&flg=1&pv=28511564523.09151&arrfrr=https%3A%2F%2Fapp.promotix.com%2Fevents%2Fdetails%2FSouthall-tickets%3Freferrer%3Dtickets&advertisable=RNOVTQBG75C7XJWGEX7RGC"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/40520/Southall-tickets-1.jpg?t=1760650846286"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1421,7 +1421,7 @@ export const testData = [
         "eventDate": "October 18, 2025",
         "eventLink": "https://app.promotix.com/events/details/Nick-Lutsko-tickets?referrer=additional",
         "eventTime": "08:00 PM",
-        "eventImgSrc": "https://d.adroll.com/cm/b/out?adroll_fpc=a78bdc13fead95ad6d5a04033040509b-1760630646541&flg=1&pv=11663080562.101912&arrfrr=https%3A%2F%2Fapp.promotix.com%2Fevents%2Fdetails%2FNick-Lutsko-tickets%3Freferrer%3Dadditional&advertisable=RNOVTQBG75C7XJWGEX7RGC"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/42907/Nick-Lutsko-tickets-1.jpg?t=1760650849327"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1429,7 +1429,7 @@ export const testData = [
         "eventDate": "October 24, 2025",
         "eventLink": "https://app.promotix.com/events/details/Andy-Frasco---The-U-N------Growing-Pains-Tour-tickets?referrer=event",
         "eventTime": "09:00 PM",
-        "eventImgSrc": "https://d.adroll.com/cm/b/out?adroll_fpc=01ad9f4b5b2a48f1d5bc92814b2f087a-1760630649345&flg=1&pv=16534992833.995546&arrfrr=https%3A%2F%2Fapp.promotix.com%2Fevents%2Fdetails%2FAndy-Frasco---The-U-N------Growing-Pains-Tour-tickets%3Freferrer%3Devent&advertisable=RNOVTQBG75C7XJWGEX7RGC"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/42289/Andy-Frasco---The-U-N------Growing-Pains-Tour-tickets-1.jpg?t=1760650852088"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1437,7 +1437,7 @@ export const testData = [
         "eventDate": "October 25, 2025",
         "eventLink": "https://app.promotix.com/events/details/Boot-Scootin-Boogie-Nights-tickets-2?referrer=event",
         "eventTime": "09:00 PM",
-        "eventImgSrc": "https://d.adroll.com/cm/b/out?adroll_fpc=659d59c48906348bc37a646d02eecc33-1760630652304&flg=1&pv=20973323910.71454&arrfrr=https%3A%2F%2Fapp.promotix.com%2Fevents%2Fdetails%2FBoot-Scootin-Boogie-Nights-tickets-2%3Freferrer%3Devent&advertisable=RNOVTQBG75C7XJWGEX7RGC"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/41799/Boot-Scootin-Boogie-Nights-tickets-2-1.jpg?t=1760650854681"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1445,7 +1445,7 @@ export const testData = [
         "eventDate": "October 29, 2025",
         "eventLink": "https://app.promotix.com/events/details/Universe-of-Battle-Tour-Nick-Shoulders-tickets?referrer=event",
         "eventTime": "08:00 PM",
-        "eventImgSrc": "https://d.adroll.com/cm/b/out?adroll_fpc=cac467e97b1565efebb879a3fb052670-1760630655040&flg=1&pv=20924217202.225147&arrfrr=https%3A%2F%2Fapp.promotix.com%2Fevents%2Fdetails%2FUniverse-of-Battle-Tour-Nick-Shoulders-tickets%3Freferrer%3Devent&advertisable=RNOVTQBG75C7XJWGEX7RGC"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/40787/Universe-of-Battle-Tour-Nick-Shoulders-tickets-1.jpg?t=1760650857575"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1453,7 +1453,7 @@ export const testData = [
         "eventDate": "October 30, 2025",
         "eventLink": "https://app.promotix.com/events/details/The-Rocky-Horror-Picture-Show-LIVE--Presented-by-Kaleidoscope-Entertainment-tickets?referrer=event",
         "eventTime": "07:00 PM",
-        "eventImgSrc": "https://d.adroll.com/cm/b/out?adroll_fpc=2461674e3c14479f94cf5148e6a598c0-1760630657942&flg=1&pv=37966374083.03512&arrfrr=https%3A%2F%2Fapp.promotix.com%2Fevents%2Fdetails%2FThe-Rocky-Horror-Picture-Show-LIVE--Presented-by-Kaleidoscope-Entertainment-tickets%3Freferrer%3Devent&advertisable=RNOVTQBG75C7XJWGEX7RGC"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/42651/The-Rocky-Horror-Picture-Show-LIVE--Presented-by-Kaleidoscope-Entertainment-tickets-1.jpg?t=1760650860145"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1461,7 +1461,7 @@ export const testData = [
         "eventDate": "October 30, 2025",
         "eventLink": "https://app.promotix.com/events/details/The-Rocky-Horror-Picture-Show-LIVE--Presented-by-Kaleidoscope-Entertainment-tickets-2?referrer=event",
         "eventTime": "10:00 PM",
-        "eventImgSrc": "https://d.adroll.com/cm/b/out?adroll_fpc=671bb575cba08d782a9517cdcd5a3a4b-1760630660715&flg=1&pv=97913866036.6782&arrfrr=https%3A%2F%2Fapp.promotix.com%2Fevents%2Fdetails%2FThe-Rocky-Horror-Picture-Show-LIVE--Presented-by-Kaleidoscope-Entertainment-tickets-2%3Freferrer%3Devent&advertisable=RNOVTQBG75C7XJWGEX7RGC"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43255/The-Rocky-Horror-Picture-Show-LIVE--Presented-by-Kaleidoscope-Entertainment-tickets-2-1.jpg?t=1760650862979"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1469,7 +1469,7 @@ export const testData = [
         "eventDate": "October 31, 2025",
         "eventLink": "https://app.promotix.com/events/details/Hits96-Gravediggers-Ball-tickets-2?referrer=event",
         "eventTime": "09:00 PM",
-        "eventImgSrc": "https://d.adroll.com/cm/b/out?adroll_fpc=f6fca050647d603e9e47281d73c4c37c-1760630663459&flg=1&pv=35792302413.30437&arrfrr=https%3A%2F%2Fapp.promotix.com%2Fevents%2Fdetails%2FHits96-Gravediggers-Ball-tickets-2%3Freferrer%3Devent&advertisable=RNOVTQBG75C7XJWGEX7RGC"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43098/Hits96-Gravediggers-Ball-tickets-2-1.png?t=1760650865856"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1477,7 +1477,7 @@ export const testData = [
         "eventDate": "November 1, 2025",
         "eventLink": "https://app.promotix.com/events/details/Ben-Van-Winkle-tickets?referrer=event",
         "eventTime": "08:00 PM",
-        "eventImgSrc": "https://d.adroll.com/cm/b/out?adroll_fpc=4378e1cf0b04107592331204c18bb254-1760630666285&flg=1&pv=20527557961.679848&arrfrr=https%3A%2F%2Fapp.promotix.com%2Fevents%2Fdetails%2FBen-Van-Winkle-tickets%3Freferrer%3Devent&advertisable=RNOVTQBG75C7XJWGEX7RGC"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/42532/Ben-Van-Winkle-tickets-1.jpg?t=1760650868589"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1485,7 +1485,7 @@ export const testData = [
         "eventDate": "November 7, 2025",
         "eventLink": "https://app.promotix.com/events/details/Hot-In-Herre--2000s-Dance-Party-tickets?referrer=tickets",
         "eventTime": "09:00 PM",
-        "eventImgSrc": "https://d.adroll.com/cm/b/out?adroll_fpc=a6ca304bfe64f4de178eac30860b4b5a-1760630669102&flg=1&pv=41017915493.54852&arrfrr=https%3A%2F%2Fapp.promotix.com%2Fevents%2Fdetails%2FHot-In-Herre--2000s-Dance-Party-tickets%3Freferrer%3Dtickets&advertisable=RNOVTQBG75C7XJWGEX7RGC"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/42812/Hot-In-Herre--2000s-Dance-Party-tickets-1.jpg?t=1760650871301"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1493,7 +1493,7 @@ export const testData = [
         "eventDate": "November 8, 2025",
         "eventLink": "https://app.promotix.com/events/details/The-Essentials-tickets?referrer=event",
         "eventTime": "08:00 PM",
-        "eventImgSrc": "https://d.adroll.com/cm/b/out?adroll_fpc=a6bc9f0d7a83c9b6dddd5018436de131-1760630672246&flg=1&pv=51485121122.085144&arrfrr=https%3A%2F%2Fapp.promotix.com%2Fevents%2Fdetails%2FThe-Essentials-tickets%3Freferrer%3Devent&advertisable=RNOVTQBG75C7XJWGEX7RGC"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43362/The-Essentials-tickets-1.jpg?t=1760650874026"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1501,7 +1501,7 @@ export const testData = [
         "eventDate": "November 13, 2025",
         "eventLink": "https://app.promotix.com/events/details/The-Motet-tickets-2?referrer=tickets",
         "eventTime": "08:00 PM",
-        "eventImgSrc": "https://d.adroll.com/cm/b/out?adroll_fpc=8dd137f083e11b460007420d008d9f47-1760630674893&flg=1&pv=43433475731.63391&arrfrr=https%3A%2F%2Fapp.promotix.com%2Fevents%2Fdetails%2FThe-Motet-tickets-2%3Freferrer%3Dtickets&advertisable=RNOVTQBG75C7XJWGEX7RGC"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/41644/The-Motet-tickets-2-1.jpg?t=1760650876769"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1509,7 +1509,7 @@ export const testData = [
         "eventDate": "November 15, 2025",
         "eventLink": "https://app.promotix.com/events/details/End-Of-The-Line--An-Allman-Brothers-Tribute-tickets-6?referrer=tickets",
         "eventTime": "09:00 PM",
-        "eventImgSrc": "https://d.adroll.com/cm/b/out?adroll_fpc=6b9ed28323316ca4f9246afccae5faa9-1760630677562&flg=1&pv=41820360352.363754&arrfrr=https%3A%2F%2Fapp.promotix.com%2Fevents%2Fdetails%2FEnd-Of-The-Line--An-Allman-Brothers-Tribute-tickets-6%3Freferrer%3Dtickets&advertisable=RNOVTQBG75C7XJWGEX7RGC"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/42292/End-Of-The-Line--An-Allman-Brothers-Tribute-tickets-6-1.jpg?t=1760650879666"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1517,7 +1517,7 @@ export const testData = [
         "eventDate": "November 21, 2025",
         "eventLink": "https://app.promotix.com/events/details/Drivin-N-Cryin-tickets-3?referrer=event",
         "eventTime": "08:00 PM",
-        "eventImgSrc": "https://d.adroll.com/cm/b/out?adroll_fpc=e8b7520f40d47b91f411ff294bc4269c-1760630681274&flg=1&pv=23633791922.064816&arrfrr=https%3A%2F%2Fapp.promotix.com%2Fevents%2Fdetails%2FDrivin-N-Cryin-tickets-3%3Freferrer%3Devent&advertisable=RNOVTQBG75C7XJWGEX7RGC"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/42291/Drivin-N-Cryin-tickets-3-1.jpg?t=1760650882290"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1525,7 +1525,7 @@ export const testData = [
         "eventDate": "November 22, 2025",
         "eventLink": "https://app.promotix.com/events/details/Back-2-Mac--A-Fleetwood-Mac-Tribute-tickets-2?referrer=event",
         "eventTime": "09:00 PM",
-        "eventImgSrc": "https://d.adroll.com/cm/b/out?adroll_fpc=f8b6eba10df12e535bc3cec17871bf77-1760630683747&flg=1&pv=25521836582.68017&arrfrr=https%3A%2F%2Fapp.promotix.com%2Fevents%2Fdetails%2FBack-2-Mac--A-Fleetwood-Mac-Tribute-tickets-2%3Freferrer%3Devent&advertisable=RNOVTQBG75C7XJWGEX7RGC"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/41646/Back-2-Mac--A-Fleetwood-Mac-Tribute-tickets-2-1.jpg?t=1760650884901"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1533,7 +1533,7 @@ export const testData = [
         "eventDate": "December 4, 2025",
         "eventLink": "https://app.promotix.com/events/details/Top-House-tickets?referrer=tickets",
         "eventTime": "08:00 PM",
-        "eventImgSrc": "https://d.adroll.com/cm/b/out?adroll_fpc=f858f0b8891a735213a16f69a567039d-1760630686636&flg=1&pv=89530375049.74948&arrfrr=https%3A%2F%2Fapp.promotix.com%2Fevents%2Fdetails%2FTop-House-tickets%3Freferrer%3Dtickets&advertisable=RNOVTQBG75C7XJWGEX7RGC"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/39912/Top-House-tickets-1.jpg?t=1760650887687"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1541,7 +1541,7 @@ export const testData = [
         "eventDate": "December 6, 2025",
         "eventLink": "https://app.promotix.com/events/details/MAINX24-featuring-Travolta--Disco-Tribute-tickets?referrer=tickets",
         "eventTime": "09:00 PM",
-        "eventImgSrc": "https://d.adroll.com/cm/b/out?adroll_fpc=a6bb01713a76bb71016f23943558f94d-1760630689339&flg=1&pv=12802255332.224413&arrfrr=https%3A%2F%2Fapp.promotix.com%2Fevents%2Fdetails%2FMAINX24-featuring-Travolta--Disco-Tribute-tickets%3Freferrer%3Dtickets&advertisable=RNOVTQBG75C7XJWGEX7RGC"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43140/MAINX24-featuring-Travolta--Disco-Tribute-tickets-1.jpeg?t=1760650890397"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1549,7 +1549,7 @@ export const testData = [
         "eventDate": "December 12, 2025",
         "eventLink": "https://app.promotix.com/events/details/Rock-and-Skate-with-Wayward-Hearts-tickets?referrer=tickets",
         "eventTime": "08:00 PM",
-        "eventImgSrc": "https://d.adroll.com/cm/b/out?adroll_fpc=86f105168fb17c56697b59d9a76b6ecf-1760630692179&flg=1&pv=10232929993.52185&arrfrr=https%3A%2F%2Fapp.promotix.com%2Fevents%2Fdetails%2FRock-and-Skate-with-Wayward-Hearts-tickets%3Freferrer%3Dtickets&advertisable=RNOVTQBG75C7XJWGEX7RGC"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43363/Rock-and-Skate-with-Wayward-Hearts-tickets-1.jpeg?t=1760650893436"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1557,7 +1557,7 @@ export const testData = [
         "eventDate": "February 13, 2026",
         "eventLink": "https://app.promotix.com/events/details/The-Floating-Men-tickets?referrer=tickets",
         "eventTime": "08:00 PM",
-        "eventImgSrc": "https://d.adroll.com/cm/b/out?adroll_fpc=a3e8898e2b9c0e456587ff5ee4968222-1760630694800&flg=1&pv=42798049593.734535&arrfrr=https%3A%2F%2Fapp.promotix.com%2Fevents%2Fdetails%2FThe-Floating-Men-tickets%3Freferrer%3Dtickets&advertisable=RNOVTQBG75C7XJWGEX7RGC"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43298/The-Floating-Men-tickets-1.png?t=1760650895918"
     },
     {
         "eventVenue": "The Barking Legs Theater",
@@ -1707,6 +1707,11 @@ export const testData = [
 
 export const eventData = testData
     .map(evt => { evt.eventDate = new Date(evt.eventDate); return evt; })
+    .filter(evt => {
+        const today = new Date();
+        today.setHours(0, 0, 0, 0); // Reset time to start of day for accurate comparison
+        return evt.eventDate >= today;
+    })
     .sort(((a,b) => a.eventDate - b.eventDate))
         .map(evt => {
             evt.eventDate = evt.eventDate.toLocaleDateString()

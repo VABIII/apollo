@@ -1,10 +1,10 @@
 import React from 'react';
-import {testData} from "../modules/TestData.js";
+import {eventData} from "../modules/TestData.js";
 import {VenueContainer} from "../components/venueComponents/index.jsx";
 
 const BarkingLegs = () => {
 
-    const shows = testData.filter((evt) => evt.eventVenue === "The Barking Legs Theater").map(evt => {
+    const shows = eventData.filter((evt) => evt.eventVenue === "The Barking Legs Theater").map(evt => {
         evt.eventDate = new Date(evt.eventDate);
         return evt;
     })
