@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import { VenueContainer, } from '../components/venueComponents'
-import {testData, eventData} from "../modules/TestData.js";
+import {eventData} from "../modules/TestData.js";
 
 
 const Caverns = () => {

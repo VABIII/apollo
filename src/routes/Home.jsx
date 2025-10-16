@@ -7,7 +7,7 @@ import {Typography, Box, styled, Button, Grid2, Container, Card, Link} from "@mu
 import Events, {useEvents} from "../modules/Events";
 import moment from "moment";
 import { colors } from "../theme.js";
-import { testData } from "../modules/TestData.js";
+import { eventData } from "../modules/TestData.js";
 import {
     HomeStyles,
     SubtitleStyles,
@@ -66,7 +66,7 @@ const Home = () => {
         // fetchTodaysEvents();
     }, []);
 
-    let shows = testData.map(evt => {
+    let shows = eventData.map(evt => {
         evt.eventDate = new Date(evt.eventDate);
         return evt;
     });

@@ -168,6 +168,7 @@ const VenueContainer = ({name, address1, address2, phoneNumber, venueLinkTitle, 
                     </EventDetailsStyles>
                 </EventCard>
                 { shows.map(({eventVenue, eventArtist, eventDate, eventLink, eventTime, eventImgSrc}, idx) => (
+                    console.log(eventImgSrc),
                     <EventCard key={idx} size={6}  id={idx} hoverShadow={10}>
                         <EventImgStyles component='img' src={eventImgSrc} alt='event image' />
                         <TitleStyles variant='h4' >{eventArtist.replace(" — The Signal", "")}</TitleStyles>

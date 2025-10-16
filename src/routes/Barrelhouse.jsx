@@ -1,17 +1,17 @@
 import React from 'react';
-import { testData, eventData } from "../modules/TestData.js";
+import { eventData } from "../modules/TestData.js";
 import {VenueContainer} from "../components/venueComponents/index.jsx";
 
 const Barrelhouse = () => {
-    const shows = eventData.filter((evt) => evt.EventVenue === "The Barrel House Ball Room")
+    const shows = eventData.filter((evt) => evt.eventVenue === "Barrelhouse Ballroom")
         .map(evt => {
             return {
                 eventVenue: 'Barrelhouse Ballroom',
-                eventArtist: evt.EventArtist,
-                eventDate: evt.EventDate,
-                eventTime: evt.EventTime,
-                eventLink: evt.EventLink,
-                eventImgSrc: evt.EventImgSrc,
+                eventArtist: evt.eventArtist,
+                eventDate: evt.eventDate,
+                eventTime: evt.eventTime,
+                eventLink: evt.eventLink,
+                eventImgSrc: evt.eventImgSrc,
             };
         });
 

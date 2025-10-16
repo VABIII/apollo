@@ -1,11 +1,11 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { testData } from "../modules/TestData.js";
+import { eventData } from "../modules/TestData.js";
 import { VenueContainer } from '../components/venueComponents';
 
 
 const Walker = () => {
-    const shows = testData.filter((evt) => evt.eventVenue === "The Walker Theatre");
+    const shows = eventData.filter((evt) => evt.eventVenue === "The Walker Theatre");
     const { t } = useTranslation('Walker');
 
     return (

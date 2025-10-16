@@ -1,5 +1,5 @@
 import React from 'react';
-import { testData } from "../modules/TestData.js";
+import { eventData } from "../modules/TestData.js";
 import {
     VenueContainer,
 } from '../components/venueComponents';
@@ -8,7 +8,7 @@ import {
 
 
 const Tivoli = () => {
-const shows = testData.filter((evt) => evt.eventVenue === "The Signal");
+const shows = eventData.filter((evt) => evt.eventVenue === "The Signal");
 
     return (
         <VenueContainer
