@@ -1,46 +1,6 @@
 export const testData = [
     {
         "eventVenue": "Soldiers and Sailors Memorial Auditorium",
-        "eventArtist": "Kinky Boots (Touring)",
-        "eventDate": "January 16, 2026",
-        "eventLink": "https://tivolichattanooga.com/venue-event/6c22e45e-88ef-4480-928d-a60b949a692a",
-        "eventTime": "",
-        "eventImgSrc": "https://nyc3.digitaloceanspaces.com/commons-saas/uploads/venue_event/banner_override/6c22e45e-88ef-4480-928d-a60b949a692a/large_1759335449-Photo_5-2.jpg"
-    },
-    {
-        "eventVenue": "Soldiers and Sailors Memorial Auditorium",
-        "eventArtist": "Kinky Boots (Touring)",
-        "eventDate": "January 17, 2026",
-        "eventLink": "https://tivolichattanooga.com/venue-event/6c22e45e-88ef-4480-928d-a60b949a692a",
-        "eventTime": "",
-        "eventImgSrc": "https://nyc3.digitaloceanspaces.com/commons-saas/uploads/venue_event/banner_override/6c22e45e-88ef-4480-928d-a60b949a692a/large_1759335449-Photo_5-2.jpg"
-    },
-    {
-        "eventVenue": "Soldiers and Sailors Memorial Auditorium",
-        "eventArtist": "Kinky Boots (Touring)",
-        "eventDate": "January 18, 2026",
-        "eventLink": "https://tivolichattanooga.com/venue-event/6c22e45e-88ef-4480-928d-a60b949a692a",
-        "eventTime": "",
-        "eventImgSrc": "https://nyc3.digitaloceanspaces.com/commons-saas/uploads/venue_event/banner_override/6c22e45e-88ef-4480-928d-a60b949a692a/large_1759335449-Photo_5-2.jpg"
-    },
-    {
-        "eventVenue": "The Walker Theatre",
-        "eventArtist": "Kathleen Madigan: The Day Drinking Tour",
-        "eventDate": "January 23, 2026",
-        "eventLink": "https://tivolichattanooga.com/venue-event/57ea1673-ded1-4b70-b049-d17e5dcde64c",
-        "eventTime": "7:30 PM",
-        "eventImgSrc": "https://s1.ticketm.net/dam/a/7d5/3153ae11-a8a1-401b-8548-a181700b57d5_SOURCE"
-    },
-    {
-        "eventVenue": "Soldiers and Sailors Memorial Auditorium",
-        "eventArtist": "Diana Krall",
-        "eventDate": "January 29, 2026",
-        "eventLink": "https://tivolichattanooga.com/venue-event/029231af-fca5-4d4c-bb27-d9afedf0f860",
-        "eventTime": "7:30 PM",
-        "eventImgSrc": "https://s1.ticketm.net/dam/a/23f/ef4256e1-ec19-4c8a-aa73-43c4db28823f_SOURCE"
-    },
-    {
-        "eventVenue": "Soldiers and Sailors Memorial Auditorium",
         "eventArtist": "Chattanooga Symphony & Opera present Star Wars:  A New Hope",
         "eventDate": "January 31, 2026",
         "eventLink": "https://tivolichattanooga.com/venue-event/f66fbea3-5731-442a-8d69-36032a5c0115",
@@ -54,6 +14,38 @@ export const testData = [
         "eventLink": "https://tivolichattanooga.com/venue-event/445f6f8c-59f7-41a5-b38e-43c99cb5c36d",
         "eventTime": "7:30 PM",
         "eventImgSrc": "https://s1.ticketm.net/dam/a/95a/52b02370-e861-42f9-b979-32fa376f995a_SOURCE"
+    },
+    {
+        "eventVenue": "The Walker Theatre",
+        "eventArtist": "Bobby Stone Film Series: Stand By Me",
+        "eventDate": "February 7, 2026",
+        "eventLink": "https://tivolichattanooga.com/venue-event/ca1360d5-dbce-442a-b2af-2255d35b4cbe",
+        "eventTime": "6:30 PM",
+        "eventImgSrc": "https://s1.ticketm.net/dam/e/ce1/33b5d92b-bef2-45e3-afa3-95eeabe94ce1_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+    },
+    {
+        "eventVenue": "The Walker Theatre",
+        "eventArtist": "Bobby Stone Film Series: When Harry Met Sally...",
+        "eventDate": "February 7, 2026",
+        "eventLink": "https://tivolichattanooga.com/venue-event/9c8d0bcf-bee7-4283-8683-e58843c83797",
+        "eventTime": "9:00 PM",
+        "eventImgSrc": "https://s1.ticketm.net/dam/e/94c/bb6df1d5-b962-4e61-a79d-83c51e33394c_SOURCE"
+    },
+    {
+        "eventVenue": "The Walker Theatre",
+        "eventArtist": "Bobby Stone Film Series: The Princess Bride",
+        "eventDate": "February 8, 2026",
+        "eventLink": "https://tivolichattanooga.com/venue-event/6995f1d2-1b51-4a9d-8fe1-bc2fb69f72a5",
+        "eventTime": "4:00 PM",
+        "eventImgSrc": "https://s1.ticketm.net/dam/a/eba/b1d99507-c976-40c9-8623-24e246effeba_SOURCE"
+    },
+    {
+        "eventVenue": "The Walker Theatre",
+        "eventArtist": "Bobby Stone Film Series: This Is Spinal Tap",
+        "eventDate": "February 8, 2026",
+        "eventLink": "https://tivolichattanooga.com/venue-event/94580e63-ee03-483f-a5e3-ec8d9fbd25f7",
+        "eventTime": "7:00 PM",
+        "eventImgSrc": "https://s1.ticketm.net/dam/a/b78/ebf1c35c-c541-4d54-b4b0-2cb3aee21b78_SOURCE"
     },
     {
         "eventVenue": "Soldiers and Sailors Memorial Auditorium",
@@ -113,11 +105,59 @@ export const testData = [
     },
     {
         "eventVenue": "The Walker Theatre",
+        "eventArtist": "Bobby Stone Film Series: Ferris Bueller's Day Off",
+        "eventDate": "February 20, 2026",
+        "eventLink": "https://tivolichattanooga.com/venue-event/ff87c58d-166a-47b6-b6ab-0cc48cb60637",
+        "eventTime": "7:00 PM",
+        "eventImgSrc": "https://s1.ticketm.net/dam/e/5b8/2f6297a8-a7ae-4423-ab1d-bf95ee8475b8_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+    },
+    {
+        "eventVenue": "The Walker Theatre",
+        "eventArtist": "Bobby Stone Film Series: Sleepless In Seattle",
+        "eventDate": "February 20, 2026",
+        "eventLink": "https://tivolichattanooga.com/venue-event/2a933e9f-ac5c-478f-a554-507d04fc088f",
+        "eventTime": "9:30 PM",
+        "eventImgSrc": "https://s1.ticketm.net/dam/e/ba0/e0f8de1b-27b8-4510-94fb-0a0925f6aba0_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+    },
+    {
+        "eventVenue": "The Walker Theatre",
+        "eventArtist": "Bobby Stone Film Series: Eternal Sunshine of the Spotless Mind",
+        "eventDate": "February 21, 2026",
+        "eventLink": "https://tivolichattanooga.com/venue-event/a906d65c-6786-41b3-ac72-922f2c7ebf44",
+        "eventTime": "6:30 PM",
+        "eventImgSrc": "https://s1.ticketm.net/dam/e/a76/ce6af2b5-4e2e-467d-9b78-5d1442279a76_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+    },
+    {
+        "eventVenue": "The Walker Theatre",
+        "eventArtist": "Bobby Stone Film Series: Say Anything",
+        "eventDate": "February 21, 2026",
+        "eventLink": "https://tivolichattanooga.com/venue-event/e1c51f06-2fe9-4ba6-bccd-4b7fa43dd6b6",
+        "eventTime": "9:15 PM",
+        "eventImgSrc": "https://s1.ticketm.net/dam/e/fd3/ac45bfae-6972-480c-bd91-c806261f4fd3_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+    },
+    {
+        "eventVenue": "The Walker Theatre",
         "eventArtist": "Leftover Salmon",
         "eventDate": "February 22, 2026",
         "eventLink": "https://tivolichattanooga.com/venue-event/8812508a-678f-4d25-81a0-7ff13d1a26c7",
         "eventTime": "7:30 PM",
         "eventImgSrc": "https://s1.ticketm.net/dam/a/29f/7024439c-07c2-43d6-8b17-ec589828a29f_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+    },
+    {
+        "eventVenue": "The Walker Theatre",
+        "eventArtist": "BOBBY STONE FILM SERIES: NAPOLEAN DYNAMITE",
+        "eventDate": "February 27, 2026",
+        "eventLink": "https://tivolichattanooga.com/venue-event/502bef63-6dd3-43fa-809d-24df46149b10",
+        "eventTime": "6:30 PM",
+        "eventImgSrc": "https://s1.ticketm.net/dam/e/96d/5f01a974-9d56-456b-b951-6323bbdaa96d_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+    },
+    {
+        "eventVenue": "The Walker Theatre",
+        "eventArtist": "BOBBY STONE FILM SERIES: FIGHT CLUB",
+        "eventDate": "February 27, 2026",
+        "eventLink": "https://tivolichattanooga.com/venue-event/1ca7caec-7671-4f25-8be0-2f5d7d1e2c1a",
+        "eventTime": "9:00 PM",
+        "eventImgSrc": "https://s1.ticketm.net/dam/e/59c/317b7da7-3144-4998-a734-6c5021af759c_TABLET_LANDSCAPE_LARGE_16_9.jpg"
     },
     {
         "eventVenue": "Soldiers and Sailors Memorial Auditorium",
@@ -190,6 +230,14 @@ export const testData = [
         "eventLink": "https://tivolichattanooga.com/venue-event/ce89a221-1de1-4566-a735-e54f11e9c1af",
         "eventTime": "7:00 PM",
         "eventImgSrc": "https://s1.ticketm.net/dam/a/b5a/93be6418-ac12-4baa-a732-2a3fd203db5a_SOURCE"
+    },
+    {
+        "eventVenue": "Soldiers and Sailors Memorial Auditorium",
+        "eventArtist": "Mamma Mia! (Touring)",
+        "eventDate": "March 17, 2026",
+        "eventLink": "https://tivolichattanooga.com/venue-event/3a780de6-bf8f-4764-be95-805b2806d5e7",
+        "eventTime": "",
+        "eventImgSrc": "https://nyc3.digitaloceanspaces.com/commons-saas/uploads/venue_event/banner_override/3a780de6-bf8f-4764-be95-805b2806d5e7/large_1753809663-MAMMA_MIA__7.jpg"
     },
     {
         "eventVenue": "Soldiers and Sailors Memorial Auditorium",
@@ -272,6 +320,14 @@ export const testData = [
         "eventImgSrc": "https://nyc3.digitaloceanspaces.com/commons-saas/uploads/venue_event/banner_override/140a0d34-9331-42e6-af33-33d73adc28d2/large_1761849595-BertKreischer_CHAT_TN_1200x628.jpg"
     },
     {
+        "eventVenue": "The Walker Theatre",
+        "eventArtist": "Brains On! LIVE: Your Brain is Magic!",
+        "eventDate": "April 11, 2026",
+        "eventLink": "https://tivolichattanooga.com/venue-event/14c31db9-d505-4ca5-9a68-906d5d1b9740",
+        "eventTime": "3:00 PM",
+        "eventImgSrc": "https://s1.ticketm.net/dam/a/266/1acf68b4-180f-4e23-87fa-b7762f953266_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+    },
+    {
         "eventVenue": "Soldiers and Sailors Memorial Auditorium",
         "eventArtist": "The Avett Brothers and Mike Patton present AVTT/PTTN",
         "eventDate": "April 14, 2026",
@@ -329,10 +385,34 @@ export const testData = [
     },
     {
         "eventVenue": "Soldiers and Sailors Memorial Auditorium",
+        "eventArtist": "Lake Street Dive",
+        "eventDate": "April 24, 2026",
+        "eventLink": "https://tivolichattanooga.com/venue-event/728e061b-ac8f-472b-8332-6e6780cf79b5",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://s1.ticketm.net/dam/a/9c7/abb422cd-ff20-4ef8-affc-d40890af19c7_SOURCE"
+    },
+    {
+        "eventVenue": "The Walker Theatre",
+        "eventArtist": "Marc Broussard",
+        "eventDate": "April 24, 2026",
+        "eventLink": "https://tivolichattanooga.com/venue-event/6c8db9da-04c3-4fd9-bdfa-20b0c4e45072",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://s1.ticketm.net/dam/a/2e9/bd517c3f-04f9-4cc3-8c70-95e72d57d2e9_SOURCE"
+    },
+    {
+        "eventVenue": "Soldiers and Sailors Memorial Auditorium",
+        "eventArtist": "The Wiz (Touring)",
+        "eventDate": "April 28, 2026",
+        "eventLink": "https://tivolichattanooga.com/venue-event/df774cbc-8801-417b-987a-6ebaed8de5c7",
+        "eventTime": "",
+        "eventImgSrc": "https://s1.ticketm.net/dam/a/f3c/cccfecb4-60ce-4467-b89f-74db91da1f3c_SOURCE"
+    },
+    {
+        "eventVenue": "Soldiers and Sailors Memorial Auditorium",
         "eventArtist": "The Wiz (Touring)",
         "eventDate": "April 29, 2026",
         "eventLink": "https://tivolichattanooga.com/venue-event/df774cbc-8801-417b-987a-6ebaed8de5c7",
-        "eventTime": "7:30 PM",
+        "eventTime": "",
         "eventImgSrc": "https://s1.ticketm.net/dam/a/f3c/cccfecb4-60ce-4467-b89f-74db91da1f3c_SOURCE"
     },
     {
@@ -340,7 +420,7 @@ export const testData = [
         "eventArtist": "The Wiz (Touring)",
         "eventDate": "April 30, 2026",
         "eventLink": "https://tivolichattanooga.com/venue-event/df774cbc-8801-417b-987a-6ebaed8de5c7",
-        "eventTime": "7:30 PM",
+        "eventTime": "",
         "eventImgSrc": "https://s1.ticketm.net/dam/a/f3c/cccfecb4-60ce-4467-b89f-74db91da1f3c_SOURCE"
     },
     {
@@ -348,7 +428,7 @@ export const testData = [
         "eventArtist": "The Wiz (Touring)",
         "eventDate": "May 1, 2026",
         "eventLink": "https://tivolichattanooga.com/venue-event/df774cbc-8801-417b-987a-6ebaed8de5c7",
-        "eventTime": "7:30 PM",
+        "eventTime": "",
         "eventImgSrc": "https://s1.ticketm.net/dam/a/f3c/cccfecb4-60ce-4467-b89f-74db91da1f3c_SOURCE"
     },
     {
@@ -356,7 +436,7 @@ export const testData = [
         "eventArtist": "The Wiz (Touring)",
         "eventDate": "May 2, 2026",
         "eventLink": "https://tivolichattanooga.com/venue-event/df774cbc-8801-417b-987a-6ebaed8de5c7",
-        "eventTime": "7:30 PM",
+        "eventTime": "",
         "eventImgSrc": "https://s1.ticketm.net/dam/a/f3c/cccfecb4-60ce-4467-b89f-74db91da1f3c_SOURCE"
     },
     {
@@ -364,7 +444,7 @@ export const testData = [
         "eventArtist": "The Wiz (Touring)",
         "eventDate": "May 3, 2026",
         "eventLink": "https://tivolichattanooga.com/venue-event/df774cbc-8801-417b-987a-6ebaed8de5c7",
-        "eventTime": "7:30 PM",
+        "eventTime": "",
         "eventImgSrc": "https://s1.ticketm.net/dam/a/f3c/cccfecb4-60ce-4467-b89f-74db91da1f3c_SOURCE"
     },
     {
@@ -416,51 +496,27 @@ export const testData = [
         "eventImgSrc": "https://nyc3.digitaloceanspaces.com/commons-saas/uploads/venue_event/banner_override/fdaf7c56-a529-47b1-bf93-059a5b30eaa6/large_1763410667-Static_Digital_2880x1000_WeirdAl_2026_Regional_SoldiersandSailorsMemorialAuditorium_1006.jpg"
     },
     {
-        "eventVenue": "The Signal",
-        "eventArtist": "GOLDN Dance Party — The Signal",
-        "eventDate": "January 10, 2026",
-        "eventLink": "https://www.thesignaltn.com/tickets/goldn-dance-party",
-        "eventTime": "5:30 PM",
-        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1765409746588-YN3HLX9I7533QP2DU30Y/Kpop+Demon+Hunters+Dance+Party+-+Ticketing.jpg"
-    },
-    {
-        "eventVenue": "The Signal",
-        "eventArtist": "2000s Night - 18+ — The Signal",
-        "eventDate": "January 10, 2026",
-        "eventLink": "https://www.thesignaltn.com/tickets/2000s-night-011026",
-        "eventTime": "9:00 PM",
-        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1763498643179-N62CXWXZSKEE4GL9O7YE/2000%27s+Night+-+Ticketing.jpg"
-    },
-    {
-        "eventVenue": "The Signal",
-        "eventArtist": "Chris D'Elia: Go For It! — The Signal",
-        "eventDate": "January 16, 2026",
-        "eventLink": "https://www.thesignaltn.com/tickets/chris-delia",
-        "eventTime": "8:00 PM",
-        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1765137864058-C842U3SEKOPBFHK79KLM/Chris+D%27Elia+-+Ticketing.jpg"
-    },
-    {
-        "eventVenue": "The Signal",
-        "eventArtist": "The Imposters Tour - Drop the Leash and Dead & Bloated — The Signal",
-        "eventDate": "January 16, 2026",
-        "eventLink": "https://www.thesignaltn.com/tickets/the-imposters-tour",
-        "eventTime": "8:00 PM",
-        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1764781389670-5SY8YW1II0EV4LPKTCEW/Drop+the+Leash+and+Dead+%26+Bloated+-+Ticketing.jpg"
+        "eventVenue": "The Walker Theatre",
+        "eventArtist": "Jim Henson's Labyrinth: In Concert 40th Anniversary",
+        "eventDate": "November 15, 2026",
+        "eventLink": "https://tivolichattanooga.com/venue-event/a375df42-f4f6-452a-a667-d4cb92d05ab5",
+        "eventTime": "",
+        "eventImgSrc": "https://nyc3.digitaloceanspaces.com/commons-saas/uploads/venue_event/banner_override/a375df42-f4f6-452a-a667-d4cb92d05ab5/large_1768494278-Static_Digital_2880x1000_Labyrinth_2025_Regional_WalkerTheatre_1115.jpg"
     },
     {
         "eventVenue": "The Signal",
         "eventArtist": "Micro Wrestling — The Signal",
-        "eventDate": "January 24, 2026",
+        "eventDate": "February 6, 2026",
         "eventLink": "https://www.thesignaltn.com/tickets/micro-wrestling",
-        "eventTime": "7:30 PM",
-        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1762471103699-U1KP4RJROJB6MJH0ZNW0/Micro+Wrestling+-+Ticketing.jpg"
+        "eventTime": "7:30 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1769635021010-TZHIYXV5GIMOS3U9LZ7U/Micro+Wrestling+-+Ticketing.png"
     },
     {
         "eventVenue": "The Signal",
         "eventArtist": "Bayker Blankenship - The Mile Marker Tour — The Signal",
         "eventDate": "February 12, 2026",
         "eventLink": "https://www.thesignaltn.com/tickets/bayker-blankenship",
-        "eventTime": "8:00 PM",
+        "eventTime": "8:00 PM",
         "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1762804435391-L7BOH2FPT0WF3WAM7CCA/Bayker+Blankenship+-+Ticketing.jpg"
     },
     {
@@ -468,7 +524,7 @@ export const testData = [
         "eventArtist": "Reverend Horton Heat — The Signal",
         "eventDate": "February 13, 2026",
         "eventLink": "https://www.thesignaltn.com/tickets/reverend-horton-heat",
-        "eventTime": "8:00 PM",
+        "eventTime": "8:00 PM",
         "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1758578060913-DFT52P2H6D1KTAGBA602/Reverend+Horton+Heat+-+Ticketing.jpg"
     },
     {
@@ -476,7 +532,7 @@ export const testData = [
         "eventArtist": "Justin Bieber Night - 18+ — The Signal",
         "eventDate": "February 13, 2026",
         "eventLink": "https://www.thesignaltn.com/tickets/bieber-night",
-        "eventTime": "9:00 PM",
+        "eventTime": "9:00 PM",
         "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1765321608487-WX064WK1DT4ZW8D4JNY8/Justin+Bieber+Night+-+Ticketing.jpg"
     },
     {
@@ -484,7 +540,7 @@ export const testData = [
         "eventArtist": "The Emo Night Tour - 18+ — The Signal",
         "eventDate": "February 20, 2026",
         "eventLink": "https://www.thesignaltn.com/tickets/the-emo-night-tour-02-20-26",
-        "eventTime": "8:00 PM",
+        "eventTime": "8:00 PM",
         "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1765489276786-MZKW87CD87TMEHMKCHJZ/Emo+Night+Tour+-+Ticketing.jpg"
     },
     {
@@ -502,6 +558,14 @@ export const testData = [
         "eventLink": "https://www.thesignaltn.com/tickets/danae-hays",
         "eventTime": "8:00 PM",
         "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1765319573737-A8HNGGU71GMNFDZWS1OC/Danae+Hays+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Brian Sella — The Signal",
+        "eventDate": "March 13, 2026",
+        "eventLink": "https://www.thesignaltn.com/tickets/brian-sella",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1768156061439-63KVVY98NF6M2VYPLQQF/Brian+Sella+-+Ticketing+%281%29.jpg"
     },
     {
         "eventVenue": "The Signal",
@@ -529,6 +593,14 @@ export const testData = [
     },
     {
         "eventVenue": "The Signal",
+        "eventArtist": "Nirvani - A Nirvana Tribute Experience — The Signal",
+        "eventDate": "March 21, 2026",
+        "eventLink": "https://www.thesignaltn.com/tickets/nirvani",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1768933805060-N2NZVNGMPNX55I0LF9OK/Nirvani+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
         "eventArtist": "THE TAYLOR PARTY: TAYLOR SWIFT NIGHT - 18+ — The Signal",
         "eventDate": "March 21, 2026",
         "eventLink": "https://www.thesignaltn.com/tickets/the-taylor-party-032126",
@@ -542,6 +614,22 @@ export const testData = [
         "eventLink": "https://www.thesignaltn.com/tickets/avery-anna",
         "eventTime": "8:00 PM",
         "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1765993166059-8088H3VZ41ZOW73VY1S0/Avery+Anna+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Drake Milligan — The Signal",
+        "eventDate": "April 3, 2026",
+        "eventLink": "https://www.thesignaltn.com/tickets/drake-milligan",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/3adcde4b-e615-4b67-9827-3a83e94b6500/Drake+Milligan+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "TASTE — The Signal",
+        "eventDate": "April 9, 2026",
+        "eventLink": "https://www.thesignaltn.com/tickets/taste",
+        "eventTime": "5:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/57204dc2-3a8f-4b0d-9000-7743409cb022/taste+-+2000x1333px.png"
     },
     {
         "eventVenue": "The Signal",
@@ -590,6 +678,46 @@ export const testData = [
         "eventLink": "https://www.thesignaltn.com/tickets/bloodywood",
         "eventTime": "7:00 PM",
         "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1765293476304-6Y2FUCF1CITPZE3JK58C/Bloodywood+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Juvenile’s Boiling Point Album Release Tour with The 400 Degreez Band & Special Guests — The Signal",
+        "eventDate": "May 13, 2026",
+        "eventLink": "https://www.thesignaltn.com/tickets/juvenile",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1768245662277-I3ZDO1SPE5HKR6EA34QM/Juvenile+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "The Imposters Tour - Drop the Leash and Dead & Bloated — The Signal",
+        "eventDate": "January 16, 2026",
+        "eventLink": "https://www.thesignaltn.com/tickets/the-imposters-tour",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1764781389670-5SY8YW1II0EV4LPKTCEW/Drop+the+Leash+and+Dead+%26+Bloated+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "Chris D'Elia: Go For It! — The Signal",
+        "eventDate": "January 16, 2026",
+        "eventLink": "https://www.thesignaltn.com/tickets/chris-delia",
+        "eventTime": "8:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1765137864058-C842U3SEKOPBFHK79KLM/Chris+D%27Elia+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "2000s Night - 18+ — The Signal",
+        "eventDate": "January 10, 2026",
+        "eventLink": "https://www.thesignaltn.com/tickets/2000s-night-011026",
+        "eventTime": "9:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1763498643179-N62CXWXZSKEE4GL9O7YE/2000%27s+Night+-+Ticketing.jpg"
+    },
+    {
+        "eventVenue": "The Signal",
+        "eventArtist": "GOLDN Dance Party — The Signal",
+        "eventDate": "January 10, 2026",
+        "eventLink": "https://www.thesignaltn.com/tickets/goldn-dance-party",
+        "eventTime": "5:30 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1765409746588-YN3HLX9I7533QP2DU30Y/Kpop+Demon+Hunters+Dance+Party+-+Ticketing.jpg"
     },
     {
         "eventVenue": "The Signal",
@@ -800,46 +928,6 @@ export const testData = [
         "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1750604166213-0EXRJOJ6KTM3Z2CTEGZO/Yachtley+Crew+-+Ticketing.jpg"
     },
     {
-        "eventVenue": "The Signal",
-        "eventArtist": "2000's Night - 18+ — The Signal",
-        "eventDate": "September 13, 2025",
-        "eventLink": "https://www.thesignaltn.com/tickets/2000s-night-9-13-25",
-        "eventTime": "9:00 PM",
-        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1753990144896-G2A2HD60GULO8X91SAU7/2000%27s+Night+-+Ticketing.png"
-    },
-    {
-        "eventVenue": "The Signal",
-        "eventArtist": "Pecos & the Rooftops — The Signal",
-        "eventDate": "September 12, 2025",
-        "eventLink": "https://www.thesignaltn.com/tickets/pecos-and-the-rooftops",
-        "eventTime": "8:00 PM",
-        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1745604135033-VFHSC5WEXRHTNQYPMM6Z/Pecos+and+the+Rooftops+-+Ticketing.jpg"
-    },
-    {
-        "eventVenue": "The Signal",
-        "eventArtist": "Deafheaven w/ Harm's Way and I Promised the World — The Signal",
-        "eventDate": "September 11, 2025",
-        "eventLink": "https://www.thesignaltn.com/tickets/deafheaven",
-        "eventTime": "8:00 PM",
-        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1752527303810-A8UR19HAXP186059JZ43/Deafheaven+-+Ticketing.jpg"
-    },
-    {
-        "eventVenue": "The Signal",
-        "eventArtist": "Corey Smith w/ Dee White — The Signal",
-        "eventDate": "September 5, 2025",
-        "eventLink": "https://www.thesignaltn.com/tickets/coreysmith",
-        "eventTime": "8:00 PM",
-        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/63dbff5ff3b011521c76be22/1747691424021-OQYMPNR9EHPRKRGWS66P/Corey+Smith+-+Ticketing+%282%29.jpg"
-    },
-    {
-        "eventVenue": "caverns",
-        "eventArtist": "Error extracting artist",
-        "eventDate": "Error extracting date",
-        "eventLink": "https://www.thecaverns.com/shows/event/yo-yo-ma-t-bone-burnett-arrested-development-abigail-washburn-nicholas-ma",
-        "eventTime": "Error extracting time",
-        "eventImgSrc": ""
-    },
-    {
         "eventVenue": "The Caverns",
         "eventArtist": "Vienna Boys Choir in The Caverns",
         "eventDate": "February 15, 2026",
@@ -849,7 +937,7 @@ export const testData = [
     },
     {
         "eventVenue": "The Caverns",
-        "eventArtist": "Railroad Earth in The Caverns",
+        "eventArtist": "Railroad Earth in The Caverns with Jason Carter Band",
         "eventDate": "February 21, 2026",
         "eventTime": "",
         "eventLink": "https://www.thecaverns.com/shows/event/railroad-earth-in-the-caverns",
@@ -893,6 +981,14 @@ export const testData = [
         "eventDate": "March 8, 2026",
         "eventTime": "",
         "eventLink": "https://www.thecaverns.com/shows/event/gregorian-in-the-caverns-2",
+        "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/a2b0875fd6c74a2eb7bba586eea9e912/1/5feFb8zhrk/Screen-Shot-2019-08-22-at-4.46.08-PM1.png"
+    },
+    {
+        "eventVenue": "The Caverns",
+        "eventArtist": "I Hate Models in The Caverns",
+        "eventDate": "March 13, 2026",
+        "eventTime": "",
+        "eventLink": "https://www.thecaverns.com/shows/event/i-hate-models-in-the-caverns",
         "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/a2b0875fd6c74a2eb7bba586eea9e912/1/5feFb8zhrk/Screen-Shot-2019-08-22-at-4.46.08-PM1.png"
     },
     {
@@ -977,6 +1073,14 @@ export const testData = [
     },
     {
         "eventVenue": "The Caverns",
+        "eventArtist": "Christone 'Kingfish' Ingram - The Hard Road Tour - in The Caverns",
+        "eventDate": "April 12, 2026",
+        "eventTime": "",
+        "eventLink": "https://www.thecaverns.com/shows/event/christone-kingfish-ingram-the-hard-road-tour-in-the-caverns",
+        "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/a2b0875fd6c74a2eb7bba586eea9e912/1/5feFb8zhrk/Screen-Shot-2019-08-22-at-4.46.08-PM1.png"
+    },
+    {
+        "eventVenue": "The Caverns",
         "eventArtist": "An Intimate Evening with JJ Grey & Mofro in The Caverns",
         "eventDate": "April 17, 2026",
         "eventTime": "",
@@ -985,7 +1089,7 @@ export const testData = [
     },
     {
         "eventVenue": "The Caverns",
-        "eventArtist": "The Band of Heathens in The Caverns with The Wilder Blue",
+        "eventArtist": "The Band of Heathens in The Caverns with The Wilder Blue and Taylor Hunnicutt",
         "eventDate": "April 18, 2026",
         "eventTime": "",
         "eventLink": "https://www.thecaverns.com/shows/event/the-band-of-heathens-in-the-caverns-with-the-wilder-blue",
@@ -1017,6 +1121,30 @@ export const testData = [
     },
     {
         "eventVenue": "The Caverns",
+        "eventArtist": "John Butler with Band in The Caverns",
+        "eventDate": "May 1, 2026",
+        "eventTime": "",
+        "eventLink": "https://www.thecaverns.com/shows/event/john-butler-with-band-in-the-caverns",
+        "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/a2b0875fd6c74a2eb7bba586eea9e912/1/5feFb8zhrk/Screen-Shot-2019-08-22-at-4.46.08-PM1.png"
+    },
+    {
+        "eventVenue": "The Caverns",
+        "eventArtist": "John Butler with Band in The Caverns - 2-Night Tickets",
+        "eventDate": "May 1, 2026",
+        "eventTime": "",
+        "eventLink": "https://www.thecaverns.com/shows/event/john-butler-with-band-in-the-caverns-2",
+        "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/a2b0875fd6c74a2eb7bba586eea9e912/1/5feFb8zhrk/Screen-Shot-2019-08-22-at-4.46.08-PM1.png"
+    },
+    {
+        "eventVenue": "The Caverns",
+        "eventArtist": "John Butler with Band in The Caverns",
+        "eventDate": "May 2, 2026",
+        "eventTime": "",
+        "eventLink": "https://www.thecaverns.com/shows/event/john-butler-with-band-in-the-caverns-3",
+        "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/a2b0875fd6c74a2eb7bba586eea9e912/1/5feFb8zhrk/Screen-Shot-2019-08-22-at-4.46.08-PM1.png"
+    },
+    {
+        "eventVenue": "The Caverns",
         "eventArtist": "Ichiko Aoba in The Caverns - Across The Oceans Tour 2026",
         "eventDate": "May 3, 2026",
         "eventTime": "",
@@ -1041,6 +1169,22 @@ export const testData = [
     },
     {
         "eventVenue": "The Caverns",
+        "eventArtist": "Apocalyptica Plays Metallica Vol. 2 in The Caverns",
+        "eventDate": "May 10, 2026",
+        "eventTime": "",
+        "eventLink": "https://www.thecaverns.com/shows/event/apocalyptica-plays-metallica-vol-2-in-the-caverns",
+        "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/a2b0875fd6c74a2eb7bba586eea9e912/1/5feFb8zhrk/Screen-Shot-2019-08-22-at-4.46.08-PM1.png"
+    },
+    {
+        "eventVenue": "The Caverns",
+        "eventArtist": "American Revival: Underground in Grundy County",
+        "eventDate": "May 12, 2026",
+        "eventTime": "",
+        "eventLink": "https://www.thecaverns.com/shows/event/yo-yo-ma-t-bone-burnett-arrested-development-abigail-washburn-nicholas-ma",
+        "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/a2b0875fd6c74a2eb7bba586eea9e912/1/5feFb8zhrk/Screen-Shot-2019-08-22-at-4.46.08-PM1.png"
+    },
+    {
+        "eventVenue": "The Caverns",
         "eventArtist": "49 Winchester in The Caverns",
         "eventDate": "May 15, 2026",
         "eventTime": "",
@@ -1057,6 +1201,30 @@ export const testData = [
     },
     {
         "eventVenue": "The Caverns",
+        "eventArtist": "Punch Brothers in The Caverns",
+        "eventDate": "May 29, 2026",
+        "eventTime": "",
+        "eventLink": "https://www.thecaverns.com/shows/event/punch-brothers-in-the-caverns-2",
+        "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/a2b0875fd6c74a2eb7bba586eea9e912/1/5feFb8zhrk/Screen-Shot-2019-08-22-at-4.46.08-PM1.png"
+    },
+    {
+        "eventVenue": "The Caverns",
+        "eventArtist": "Claypool Gold at The Caverns Outdoor Amphitheater",
+        "eventDate": "June 5, 2026",
+        "eventTime": "",
+        "eventLink": "https://www.thecaverns.com/shows/event/claypool-gold-at-the-caverns-outdoor-amphitheater",
+        "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/a2b0875fd6c74a2eb7bba586eea9e912/1/5feFb8zhrk/Screen-Shot-2019-08-22-at-4.46.08-PM1.png"
+    },
+    {
+        "eventVenue": "The Caverns",
+        "eventArtist": "The Caverns Classic Rock Revival - Music of Led Zeppelin, The Doors, and Jimi Hendrix",
+        "eventDate": "June 6, 2026",
+        "eventTime": "",
+        "eventLink": "https://www.thecaverns.com/shows/event/the-caverns-classic-rock-revival",
+        "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/a2b0875fd6c74a2eb7bba586eea9e912/1/5feFb8zhrk/Screen-Shot-2019-08-22-at-4.46.08-PM1.png"
+    },
+    {
+        "eventVenue": "The Caverns",
         "eventArtist": "The Church in The Caverns",
         "eventDate": "June 20, 2026",
         "eventTime": "",
@@ -1065,7 +1233,7 @@ export const testData = [
     },
     {
         "eventVenue": "The Caverns",
-        "eventArtist": "OSEES in The Caverns",
+        "eventArtist": "OSEES featuring Brigid Dawson in The Caverns",
         "eventDate": "June 27, 2026",
         "eventTime": "",
         "eventLink": "https://www.thecaverns.com/shows/event/osees-in-the-caverns",
@@ -1080,60 +1248,28 @@ export const testData = [
         "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/a2b0875fd6c74a2eb7bba586eea9e912/1/5feFb8zhrk/Screen-Shot-2019-08-22-at-4.46.08-PM1.png"
     },
     {
-        "eventVenue": "Barrelhouse Ballroom",
-        "eventArtist": "Rock 103.7 Presents: Pretty Tied Up: A Tribute To Guns N' Roses",
-        "eventDate": "January 9, 2026",
-        "eventLink": "https://app.promotix.com/events/details/Pretty-Tied-Up--A-Tribute-To-Guns-N--Roses-tickets-2?referrer=event",
-        "eventTime": "09:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44133/Pretty-Tied-Up--A-Tribute-To-Guns-N--Roses-tickets-2-1.jpg?t=1767997695378"
+        "eventVenue": "The Caverns",
+        "eventArtist": "Murder By Death in The Caverns",
+        "eventDate": "September 4, 2026",
+        "eventTime": "",
+        "eventLink": "https://www.thecaverns.com/shows/event/murder-by-death-in-the-caverns",
+        "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/a2b0875fd6c74a2eb7bba586eea9e912/1/5feFb8zhrk/Screen-Shot-2019-08-22-at-4.46.08-PM1.png"
     },
     {
-        "eventVenue": "Barrelhouse Ballroom",
-        "eventArtist": "Monsters of Yacht: Yacht Rock Tribute",
-        "eventDate": "January 10, 2026",
-        "eventLink": "https://app.promotix.com/events/details/Monsters-of-Yacht-tickets-2?referrer=venue",
-        "eventTime": "08:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43979/Monsters-of-Yacht-tickets-2-1.jpg?t=1767997697906"
+        "eventVenue": "The Caverns",
+        "eventArtist": "Murder By Death in The Caverns - SOLD OUT",
+        "eventDate": "September 5, 2026",
+        "eventTime": "",
+        "eventLink": "https://www.thecaverns.com/shows/event/murder-by-death-in-the-caverns-3",
+        "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/a2b0875fd6c74a2eb7bba586eea9e912/1/5feFb8zhrk/Screen-Shot-2019-08-22-at-4.46.08-PM1.png"
     },
     {
-        "eventVenue": "Barrelhouse Ballroom",
-        "eventArtist": "Spafford",
-        "eventDate": "January 15, 2026",
-        "eventLink": "https://app.promotix.com/events/details/Spafford-tickets-3?referrer=dashboard",
-        "eventTime": "08:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43796/Spafford-tickets-3-1.png?t=1767997700491"
-    },
-    {
-        "eventVenue": "Barrelhouse Ballroom",
-        "eventArtist": "Hard Luck with Le Gato & Trade Secrets",
-        "eventDate": "January 16, 2026",
-        "eventLink": "https://app.promotix.com/events/details/Hard-luck-with-Le-Gato---Trade-Secrets-tickets?referrer=dashboard",
-        "eventTime": "08:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44688/Hard-luck-with-Le-Gato---Trade-Secrets-tickets-1.png?t=1767997703124"
-    },
-    {
-        "eventVenue": "Barrelhouse Ballroom",
-        "eventArtist": "Daft Disko/French House & Disco Party",
-        "eventDate": "January 17, 2026",
-        "eventLink": "https://app.promotix.com/events/details/Daft-Disko-French-House---Disco-Party-tickets?referrer=tickets",
-        "eventTime": "09:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44566/Daft-Disko-French-House---Disco-Party-tickets-1.png?t=1767997705803"
-    },
-    {
-        "eventVenue": "Barrelhouse Ballroom",
-        "eventArtist": "Rubiks Groove: 80s, 90s, 00's Dance Party",
-        "eventDate": "January 23, 2026",
-        "eventLink": "https://app.promotix.com/events/details/Rubiks-Groove-tickets-8?referrer=tickets",
-        "eventTime": "08:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43980/Rubiks-Groove-tickets-8-1.jpg?t=1767997708588"
-    },
-    {
-        "eventVenue": "Barrelhouse Ballroom",
-        "eventArtist": "Rock the 90s with Little Mule",
-        "eventDate": "January 24, 2026",
-        "eventLink": "https://app.promotix.com/events/details/Rock-the-90s-Show-tickets?referrer=details",
-        "eventTime": "08:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43971/Rock-the-90s-Show-tickets-1.png?t=1767997710891"
+        "eventVenue": "The Caverns",
+        "eventArtist": "Murder By Death in The Caverns",
+        "eventDate": "September 6, 2026",
+        "eventTime": "",
+        "eventLink": "https://www.thecaverns.com/shows/event/murder-by-death-in-the-caverns-4",
+        "eventImgSrc": "https://static.spacecrafted.com/a56b71d5297f4d9fa85dc58d60c7b8bb/i/a2b0875fd6c74a2eb7bba586eea9e912/1/5feFb8zhrk/Screen-Shot-2019-08-22-at-4.46.08-PM1.png"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1141,7 +1277,7 @@ export const testData = [
         "eventDate": "January 30, 2026",
         "eventLink": "https://app.promotix.com/events/details/St-Owsley--Jerry-Garcia-and-The-Grateful-Dead-Experience-tickets?referrer=tickets",
         "eventTime": "08:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44355/St-Owsley--Jerry-Garcia-and-The-Grateful-Dead-Experience-tickets-1.png?t=1767997713652"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44355/St-Owsley--Jerry-Garcia-and-The-Grateful-Dead-Experience-tickets-1.png?t=1769827365867"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1149,7 +1285,7 @@ export const testData = [
         "eventDate": "January 31, 2026",
         "eventLink": "https://app.promotix.com/events/details/Grunge-Fest-tickets?referrer=tickets",
         "eventTime": "09:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43972/Grunge-Fest-tickets-1.jpg?t=1767997716202"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43972/Grunge-Fest-tickets-1.jpg?t=1769827368521"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1157,7 +1293,7 @@ export const testData = [
         "eventDate": "February 6, 2026",
         "eventLink": "https://app.promotix.com/events/details/PERREO-BOWL--Bad-Bunny-dance-party-tickets?referrer=event",
         "eventTime": "09:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43975/PERREO-BOWL--Bad-Bunny-dance-party-tickets-1.jpg?t=1767997718615"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43975/PERREO-BOWL--Bad-Bunny-dance-party-tickets-1.jpg?t=1769827371258"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1165,15 +1301,15 @@ export const testData = [
         "eventDate": "February 7, 2026",
         "eventLink": "https://app.promotix.com/events/details/Logan-Crosby-tickets?referrer=tickets",
         "eventTime": "08:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43988/Logan-Crosby-tickets-1.jpg?t=1767997721162"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43988/Logan-Crosby-tickets-1.jpg?t=1769827374085"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
-        "eventArtist": "Randall King",
+        "eventArtist": "Randall King with Kylie Frey",
         "eventDate": "February 12, 2026",
         "eventLink": "https://app.promotix.com/events/details/Randall-King-tickets-3?referrer=tickets",
         "eventTime": "08:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44575/Randall-King-tickets-3-1.jpg?t=1767997724104"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44575/Randall-King-tickets-3-1.jpg?t=1769827376663"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1181,7 +1317,7 @@ export const testData = [
         "eventDate": "February 13, 2026",
         "eventLink": "https://app.promotix.com/events/details/The-Floating-Men-tickets?referrer=tickets",
         "eventTime": "08:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43298/The-Floating-Men-tickets-1.png?t=1767997726749"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43298/The-Floating-Men-tickets-1.png?t=1769827379253"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1189,7 +1325,7 @@ export const testData = [
         "eventDate": "February 14, 2026",
         "eventLink": "https://app.promotix.com/events/details/Valentine-s-Day-SWIFT-ME-AWAY-DJ-dance-party-tickets?referrer=tickets",
         "eventTime": "09:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43973/Valentine-s-Day-SWIFT-ME-AWAY-DJ-dance-party-tickets-1.jpg?t=1767997729376"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43973/Valentine-s-Day-SWIFT-ME-AWAY-DJ-dance-party-tickets-1.png?t=1769827382006"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1197,7 +1333,15 @@ export const testData = [
         "eventDate": "February 20, 2026",
         "eventLink": "https://app.promotix.com/events/details/The-Mad-Hatters-with-The-Garden-of-Eden-tickets?referrer=tickets",
         "eventTime": "08:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44679/The-Mad-Hatters-with-The-Garden-of-Eden-tickets-1.jpg?t=1767997732016"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44679/The-Mad-Hatters-with-The-Garden-of-Eden-tickets-1.jpg?t=1769827384705"
+    },
+    {
+        "eventVenue": "Barrelhouse Ballroom",
+        "eventArtist": "The Sloppy Street Tacos with Dolphin Group & Mocha",
+        "eventDate": "February 21, 2026",
+        "eventLink": "https://app.promotix.com/events/details/The-Sloppy-Street-Tacos-with-Dolphin-Group---Mocha-tickets?referrer=payment",
+        "eventTime": "09:00 PM",
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/45104/The-Sloppy-Street-Tacos-with-Dolphin-Group---Mocha-tickets-1.jpg?t=1769827387684"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1205,7 +1349,15 @@ export const testData = [
         "eventDate": "February 27, 2026",
         "eventLink": "https://app.promotix.com/events/details/El-Desmadre-Party-tickets?referrer=tickets",
         "eventTime": "09:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44962/El-Desmadre-Party-tickets-1.png?t=1767997734688"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44962/El-Desmadre-Party-tickets-1.png?t=1769827390616"
+    },
+    {
+        "eventVenue": "Barrelhouse Ballroom",
+        "eventArtist": "KASVOT CHATT with Randy Steele",
+        "eventDate": "February 28, 2026",
+        "eventLink": "https://app.promotix.com/events/details/KASVOTT-CHATT-with-Randy-Steele-tickets?referrer=venue",
+        "eventTime": "08:00 PM",
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/45148/KASVOTT-CHATT-with-Randy-Steele-tickets-1.jpg?t=1769827393316"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1213,7 +1365,7 @@ export const testData = [
         "eventDate": "March 6, 2026",
         "eventLink": "https://app.promotix.com/events/details/Perpetual-Groove-tickets-2?referrer=tickets",
         "eventTime": "09:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44532/Perpetual-Groove-tickets-2-1.jpg?t=1767997737178"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44532/Perpetual-Groove-tickets-2-1.jpg?t=1769827396182"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1221,7 +1373,7 @@ export const testData = [
         "eventDate": "March 7, 2026",
         "eventLink": "https://app.promotix.com/events/details/WONKYWILLA-tickets?referrer=tickets",
         "eventTime": "09:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44988/WONKYWILLA-tickets-1.jpg?t=1767997739863"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44988/WONKYWILLA-tickets-1.jpg?t=1769827398804"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1229,7 +1381,7 @@ export const testData = [
         "eventDate": "March 13, 2026",
         "eventLink": "https://app.promotix.com/events/details/Jeremy-Would-Let-me-Drown-tickets-3?referrer=tickets",
         "eventTime": "09:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43981/Jeremy-Would-Let-me-Drown-tickets-3-1.jpg?t=1767997742417"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43981/Jeremy-Would-Let-me-Drown-tickets-3-1.jpg?t=1769827401476"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1237,15 +1389,39 @@ export const testData = [
         "eventDate": "March 17, 2026",
         "eventLink": "https://app.promotix.com/events/details/Eggy---Something-In-The-Air-Tour-tickets?referrer=tickets",
         "eventTime": "08:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43966/Eggy---Something-In-The-Air-Tour-tickets-1.jpg?t=1767997745004"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43966/Eggy---Something-In-The-Air-Tour-tickets-1.jpg?t=1769827404218"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
-        "eventArtist": "Nekrogoblikon",
+        "eventArtist": "DISCO, ALWAYS: A HARRY STYLES + ONE DIRECTION DANCE PARTY",
+        "eventDate": "March 20, 2026",
+        "eventLink": "https://app.promotix.com/events/details/DISCO--ALWAYS--A-HARRY-STYLES---ONE-DIRECTION-DANCE-PARTY-tickets?referrer=venue",
+        "eventTime": "09:00 PM",
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/45298/DISCO--ALWAYS--A-HARRY-STYLES---ONE-DIRECTION-DANCE-PARTY-tickets-1.png?t=1769827406952"
+    },
+    {
+        "eventVenue": "Barrelhouse Ballroom",
+        "eventArtist": "After School Special",
+        "eventDate": "March 21, 2026",
+        "eventLink": "https://app.promotix.com/events/details/After-School-Special-tickets",
+        "eventTime": "08:00 PM",
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/45375/After-School-Special-tickets-1.png?t=1769827409680"
+    },
+    {
+        "eventVenue": "Barrelhouse Ballroom",
+        "eventArtist": "Nekrogoblikon with Genki Genki Panic",
         "eventDate": "March 25, 2026",
         "eventLink": "https://app.promotix.com/events/details/Nekrogoblikon-tickets?referrer=tickets",
         "eventTime": "08:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44987/Nekrogoblikon-tickets-1.jpg?t=1767997747521"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44987/Nekrogoblikon-tickets-1.jpg?t=1769827412367"
+    },
+    {
+        "eventVenue": "Barrelhouse Ballroom",
+        "eventArtist": "Ryan Jesse - The Infamous Tour",
+        "eventDate": "March 26, 2026",
+        "eventLink": "https://app.promotix.com/events/details/Ryan-Jesse---The-Infamous-Tour-tickets",
+        "eventTime": "07:00 PM",
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/45470/Ryan-Jesse---The-Infamous-Tour-tickets-1.png?t=1769827415146"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1253,15 +1429,23 @@ export const testData = [
         "eventDate": "March 27, 2026",
         "eventLink": "https://app.promotix.com/events/details/Brat-Rave-tickets?referrer=tickets",
         "eventTime": "09:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44960/Brat-Rave-tickets-1.jpg?t=1767997750051"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44960/Brat-Rave-tickets-1.jpg?t=1769827417973"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
-        "eventArtist": "Dizgo",
+        "eventArtist": "Ethan Regan Spring Cleaning Tour With Support from Abby Powledge",
+        "eventDate": "April 1, 2026",
+        "eventLink": "https://app.promotix.com/events/details/Ethan-Regan-tickets?referrer=venue",
+        "eventTime": "08:00 PM",
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44725/Ethan-Regan-tickets-1.png?t=1769827420619"
+    },
+    {
+        "eventVenue": "Barrelhouse Ballroom",
+        "eventArtist": "Dizgo with LeGato",
         "eventDate": "April 3, 2026",
         "eventLink": "https://app.promotix.com/events/details/Dizgo-tickets-4?referrer=venue",
         "eventTime": "09:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44527/Dizgo-tickets-4-1.jpg?t=1767997752554"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44527/Dizgo-tickets-4-1.jpg?t=1769827423382"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1269,15 +1453,7 @@ export const testData = [
         "eventDate": "April 10, 2026",
         "eventLink": "https://app.promotix.com/events/details/Departure--A-Tribute-To-Journey-tickets-5?referrer=tickets",
         "eventTime": "09:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44692/Departure--A-Tribute-To-Journey-tickets-5-1.jpeg?t=1767997755152"
-    },
-    {
-        "eventVenue": "Barrelhouse Ballroom",
-        "eventArtist": "Glenn Hughes",
-        "eventDate": "April 20, 2026",
-        "eventLink": "https://app.promotix.com/events/details/Glenn-Hughes-tickets?referrer=tickets",
-        "eventTime": "07:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44165/Glenn-Hughes-tickets-1.jpg?t=1767997757791"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44692/Departure--A-Tribute-To-Journey-tickets-5-1.jpeg?t=1769827426161"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1285,15 +1461,15 @@ export const testData = [
         "eventDate": "April 21, 2026",
         "eventLink": "https://app.promotix.com/events/details/Shovels---Rope-tickets?referrer=tickets",
         "eventTime": "07:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44166/Shovels---Rope-tickets-1.jpg?t=1767997760310"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/44166/Shovels---Rope-tickets-1.jpg?t=1769827428850"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
-        "eventArtist": "Penelope Road",
+        "eventArtist": "Penelope Road with Benny G",
         "eventDate": "April 23, 2026",
         "eventLink": "https://app.promotix.com/events/details/Penelope-Road-tickets?referrer=event",
         "eventTime": "08:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43968/Penelope-Road-tickets-1.jpg?t=1767997763004"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43968/Penelope-Road-tickets-1.png?t=1769827432208"
     },
     {
         "eventVenue": "Barrelhouse Ballroom",
@@ -1301,71 +1477,47 @@ export const testData = [
         "eventDate": "August 15, 2026",
         "eventLink": "https://app.promotix.com/events/details/ALT-ROCK-FEST-tickets?referrer=event",
         "eventTime": "09:00 PM",
-        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43970/ALT-ROCK-FEST-tickets-1.jpg?t=1767997765530"
+        "eventImgSrc": "https://promotix.s3.us-east-1.amazonaws.com/event-images/43970/ALT-ROCK-FEST-tickets-1.jpg?t=1769827434952"
     },
     {
         "eventVenue": "The Barking Legs Theater",
-        "eventArtist": "Elvis- Up Close and Personal",
-        "eventDate": "January 9, 2026",
-        "eventLink": "https://www.barkinglegs.org/ourevents/ourevents/elvis-up-close-and-personal",
-        "eventTime": "8:00 PM",
-        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/1765816350173-4WN306G21SJ46LI9J78C/page-1.png"
-    },
-    {
-        "eventVenue": "The Barking Legs Theater",
-        "eventArtist": "Songwriter’s Showcase featuring Little Mule, Marlow Drive, and Little Head & The Fat Shafts",
-        "eventDate": "January 10, 2026",
-        "eventLink": "https://www.barkinglegs.org/ourevents/ourevents/songwriters-showcase-featuring-little-mule-marlow-drive-and-little-head-the-fat-shafts",
+        "eventArtist": "Seed: Drag Mama's Stiletto Camp Showcase",
+        "eventDate": "February 1, 2026",
+        "eventLink": "https://www.barkinglegs.org/ourevents/ourevents/seed-drag-mamas-stiletto-camp-showcase",
         "eventTime": "7:00 PM",
-        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/1765996924870-ZP6JIWF0CMHWLOT43W0G/unnamed+%281%29.jpg"
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/1769190376050-WK0M9DLX91DUWU0M4BMR/Stiletto+%28Presentation%29%281%29.png"
     },
     {
         "eventVenue": "The Barking Legs Theater",
-        "eventArtist": "Wednesday Jazz: Eric Vaughn Trio",
-        "eventDate": "January 14, 2026",
-        "eventLink": "https://www.barkinglegs.org/ourevents/ourevents/wednesday-jazz-eric-vaughn-trio-1",
-        "eventTime": "7:30 PM",
-        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/14e2af52-25b7-42ca-a0ba-525fabb91fae/eric_vaughn.jpg"
-    },
-    {
-        "eventVenue": "The Barking Legs Theater",
-        "eventArtist": "PRIVATE EVENT",
-        "eventDate": "January 17, 2026",
-        "eventLink": "https://www.barkinglegs.org/ourevents/ourevents/79ba4hqg5hjwvfn0s3wr0dbd0xn2l9",
-        "eventTime": "10:00 PM",
-        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/f32f547a-ff72-4a70-92f6-7d5344369175/Private+Event+Rental+for+calendar.png"
-    },
-    {
-        "eventVenue": "The Barking Legs Theater",
-        "eventArtist": "Wednesday Jazz: Dexter Bell",
-        "eventDate": "January 21, 2026",
-        "eventLink": "https://www.barkinglegs.org/ourevents/ourevents/wednesday-jazz-dexter-bell-4",
-        "eventTime": "7:30 PM",
-        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/2e8b154f-4566-487f-aef8-27fac05b7157/Dexter%2BBell%2BWed%2BJazz+%281%29.png"
-    },
-    {
-        "eventVenue": "The Barking Legs Theater",
-        "eventArtist": "Concrete",
-        "eventDate": "January 23, 2026",
-        "eventLink": "https://www.barkinglegs.org/ourevents/ourevents/concrete",
-        "eventTime": "",
-        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/1765311361049-3X0055TGT81VZEU5FYSM/CONCRETE+%282%29.png"
-    },
-    {
-        "eventVenue": "The Barking Legs Theater",
-        "eventArtist": "Wednesday Jazz: Ben Friberg Sextet",
-        "eventDate": "January 28, 2026",
-        "eventLink": "https://www.barkinglegs.org/ourevents/ourevents/ben-friberg-sextet-0126",
-        "eventTime": "7:30 PM",
-        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/1764266957602-CU9852OZ5WBPT0GUTIRQ/BEN+friberg+0126.PNG"
-    },
-    {
-        "eventVenue": "The Barking Legs Theater",
-        "eventArtist": "Monday Night Big Band",
+        "eventArtist": "Valentine's Month Kickoff with the Monday Nite Big Band",
         "eventDate": "February 2, 2026",
         "eventLink": "https://www.barkinglegs.org/ourevents/ourevents/monday-night-big-band-1",
         "eventTime": "7:30 PM",
-        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/1766164021805-7IF7HDERINHDN5D7QF62/classicbigband.jpg"
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/1768788556744-NLGGNCM940HA4DKUEURX/mnbb+feb2026.jpg"
+    },
+    {
+        "eventVenue": "The Barking Legs Theater",
+        "eventArtist": "Wednesday Jazz: Alan Wyatt Quartet",
+        "eventDate": "February 4, 2026",
+        "eventLink": "https://www.barkinglegs.org/ourevents/ourevents/wednesday-jazz-alan-wyatt-quartet-4-hfk9t",
+        "eventTime": "7:30 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/e104dea2-137c-49f9-92fc-e01cfe7fe1e9/Alan+Wyatt+quartet+image.png"
+    },
+    {
+        "eventVenue": "The Barking Legs Theater",
+        "eventArtist": "Seed Theater: Cue The Dice- Here be Goblins!",
+        "eventDate": "February 8, 2026",
+        "eventLink": "https://www.barkinglegs.org/ourevents/ourevents/seed-theater-cue-the-dice-here-be-goblins",
+        "eventTime": "3:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/1769022406001-B5KWNXLQUCBJ3VL197ZM/cue+the+dice.webp"
+    },
+    {
+        "eventVenue": "The Barking Legs Theater",
+        "eventArtist": "Wednesday Jazz: Gordon Inman",
+        "eventDate": "February 11, 2026",
+        "eventLink": "https://www.barkinglegs.org/ourevents/ourevents/wednesday-jazz-gordon-inman-9s9df",
+        "eventTime": "7:30 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/1757526261048-KOKG3SPUS9H4UKFHAIZ0/Gordon.jpg"
     },
     {
         "eventVenue": "The Barking Legs Theater",
@@ -1377,11 +1529,91 @@ export const testData = [
     },
     {
         "eventVenue": "The Barking Legs Theater",
-        "eventArtist": "Irish Energy with Dylan Foley & Matt Mancuso",
+        "eventArtist": "Wednesday Jazz: Marquis Dotson & Friends",
+        "eventDate": "February 18, 2026",
+        "eventLink": "https://www.barkinglegs.org/ourevents/ourevents/wednesday-jazz-dexter-bell-3-xlcpe",
+        "eventTime": "7:30 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/1762971879740-6PX9J8CWWDLTC5DG1UXN/Dexter%2BBell%2BWed%2BJazz.png"
+    },
+    {
+        "eventVenue": "The Barking Legs Theater",
+        "eventArtist": "Seed Theatre: Nude Dudes Read Poetry (18+)",
+        "eventDate": "February 19, 2026",
+        "eventLink": "https://www.barkinglegs.org/ourevents/ourevents/seed-theatre-nude-dudes-read-poetry-18",
+        "eventTime": "7:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/1769024284976-74V95D3X28T2PQXIH4C8/nude+dudes+read+poetry.jpg"
+    },
+    {
+        "eventVenue": "The Barking Legs Theater",
+        "eventArtist": "B.L.A.C. Fest- Beyond the Frame",
+        "eventDate": "February 21, 2026",
+        "eventLink": "https://www.barkinglegs.org/ourevents/ourevents/blac-fest-beyond-the-frame",
+        "eventTime": "2:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/1769014427924-XOTX3MVPFXHRWROYJXQU/blac+fest.jpg"
+    },
+    {
+        "eventVenue": "The Barking Legs Theater",
+        "eventArtist": "Monthly Jazz Jam",
+        "eventDate": "February 22, 2026",
+        "eventLink": "https://www.barkinglegs.org/ourevents/ourevents/monthly-jazz-jam-mjctr-ltzx8",
+        "eventTime": "1:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/1763908091654-26GCDHVD1G5AEVDEZJ1I/jazz+cartoon.jpg"
+    },
+    {
+        "eventVenue": "The Barking Legs Theater",
+        "eventArtist": "Wednesday Jazz: Alex Keiss Quartet",
+        "eventDate": "February 25, 2026",
+        "eventLink": "https://www.barkinglegs.org/ourevents/ourevents/wednesday-jazz-alex-keiss-trio-npzy3-rxh3x",
+        "eventTime": "7:30 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/1738784589225-WZGTQCEB2AGAH9BDIG16/Alex+Keiss+Lounge.png"
+    },
+    {
+        "eventVenue": "The Barking Legs Theater",
+        "eventArtist": "Wednesday Jazz: Alan Wyatt Quartet",
+        "eventDate": "March 4, 2026",
+        "eventLink": "https://www.barkinglegs.org/ourevents/ourevents/wednesday-jazz-alan-wyatt-quartet-5",
+        "eventTime": "7:30 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/1769194357846-DGLY7HQ2G283L8G70QP9/Alan%2BWyatt%2Bquartet%2Bimage.png"
+    },
+    {
+        "eventVenue": "The Barking Legs Theater",
+        "eventArtist": "Miss Strawberry's Runway After Dark",
+        "eventDate": "March 7, 2026",
+        "eventLink": "https://www.barkinglegs.org/ourevents/ourevents/miss-strawberrys-runway-after-dark",
+        "eventTime": "7:00 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/1769194978847-2ETWA02T02DSV04JDXZF/miss+strawberry.jpg"
+    },
+    {
+        "eventVenue": "The Barking Legs Theater",
+        "eventArtist": "Seed Theatre Presents: Angels in America Part 2- Perestroika",
+        "eventDate": "March 13, 2026",
+        "eventLink": "https://www.barkinglegs.org/ourevents/ourevents/seed-theatre-presents-angels-in-america-part-2-perestroika",
+        "eventTime": "",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/1769195629396-VW01QIF7FZ78U10E8C8K/Angels+in+America+Part+Two.webp"
+    },
+    {
+        "eventVenue": "The Barking Legs Theater",
+        "eventArtist": "Seed Theatre Presents Angels in America Part Two: Perestroika",
+        "eventDate": "March 20, 2026",
+        "eventLink": "https://www.barkinglegs.org/ourevents/ourevents/seed-theatre-presents-angels-in-america-part-two-perestroika",
+        "eventTime": "",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/1769195898290-KP4KG84V95HMB2BIVCHA/Angels+in+America+Part+Two.webp"
+    },
+    {
+        "eventVenue": "The Barking Legs Theater",
+        "eventArtist": "An Evening with John Cowan & Luke Bulla",
+        "eventDate": "April 4, 2026",
+        "eventLink": "https://www.barkinglegs.org/ourevents/ourevents/an-evening-with-john-cowan-luke-bulla",
+        "eventTime": "7:30 PM",
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/1768241921332-GWB7JWZ8TNENEGZUSFTA/John+Cowan+%26+Luke+Bulla+%28FB+Cover%29+%28Poster+%28Square%29%29.png"
+    },
+    {
+        "eventVenue": "The Barking Legs Theater",
+        "eventArtist": "Irish Trad Fiddle with Dylan Foley & Matt Mancuso",
         "eventDate": "April 25, 2026",
         "eventLink": "https://www.barkinglegs.org/ourevents/ourevents/irish-energy-with-dylan-foley-matt-mancuso",
         "eventTime": "7:30 PM",
-        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/1767820260512-5UNMUO6X661NAQ9Q4U2Z/dylan+foley.jpg"
+        "eventImgSrc": "https://images.squarespace-cdn.com/content/v1/5ecffa2fc1212470d0a986bc/1768769510452-JY0QVJ0O6I9I0WN1KO0Q/DylanFoleyUSE.jpg"
     }
 ];
 
